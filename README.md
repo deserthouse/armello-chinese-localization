@@ -1,42 +1,44 @@
 # Armello 简体中文重译汉化补丁
 
-Armello（阿门罗）官方简体中文的社区重译项目。对游戏内全部 **10,867 条**文本完成了整库重译、四版本对照终审与程序化 QA，最终打包为可直接使用的 `resources.assets` 补丁。
+非官方简体中文全量重译。基于官方中文的机翻问题，对游戏内 **10,867 条**文本逐条对照英文原文重新翻译与审校，覆盖任务剧情、卡牌、物品、UI、成就、对话等全部内容。
 
-## 使用方法
+## 📦 下载
 
-1. 将 `SimplifiedChinese_export.csv` 的内容通过 `repack.py` 写入游戏（或直接下载我们打好的补丁文件，见 Release）
-2. 备份并替换游戏目录下的 `resources.assets`
-3. 启动游戏即可
+前往 [**Releases 页面**](https://github.com/deserthouse/armello-chinese-localization/releases) 下载最新版 `armello-zh-patch-v1.0.zip`。
 
-> ⚠️ 首次运行 `repack.py` 会自动备份原文件为 `resources.assets.backup`；如遇问题，将备份改名回 `resources.assets` 即可还原。
+## 🎮 安装（三步）
 
-## 项目架构
+1. 解压压缩包，得到 `resources.assets`
+2. 找到游戏目录（Steam 库中右键 Armello → 管理 → 浏览本地文件，进入 `armello_Data` 文件夹）
+3. 将 `resources.assets` 复制进去，**覆盖**同名文件，启动游戏
 
-```
-English.csv                               英文原文（对照源）
-SimplifiedChinese_export.csv              汉化成果（10,867 条终版全文）
-master.jsonl                              真源数据：全部条目与决策留痕（provenance）
-pipeline.py                               流水线入口：init/translate/review_split/review_merge/export
-flash_translate.py                        DeepSeek 初翻脚本（哨兵化占位符保护）
-repack.py                                 打包写回（UnityPy）
-GLOSSARY.md / glossary_master.json        译名规范总表（人读/机读）
-STYLE_GUIDE.md                            风格指南
-```
+> 建议覆盖前先把原文件备份一份（或复制一份改名为 `resources.assets.backup`）。
 
-## 质量保障
+## ↩️ 还原官方中文
 
-- 全部 10,867 条文本逐条对照英文原文重译与审校，官中优秀译文予以保留
+进入 `armello_Data` 文件夹，删除补丁的 `resources.assets`，把你备份的原文件名改回 `resources.assets` 即可。
+
+## ❓ 常见问题
+
+**Q：游戏更新后补丁会失效吗？**
+游戏大版本更新后文本结构可能变化，届时需要等本补丁适配新版。若更新后出现异常，先还原官方中文。
+
+**Q：会影响成就或联机吗？**
+不会。补丁只替换显示文本，不修改任何游戏逻辑与数值。
+
+**Q：遇到错别字或翻译问题？**
+欢迎提 Issue，注明大概位置（哪个界面/哪张卡/哪段剧情）即可。
+
+## ✅ 质量保障
+
+- 全部文本逐条对照英文原文重译与审校，官中优秀译文予以保留
 - 术语与风格执行统一规范（见 GLOSSARY.md / STYLE_GUIDE.md）
-- 占位符、格式标签经程序化校验，补丁打包前全部通过
+- 占位符、格式标签经程序化校验，打包前全部通过
 
+## 🔧 给开发者
 
-## 标准资产
+流水线与源数据在本仓库内：`master.jsonl`（全部条目及决策留痕）、`pipeline.py`（审计/导出入口）、`repack.py`（打包）、`GLOSSARY.md` + `STYLE_GUIDE.md`（标准资产）。详见各文件头部说明。
 
-- **GLOSSARY.md**：术语表 v1.1（含 9 条冲突裁决、废弃变体表）
-- **STYLE_GUIDE.md**：风格指南（人称/状态句模板/标点/专名风格/判决纪律）
+## 归属声明
 
-## 归属与声明
-
-- 《Armello》及其全部原始文本版权归 **League of Geeks** 所有
-- 本补丁为非商业社区项目，仅供已购买游戏的玩家个人使用，禁止二次分发游戏文本
-- 翻译质量反馈欢迎提 Issue
+《Armello》及全部原始文本版权归 **League of Geeks** 所有。本补丁为非商业社区项目，仅供已购买游戏的玩家个人使用；如权利方认为本仓库侵犯权益，请联系删除。
