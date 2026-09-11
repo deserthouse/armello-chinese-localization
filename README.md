@@ -1,6 +1,6 @@
 # Armello 简体中文重译汉化补丁
 
-> 🚧 **Pre-Release v0.1**：修复了 v1.0 的编码缺陷（游戏内中文乱码）。请从 [Releases](https://github.com/deserthouse/armello-chinese-localization/releases) 下载 **v0.1**；如曾安装 v1.0，直接覆盖为 v0.1 即可。排查记录见 git 历史。
+> 🚧 **Pre-Release v0.1**：首个公开测试版。请从 [Releases](https://github.com/deserthouse/armello-chinese-localization/releases) 下载 **v0.1**。
 
 非官方简体中文全量重译。基于官方中文的机翻问题，对游戏内 **10,867 条**文本逐条对照英文原文重新翻译与审校，覆盖任务剧情、卡牌、物品、UI、成就、对话等全部内容。
 
