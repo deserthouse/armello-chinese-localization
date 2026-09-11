@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.backup
+.DS_Store
+api_key.local
+release/
