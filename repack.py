@@ -41,7 +41,7 @@ def main():
         print(f"   如果你已经修改了翻译，请另存为 SimplifiedChinese_modified.csv")
     
     # 读取 CSV 内容
-    with open(csv_path, 'r', encoding='utf-8') as f:
+    with open(csv_path, 'r', encoding='utf-8-sig') as f:
         csv_content = f.read()
     
     print(f"CSV 文件大小: {len(csv_content):,} 字符 ({len(csv_content.encode('utf-8')):,} 字节)")
@@ -87,10 +87,10 @@ def main():
     else:
         print(f"\n📦 备份已存在: {BACKUP_PATH} (跳过)")
     
-    # 修改 TextAsset 内容（typetree 中 m_Script 为一字节一字符的 str，即原始字节按 latin-1 解码）
+    # 修改 TextAsset 内容（read_typetree 返回真文本 str，save_typetree 会按 UTF-8 编码落盘）
     print(f"\n✏️  正在写入修正后的翻译...")
     tt = target_obj.read_typetree()
-    tt["m_Script"] = csv_content.encode('utf-8').decode('latin-1')
+    tt["m_Script"] = csv_content
 
     # 保存
     print(f"💾 保存 resources.assets...")
