@@ -412,13 +412,12 @@ def cmd_export():
     recs = load_master()
     by_id = {r["id"]: r for r in recs}
     en_map = read_csv_two_col(EN_CSV, None)
-    off_map = read_csv_two_col(OFF_CSV, None)
-    mod_map = read_csv_two_col(MOD_CSV, None)
-    # 以 modified CSV 为底，套用 master 中已审定的变更
+    off_map = {r["id"]: r["zh_official"] for r in recs}
+    # 直接以 master 为底（10,867 条全覆盖）
     out_rows = []
-    for rid, old_zh in mod_map.items():
-        r = by_id.get(rid)
-        zh = r["zh"] if r else old_zh
+    for r in recs:
+        rid = r["id"]
+        zh = r["zh"]
         # QA-1: 占位符集合必须与英文原文一致（zh 与官中相同视为有官方先例，放行；EN 为空的补齐条目跳过）
         en = en_map.get(rid, "")
         if zh != off_map.get(rid) and en:
@@ -430,7 +429,7 @@ def cmd_export():
             r["zh"] = off
             r.setdefault("provenance", []).append({"r": "QA2", "by": "auto", "v": "revert_official"})
             print(f"  [QA2 回退] {rid}")
-        out_rows.append((rid, r["zh"] if r else old_zh))
+        out_rows.append((rid, zh))
     if problems:
         print(f"QA 未通过 {len(problems)} 条，不导出。前 10：")
         for rid, why in problems[:10]:

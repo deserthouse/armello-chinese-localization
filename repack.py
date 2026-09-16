@@ -25,7 +25,7 @@ GAME_ASSETS = "D:/Program Files (x86)/SteamLibrary/steamapps/common/Armello/arme
 EXPORT_CSV = os.path.join(PROJECT_ROOT, "SimplifiedChinese_export.csv")
 MODIFIED_CSV = EXPORT_CSV if os.path.exists(EXPORT_CSV) else os.path.join(PROJECT_ROOT, "SimplifiedChinese_modified.csv")
 # 原始提取的 CSV（用于对照/测试）
-FALLBACK_CSV = os.path.join(PROJECT_ROOT, "SimplifiedChinese.csv")
+FALLBACK_CSV = os.path.join(PROJECT_ROOT, "SimplifiedChinese_export.csv")
 # 备份路径
 BACKUP_PATH = "D:/Program Files (x86)/SteamLibrary/steamapps/common/Armello/armello_Data/resources.assets.backup"
 
