@@ -15,7 +15,7 @@
 ## 字体工程（font 包）
 
 - 正文=霞鹜文楷 Regular（12.5MB，OFL，lxgw v1.520）、标题=思源宋体 Heavy（wght=900 实例化）；管线 = fontTools instancer 实例化 → Subsetter 子集化（语料 3,124 字 + 基本汉字区）→ 修 name 表；**必须同时补丁 resources.assets 和 gamedatabase.unity3d 两处**。
-- 主菜单字体真源（2026-09-18 翻案，取代"系统雅黑"旧结论）：**gamedatabase.unity3d 包内** `NotoSansCJKsc-Regular SDF`（TMP_FontAsset+字符表）+ 同包图集（包内 resS @174471400），由 `SimplifiedChinese`（LanguageAsset）绑定。TMP_FontAsset 只在 gd；resources.assets 的 sc 图集是**孤儿副本**（旧烘焙落点错误，菜单不采样）。铁证：gd 当前与备份图集逐字节相同。"鉴"豆腐块=原版 Noto 图集字符集缺该字（系统渲染不可能缺字——这是翻案起点）。修复=烘焙 gd 包内图集，路径与教训见项目记忆 menu-font-saga。
+- 主菜单字体（2026-09-19 已修复，待验收）：真源=**gamedatabase.unity3d 包内** `NotoSansCJKsc-Regular SDF`（TMP_FontAsset+字符表）+ 同包图集（包内 resS @174471400），由 `SimplifiedChinese`（LanguageAsset）绑定；TMP_FontAsset 只在 gd，resources.assets 的 sc 图集是孤儿副本（旧烘焙落点错误，菜单不采样——"系统雅黑"系误判，"鉴"豆腐块=原版图集缺字）。**写入唯一可行方法=包内 resS 等长原地覆写**（flipud！清 stream+set_image 内嵌路线引擎侧豆腐块）；脚本 tests/menu_bake_ress.py，真机验证菜单=文楷✅。恢复"卡牌图鉴"需 gd TMP 表捐献格（未做）。备份：gamedatabase.unity3d.backup(原始)/.bak-preAtlas(TTF态)。
 - TMP 二进制硬解：16B/条字符表 + 36B/条 unicode 直键矩形表（2,752 条）；**非对齐扫描**（表起始 mod4=3，按 4 对齐读 word 全漏）；金丝雀用 glyphIndex 等长替换最安全。
 - SDF 烘焙口径：2048²，alpha 通道 SDF，官方口径 0~173/边缘 128，含 6× 超采样 + scipy EDT；Texture2D 写入 `d.set_image(PIL.Image)`（RGBA32 无损）。
 - UnityPy：read_typetree 返回真文本 str，直接赋值写回（`tt["m_Script"] = csv_content`），手工 latin-1 包装=双重编码乱码（v1.0 事故根源）；读 CSV 用 `utf-8-sig` 剥 BOM。
