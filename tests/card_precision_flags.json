@@ -1,0 +1,530 @@
+[
+ {
+  "id": "ACH_100_013_DESCRIPTION",
+  "en": "Win a game with a Spirit Stone Victory.",
+  "zh": "取得一次灵石胜利",
+  "why": "术语缺失: Spirit→灵力"
+ },
+ {
+  "id": "ACH_100_016_DESCRIPTION",
+  "en": "Win a game with a Prestige Victory on the 9th Day or later.",
+  "zh": "在第9天或之后取得声望胜利",
+  "why": "术语缺失: Day→白天"
+ },
+ {
+  "id": "ACH_100_019_DESCRIPTION",
+  "en": "Pierce through 3 Shields in one Combat with Thane's Hero Power.",
+  "zh": "在一场战斗中，利用塞恩的英雄技能击穿敌方至少 3 盾。",
+  "why": "数字: EN[1, 3] vs ZH[3]; 术语缺失: Shield→盾牌"
+ },
+ {
+  "id": "ACH_100_024_DESCRIPTION",
+  "en": "Make 3 Kills in one Turn using River's Hero power.",
+  "zh": "在同回合中用里弗的英雄技能完成三连杀",
+  "why": "数字: EN[1, 3] vs ZH[]"
+ },
+ {
+  "id": "ACH_100_030_DESCRIPTION",
+  "en": "In a single game, find and Equip three Treasures from Dungeons.",
+  "zh": "在一局游戏中，从地牢找到并装备三件宝藏。",
+  "why": "数字: EN[3] vs ZH[]"
+ },
+ {
+  "id": "ACH_100_035_DESCRIPTION",
+  "en": "In a single game, find two Portals by Exploring Dungeons.",
+  "zh": "在单局游戏中，通过探索地牢发现两座传送门。",
+  "why": "数字: EN[2] vs ZH[]"
+ },
+ {
+  "id": "ACH_100_036_DESCRIPTION",
+  "en": "In one turn, Kill a Hero you have an Allies' Pact with and take one of their Settlements.",
+  "zh": "在一个回合中，杀死一名与你签有盟友契约的英雄并占领其一个聚落。",
+  "why": "数字: EN[1] vs ZH[1, 1]"
+ },
+ {
+  "id": "BOAST_BANDIT04_1_DESCRIPTION",
+  "en": "What's the use in fighting without a little fun?",
+  "zh": "没有一点乐趣的战斗有什么用呢？",
+  "why": "术语缺失: Fight→战力"
+ },
+ {
+  "id": "BOAST_RABBIT03_1_DESCRIPTION",
+  "en": "This has to be a health and safety violation",
+  "zh": "这肯定违反了安全条例吧。",
+  "why": "术语缺失: Health→生命"
+ },
+ {
+  "id": "BOAST_WOLF03_0_DESCRIPTION",
+  "en": "Maybe one day she'll find a challenge.",
+  "zh": "也许有一天她能找到敌手。",
+  "why": "数字: EN[1] vs ZH[]; 术语缺失: Day→白天"
+ },
+ {
+  "id": "BOAST_WOLF03_1_DESCRIPTION",
+  "en": "An Unbroken shield wall is a sight to behold.",
+  "zh": "完好不破的盾墙蔚为壮观。",
+  "why": "术语缺失: Shield→盾牌"
+ },
+ {
+  "id": "CARD_CON05_DESCRIPTION",
+  "en": "+1 Fight and -1 Wits, until end of next turn.",
+  "zh": "战力 +1 ，智力 -1 ，直到下一回合结束。",
+  "why": "数字: EN[1, 1] vs ZH[1, 1, 1]"
+ },
+ {
+  "id": "CARD_FOL06_DESCRIPTION",
+  "en": "In Battle, +1 Sword/Shield for first Cards Equipped with those symbols.",
+  "zh": "战斗中，最先装备的带剑/盾符号的卡牌可获得 +1 剑/盾。",
+  "why": "术语缺失: Shield→盾牌"
+ },
+ {
+  "id": "CARD_FOL12_DESCRIPTION",
+  "en": "The next time you are killed in Battle, the Squire dies instead.",
+  "zh": "下一次，如果你在战斗中被杀死，侍从会替你去死。",
+  "why": "术语缺失: Die→骰"
+ },
+ {
+  "id": "CARD_ITM20_DESCRIPTION",
+  "en": "Grants <specialstatus_evade>Evade</specialstatus_evade> and <specialstatus_stealth>Stealth</specialstatus_stea",
+  "zh": "无论昼夜，在森林中获得<specialstatus_evade>闪避</specialstatus_evade>和<specialstatus_stealth>",
+  "why": "术语缺失: Day→白天"
+ },
+ {
+  "id": "CARD_ITM30_DESCRIPTION",
+  "en": "In Battle, +1 Shield, and first rolled miss instead <tooltip_ReflectingDefence>Reflects</tooltip_ReflectingDef",
+  "zh": "战斗中 +1 盾，且首个未命中骰面改为<tooltip_ReflectingDefence>反射</tooltip_ReflectingDefence>。",
+  "why": "术语缺失: Shield→盾牌"
+ },
+ {
+  "id": "CARD_ITM45_DESCRIPTION",
+  "en": "In Battle, +1 Shield with <tooltip_ReflectingDefence>Reflect</tooltip_ReflectingDefence> and +1 Die.",
+  "zh": "战斗中 +1 带有<tooltip_ReflectingDefence>反射</tooltip_ReflectingDefence>的盾并 +1 骰子。",
+  "why": "术语缺失: Shield→盾牌"
+ },
+ {
+  "id": "CARD_ITM50_DESCRIPTION",
+  "en": "In Battle, first two rolled Suns or Moons that miss count as Defences.",
+  "zh": "战斗中，首先掷出的两个没命中的太阳或月亮视为防御。",
+  "why": "数字: EN[2] vs ZH[]"
+ },
+ {
+  "id": "CARD_MAG03_DESCRIPTION",
+  "en": "After Battles, +1 Health per Wound inflicted, until end of next turn.",
+  "zh": "战斗结束后，每次伤害 +1 生命，直到下一回合结束。",
+  "why": "数字: EN[1] vs ZH[1, 1]"
+ },
+ {
+  "id": "CARD_MAG06_DESCRIPTION",
+  "en": "+2 Rot and gain 1 Health for every Bane.",
+  "zh": "+2 腐化，且每有一个贝恩获得 1 生命。",
+  "why": "数字: EN[1, 2] vs ZH[1, 1, 2]"
+ },
+ {
+  "id": "CARD_MAG07_DESCRIPTION",
+  "en": "-1 Health per Magic spent when Cast. Costs all remaining Magic.",
+  "zh": "施放时每花费 1 魔法 -1 生命，并消耗所有剩余魔法。",
+  "why": "数字: EN[1] vs ZH[1, 1]"
+ },
+ {
+  "id": "CARD_MAG09_DESCRIPTION",
+  "en": "+2 Spirit, until the end of next turn.",
+  "zh": "+2 灵力，直到下一回合结束。",
+  "why": "数字: EN[2] vs ZH[1, 2]"
+ },
+ {
+  "id": "CARD_MAG11_DESCRIPTION",
+  "en": "-2 Health. Suns Explode until end of next turn.",
+  "zh": "-2 生命。太阳骰爆发，直到下一回合结束。",
+  "why": "数字: EN[2] vs ZH[1, 2]"
+ },
+ {
+  "id": "CARD_MAG14_DESCRIPTION",
+  "en": "Summon Spirit Stone.",
+  "zh": "召唤灵石。",
+  "why": "术语缺失: Spirit→灵力"
+ },
+ {
+  "id": "CARD_MAG15_DESCRIPTION",
+  "en": "+1 Rot. <specialstatus_poisoned>Poisoned</specialstatus_poisoned> until end of next turn.",
+  "zh": "+1 腐化。<specialstatus_poisoned>中毒</specialstatus_poisoned>，直到下一回合结束。",
+  "why": "数字: EN[1] vs ZH[1, 1]"
+ },
+ {
+  "id": "CARD_MAG22_DESCRIPTION",
+  "en": "In Battle, opponents have -2 Dice, until end of next turn.",
+  "zh": "在战斗中，对手有 -2 骰子，直到下一回合结束。",
+  "why": "数字: EN[2] vs ZH[1, 2]"
+ },
+ {
+  "id": "CARD_MAG23_DESCRIPTION",
+  "en": "+2 Body, until end of next turn.",
+  "zh": "+2 体力，直到下一回合结束。",
+  "why": "数字: EN[2] vs ZH[1, 2]"
+ },
+ {
+  "id": "CARD_MAG24_DESCRIPTION",
+  "en": "+2 Fight and -1 Wits, until end of next turn.",
+  "zh": "+2 战力，-1 智力，直到下一回合结束。",
+  "why": "数字: EN[1, 2] vs ZH[1, 1, 2]"
+ },
+ {
+  "id": "CARD_MAG26_DESCRIPTION",
+  "en": "+2 Wits, until end of next turn.",
+  "zh": "直到下一回合结束，智力+2。",
+  "why": "数字: EN[2] vs ZH[1, 2]"
+ },
+ {
+  "id": "CARD_MAG46_DESCRIPTION",
+  "en": "Creates a toxic -1 Health Fog on tile until next Dawn.",
+  "zh": "在地块上产生 -1 生命的中毒迷雾，直到下一个黎明。",
+  "why": "数字: EN[1] vs ZH[1, 1]"
+ },
+ {
+  "id": "CARD_TRK11_DESCRIPTION",
+  "en": "Steal 1 Spirit Stone.",
+  "zh": "偷取 1 块灵石。",
+  "why": "术语缺失: Spirit→灵力"
+ },
+ {
+  "id": "CARD_TRK35_DESCRIPTION",
+  "en": "After every Battle, steal 1 Gold per Wound inflicted, until end of next turn.",
+  "zh": "每次战斗后，每造成 1 处创伤便窃取 1 金币，直到下回合结束。",
+  "why": "数字: EN[1] vs ZH[1, 1]"
+ },
+ {
+  "id": "CARD_TRK38_DESCRIPTION",
+  "en": "Next Dawn/Dusk, a <tooltip_Merchant>Merchant</tooltip_Merchant> arrives with a choice of three Consumables.",
+  "zh": "下一个黎明/黄昏，一名<tooltip_Merchant>商人</tooltip_Merchant>将带来三件消耗品供选择。",
+  "why": "数字: EN[3] vs ZH[1]"
+ },
+ {
+  "id": "CARD_TRK39_DESCRIPTION",
+  "en": "Next Dawn/Dusk, a <tooltip_Merchant>Merchant</tooltip_Merchant> arrives with a choice of three Items.",
+  "zh": "下一个黎明/黄昏，一名<tooltip_Merchant>商人</tooltip_Merchant>将带来三件物品供选择。",
+  "why": "数字: EN[3] vs ZH[1]"
+ },
+ {
+  "id": "CARD_TRK44_DESCRIPTION",
+  "en": "Next Dawn/Dusk, a <tooltip_Merchant>Merchant</tooltip_Merchant> arrives with a choice of two Followers.",
+  "zh": "下一个黎明/黄昏，一名<tooltip_Merchant>商人</tooltip_Merchant>将带来两名随从供选择。",
+  "why": "数字: EN[2] vs ZH[1]"
+ },
+ {
+  "id": "CARD_TRK45_DESCRIPTION",
+  "en": "Next Dawn/Dusk, a <tooltip_Merchant>Merchant</tooltip_Merchant> arrives with a choice of two Treasures.",
+  "zh": "下一个黎明/黄昏，一名<tooltip_Merchant>商人</tooltip_Merchant>将带来两件宝藏供选择。",
+  "why": "数字: EN[2] vs ZH[1]"
+ },
+ {
+  "id": "GAMEPROGRESS_DESCRIPTION",
+  "en": "Complete the Prologue and Ascend the Throne of Armello with all eight original Heroes, with all four victory t",
+  "zh": "以全部八位初始英雄、全部四种胜利方式完成序章，登上阿门罗的王座。",
+  "why": "数字: EN[4, 8] vs ZH[]"
+ },
+ {
+  "id": "GMI_MAP_STYLE_MIRROR_0_DESCRIPTION",
+  "en": "Creates a map with four identical quadrants and a low number of special tiles.",
+  "zh": "创建一张由四个相同象限和少量特殊地块组成的地图。",
+  "why": "数字: EN[4] vs ZH[1, 4]"
+ },
+ {
+  "id": "GMI_MAP_STYLE_MIRROR_3_DESCRIPTION",
+  "en": "Creates a map with four identical quadrants and a high number of special tiles..",
+  "zh": "创建一张由四个相同象限和大量特殊地块组成的地图。",
+  "why": "数字: EN[4] vs ZH[1, 4]"
+ },
+ {
+  "id": "HEROSET03_DLC_DESCRIPTION",
+  "en": "Join the fray for Armello's throne with four new playable Heroes and four new Rings - one for each Clan!",
+  "zh": "与四位全新可玩英雄和四枚新戒指——每个部族一枚！——一同加入争夺阿门罗王座的战斗！",
+  "why": "符号-: EN1 ZH0"
+ },
+ {
+  "id": "INV_AMULET10_DESCRIPTION",
+  "en": "[c]Dig[/c]\\n\\nGain +3 Gold for each Spirit Stone acquired.",
+  "zh": "[c]挖掘[/c]\\n\\n每获得一枚灵石获得 +3 金币。",
+  "why": "数字: EN[3] vs ZH[1, 3]; 术语缺失: Spirit→灵力"
+ },
+ {
+  "id": "INV_AMULET16_DESCRIPTION",
+  "en": "[c]Decay[/c]\\n\\nHeal 2 Health for each Rot gained, limit Corruption Stone Circle damage to 3.\\n\\nHero Amulet. ",
+  "zh": "[c]衰败[/c]\\n\\n每获得 1 腐化回复 2 生命，腐化石环伤害上限为 3。\\n\\n英雄护身符。所有英雄均可佩戴。",
+  "why": "数字: EN[2, 3] vs ZH[1, 2, 3]"
+ },
+ {
+  "id": "INV_BADGE_1114_KICKSTARTERHERO_DESCRIPTION",
+  "en": "This backer is one of Armello's true Heroes. Top tier backer right here!",
+  "zh": "这名支持者是阿门罗真正的英雄。顶级支持者就在这里！",
+  "why": "数字: EN[1] vs ZH[]"
+ },
+ {
+  "id": "INV_DICE_1001_WINTER_DESCRIPTION",
+  "en": "From the coldest peaks of Armello, these magical Winter Dice are only seen in the frosty paws of the most trav",
+  "zh": "来自阿门罗最寒冷的山峰，这些神奇的冬之骰子只见于游历最广的英雄冰冻的爪中。\\n\\n于年末节假日期间掉落。",
+  "why": "术语缺失: Magic→魔法"
+ },
+ {
+  "id": "INV_DICE_1008_BEARCLANLEGEND_DESCRIPTION",
+  "en": "Too many of Armello's greatest prophecies were born and bounced out of these dice. Legend says they bond with ",
+  "zh": "阿门罗太多伟大的预言诞生并弹跳自这些骰子。传说它们与人的灵魂相连。\\n\\n熊族的传说骰子。\\n\\n灵力即力量。",
+  "why": "数字: EN[1] vs ZH[]"
+ },
+ {
+  "id": "INV_DICE_1010_RATCLANLEGEND_DESCRIPTION",
+  "en": "Many a poor animal has lost a pouch of coin - or their life - to the red glow of these infamous cubes of chanc",
+  "zh": "许多可怜的动物在这些恶名昭彰的机会方块的红光下丢掉了一袋金币——乃至性命。据说当持有者的力量增长时，它们会发出低鸣。\\n\\n鼠族的传说骰子。\\n\\n玫瑰与荆棘。",
+  "why": "符号-: EN2 ZH0"
+ },
+ {
+  "id": "INV_DICE_1011_WOLFCLANLEGEND_DESCRIPTION",
+  "en": "Bark is often bigger than bite, but these storied dice prove the latter is a wolf's one true master.\\n\\nLegend",
+  "zh": "虚张声势往往胜过真撕咬，但这些传奇骰子证明后者才是狼唯一真正的主人。\\n\\n狼族的传说骰子。\\n\\n狼群至上。",
+  "why": "数字: EN[1] vs ZH[]"
+ },
+ {
+  "id": "INV_DICE_1017_BEARCLAN_DESCRIPTION",
+  "en": "Not all occasions call for ostentatious magic - the Bear Clan know when a more subtle tool will suffice.\\n\\nOf",
+  "zh": "并非所有场合都需要华丽的魔法——熊族知道何时更含蓄的工具就已足够。\\n\\n熊族的官方骰子。\\n\\n精神力量。",
+  "why": "符号-: EN1 ZH0; 术语缺失: Spirit→灵力"
+ },
+ {
+  "id": "INV_DICE_1019_RATCLAN_DESCRIPTION",
+  "en": "Every rat knows the roll of a single die can change the course of history - hence why a set is always on hand.",
+  "zh": "每只老鼠都知道一次投掷就能改变历史进程——所以手上总备着一副。\\n\\n鼠族的官方骰子。\\n\\n玫瑰与荆棘。",
+  "why": "符号-: EN1 ZH0"
+ },
+ {
+  "id": "INV_HEROBANDIT03_DESCRIPTION",
+  "en": "An old knight too skilled to die, too loyal to retire.\\n\\n[c]Fight:[/c] 5, [c]Body:[/c] 6, [c]Wits:[/c] 3, [c]",
+  "zh": "一名年迈骑士，技艺过人，忠诚无比。\\n\\n[c]战力：[/c]5, [c]体力：[/c]6, [c]智力：[/c]3, [c]灵力：[/c]2\\n\\n[c]第九",
+  "why": "数字: EN[2, 3, 5, 6, 9] vs ZH[2, 3, 5, 6]; 术语缺失: Die→骰"
+ },
+ {
+  "id": "INV_HEROBANDIT04_DESCRIPTION",
+  "en": "A natural leader. Charm, wit, and merciless determination.\\n\\n[c]Fight:[/c] 4, [c]Body:[/c] 5, [c]Wits:[/c] 4,",
+  "zh": "天生的领袖。魅力、智慧与无情的决心。\\n\\n[c]战力：[/c]4, [c]体力：[/c]5, [c]智力：[/c]4, [c]灵力：[/c]3\\n\\n[c]革",
+  "why": "数字: EN[3, 4, 4, 5] vs ZH[1, 1, 3, 4, 4, 5]"
+ },
+ {
+  "id": "INV_HEROBEAR01_DESCRIPTION",
+  "en": "At one with the Wyld, spell casting is Sana's natural talent.\\n\\n[c]Fight:[/c] 2, [c]Body:[/c] 6, [c]Wits:[/c]",
+  "zh": "与怀尔德融为一体，施法是萨娜的天赋。\\n\\n[c]战力：[/c]2, [c]体力：[/c]6, [c]智力：[/c]3, [c]灵力：[/c]5\\n\\n[c]女",
+  "why": "数字: EN[1, 2, 3, 5, 6] vs ZH[2, 3, 5, 6]"
+ },
+ {
+  "id": "INV_HEROBEAR02_DESCRIPTION",
+  "en": "The Wyld fuels this wrecking ball of a bear.\\n\\n[c]Fight:[/c] 4, [c]Body:[/c] 6, [c]Wits:[/c] 3, [c]Spirit:[/c",
+  "zh": "怀尔德为这只势不可挡的熊提供力量。\\n\\n[c]战力：[/c]4, [c]体力：[/c]6, [c]智力：[/c]3, [c]灵力：[/c]3\\n\\n[c]疤痕",
+  "why": "数字: EN[3, 3, 4, 6] vs ZH[1, 1, 1, 3, 3, 4, 6]"
+ },
+ {
+  "id": "INV_HEROBEAR03_DESCRIPTION",
+  "en": "A simple bear, with a serious affinity for forests.\\n\\n[c]Fight:[/c] 3, [c]Body:[/c] 6, [c]Wits:[/c] 3, [c]Spi",
+  "zh": "一只平凡的熊，却与森林有着深厚的亲和。\\n\\n[c]战力：[/c]3, [c]体力：[/c]6, [c]智力：[/c]3, [c]灵力：[/c]4\\n\\n[c]",
+  "why": "数字: EN[3, 3, 4, 6] vs ZH[1, 3, 3, 4, 6]"
+ },
+ {
+  "id": "INV_HEROBEAR04_DESCRIPTION",
+  "en": "A curious old crone, dedicated to the ways of the Wyld... whatever the cost.\\n\\n[c]Fight:[/c] 2, [c]Body:[/c] ",
+  "zh": "一位古怪的老妪，不计代价地献身于怀尔德之道……\\n\\n[c]战力：[/c]2, [c]体力：[/c]5, [c]智力：[/c]4, [c]灵力：[/c]5\\n\\",
+  "why": "数字: EN[1, 2, 4, 5, 5] vs ZH[1, 1, 2, 4, 5, 5]"
+ },
+ {
+  "id": "INV_HERORABBIT02_DESCRIPTION",
+  "en": "A kid genius who's as resourceful as he is excitable!\\n\\n[c]Fight:[/c] 4, [c]Body:[/c] 6, [c]Wits:[/c] 4, [c]S",
+  "zh": "一个小天才，足智多谋而又容易激动！\\n\\n[c]战力：[/c]4，[c]体力：[/c]6，[c]智力：[/c]4，[c]灵力：[/c]2\\n\\n[c]修补匠[/",
+  "why": "数字: EN[2, 4, 4, 6] vs ZH[1, 2, 4, 4, 6]"
+ },
+ {
+  "id": "INV_HERORAT03_DESCRIPTION",
+  "en": "The horror who trades in secrets from beyond the veil.\\n\\n[c]Fight:[/c] 3, [c]Body:[/c] 4, [c]Wits:[/c] 5, [c]",
+  "zh": "死后未知世界交易秘密的可怕之人。\\n\\n[c]战力：[/c]3, [c]体力：[/c]4, [c]智力：[/c]5, [c]灵力：[/c]4\\n\\n[c]面纱眼",
+  "why": "数字: EN[3, 4, 4, 5] vs ZH[1, 3, 4, 4, 5]"
+ },
+ {
+  "id": "INV_HERORAT04_DESCRIPTION",
+  "en": "A devilish, double-crossing rat, with double the personality.\\n\\n[c]Fight:[/c] 4, [c]Body:[/c] 4, [c]Wits:[/c]",
+  "zh": "一只恶毒的，热爱背叛的老鼠，具有双重人格。\\n\\n[c]战力：[/c]4\\n[c]体力：[/c]4\\n[c]智力：[/c]5\\n[c]灵力：[/c]3\\n\\n[",
+  "why": "术语缺失: Day→白天"
+ },
+ {
+  "id": "INV_S3_2201_CHEST_DESCRIPTION",
+  "en": "What strange magicks brought life to this sinister trunk of tricky treasures know one knows.",
+  "zh": "什么神奇的魔法给这个邪恶的棘手宝藏树干带来了生命，没有人知道。",
+  "why": "数字: EN[1] vs ZH[]"
+ },
+ {
+  "id": "INV_S3_2202_KEY_DESCRIPTION",
+  "en": "A tricky trick key! One turn of this mischievous little fellow is more than one could have ever bargained for.",
+  "zh": "一把诡计多端的诡计钥匙！这个淘气小家伙转上一圈，谁也占不到便宜。",
+  "why": "数字: EN[1] vs ZH[]"
+ },
+ {
+  "id": "INV_S4_2341_DICE_EPIC1_DESCRIPTION",
+  "en": "Certain Bear sages speak of one attaining a mastery of the Wyld that can sustain life ongoing, an evergreen ex",
+  "zh": "熊族的某些智者谈到有人掌握了怀尔德之道，能维系生命长存，达到一种常青的存在。",
+  "why": "数字: EN[1] vs ZH[]"
+ },
+ {
+  "id": "INV_S8_2741_DICE_EPIC1_DESCRIPTION",
+  "en": "Shards of Spirit Stone grafted to cold Hakon steel. The Wyld and the Worm, woven into abominable union.",
+  "zh": "使用灵石碎片植入到冰冷的哈坎钢中制成。怀尔德和蠕虫，编织成令人生厌的结合。",
+  "why": "术语缺失: Spirit→灵力"
+ },
+ {
+  "id": "INV_SIGNET10_DESCRIPTION",
+  "en": "[c]Moonstone[/c]\\n\\n+2 Magic for every Kill in Battle.\\n\\nWolf Clan Ring. Equippable by Wolf Clan Heroes.",
+  "zh": "[c]月长石[/c]\\n\\n 在战斗中每杀掉一个对手， +2 魔法。\\n\\n 狼族戒指。所有狼族英雄均可佩戴。",
+  "why": "数字: EN[2] vs ZH[1, 2]"
+ },
+ {
+  "id": "INV_SIGNET11_DESCRIPTION",
+  "en": "[c]Onyx[/c]\\n\\n+2 Gold for every Kill in Battle.\\n\\nWolf Clan Ring. Equippable by Wolf Clan Heroes.",
+  "zh": "[c]缟玛瑙[/c]\\n\\n战斗中每击杀一次 +2 金币。\\n\\n狼族戒指。狼族英雄均可佩戴。",
+  "why": "数字: EN[2] vs ZH[1, 2]"
+ },
+ {
+  "id": "INV_SIGNET15_DESCRIPTION",
+  "en": "[c]Amethyst[/c]\\n\\n+1 Magic for every Spell Card Burned, +2 for each Rot Spell Card Burned.\\n\\nBear Clan Ring.",
+  "zh": "[c]紫水晶[/c]\\n\\n每燃烧一张法术卡 +1 魔法，每燃烧一张腐化法术卡 +2 魔法。\\n\\n熊族戒指。熊族英雄均可佩戴。",
+  "why": "数字: EN[1, 2] vs ZH[1, 1, 1, 2]"
+ },
+ {
+  "id": "INV_SIGNET22_DESCRIPTION",
+  "en": "[c]Cat's Eye[/c]\\n\\nGet a 1 Gold discount on first Trickery Card played each turn.\\n\\nRat Clan Ring. Equippabl",
+  "zh": "[c]猫眼石[/c]\\n\\n每回合打出的第一张诡术卡 1 金币折扣。\\n\\n鼠族戒指。鼠族英雄均可佩戴。",
+  "why": "数字: EN[1] vs ZH[1, 1]"
+ },
+ {
+  "id": "INV_SIGNET28_DESCRIPTION",
+  "en": "[c]Amethyst (Bandit Clan)[/c]\\n\\n+1 Magic for every Spell Card Burned, +2 for each Rot Spell Card Burned.\\n\\nB",
+  "zh": "[c]紫水晶（强盗族）[/c]\\n\\n每燃烧一张法术卡 +1 魔法，每燃烧一张腐化法术卡 +2 魔法。\\n\\n强盗族戒指。强盗族英雄均可佩戴。",
+  "why": "数字: EN[1, 2] vs ZH[1, 1, 1, 2]"
+ },
+ {
+  "id": "INV_SKIN_10011_WOLF01_DESCRIPTION",
+  "en": "Thane Greymane, Keeper of the Hakonsbane, is not one to shy from battle, especially not when in sacred ceremon",
+  "zh": "哈肯斯贝恩的守护者——塞恩・格雷梅恩，从不畏惧战斗，特别是当他穿上神圣仪式盔甲的时候。",
+  "why": "数字: EN[1] vs ZH[]"
+ },
+ {
+  "id": "INV_SKIN_10051_WOLF02_DESCRIPTION",
+  "en": "The Rangers of the Veil's best asset knows that to overcome the wild, one must become wild.",
+  "zh": "面纱骑兵最有价值的人物知道，要想克服荒野，就必须变得野蛮。",
+  "why": "数字: EN[1] vs ZH[]"
+ },
+ {
+  "id": "INV_SKIN_10091_WOLF03_DESCRIPTION",
+  "en": "Some warriors become legend, standing on their own far above any station. The Shieldfury make up just one, Mag",
+  "zh": "有些勇士成为了传奇，他们依靠自己争得立足之地，其地位在任何身份之上。护盾狂怒只成就了一个人，那就是麦格纳。",
+  "why": "术语缺失: Shield→盾牌"
+ },
+ {
+  "id": "INV_SKIN_10101_RAT03_DESCRIPTION",
+  "en": "To be lord of the Veil is to be lord of death itself. For once one knows death's secrets, what fear remains?",
+  "zh": "当上面纱的领主，也就是成了死亡领主。因为一旦有人知道了死亡的秘密，那还有什么可害怕的呢？",
+  "why": "数字: EN[1] vs ZH[]"
+ },
+ {
+  "id": "INV_SKIN_10111_BEAR03_DESCRIPTION",
+  "en": "Even Ghor understands the importance of a great defense... he just struggles putting one together.",
+  "zh": "就连戈尔也明白坚固防御的重要性……只是他很难组织起这样的防御。",
+  "why": "数字: EN[1] vs ZH[]"
+ },
+ {
+  "id": "MAPPACK01_DLC_DESCRIPTION",
+  "en": "Journey for the throne in two stunning new Armellian seasons, Autumn & Spring!",
+  "zh": "使用两款全新的、极其漂亮的阿门罗季节皮\u0001——秋季和春季，开启你的王座争夺之旅！",
+  "why": "数字: EN[2] vs ZH[]"
+ },
+ {
+  "id": "STORE_BANDITCLAN_DESCRIPTION",
+  "en": "Fight for glory as the infamous Bandit Clan in Armello's first Clan DLC! The Bandit Clan DLC features four new",
+  "zh": "在阿门罗的首个部族 DLC 中扮演臭名昭著的强盗族争夺荣耀！强盗族 DLC 内含四位全新可游玩英雄、超过 50 个独一无二的强盗任务、强盗骰子、一枚全新的强盗族",
+  "why": "数字: EN[4, 50] vs ZH[1, 50]; 术语缺失: Fight→战力"
+ },
+ {
+  "id": "STORE_DRAGONCLAN_DESCRIPTION",
+  "en": "Join the insidious band of scaled Heroes on their journey to reclaim their birthright, Armello's throne. The D",
+  "zh": "与阴险的龙鳞英雄们一起踏上旅途，夺回他们与生俱来的权利——阿门罗的王座。《龙之部落》是阿门罗的第二款部族 DLC，内含四位可游玩英雄、一个全新的巨龙专属任务系统",
+  "why": "数字: EN[4, 6] vs ZH[1, 6]"
+ },
+ {
+  "id": "STORE_MAP_SEASONS_DESCRIPTION",
+  "en": "Journey for the throne in two stunning new Armellian seasons with the Seasons DLC featuring two new Board Skin",
+  "zh": "在两个全新、惊艳的阿门罗季节中踏上王座之旅！季节 DLC 推出了两款全新的棋盘皮肤——秋与春！",
+  "why": "数字: EN[2] vs ZH[]; 符号-: EN1 ZH0"
+ },
+ {
+  "id": "STORE_SUBSCRIPTION_MONTH_01_DESCRIPTION",
+  "en": "Subscription grants access to all premium content:\\n- All Heroes\\n- All Hero Skins\\n- The Bandit Clan\\n- Seaso",
+  "zh": "订阅可访问所有高级内容：\\n- 全部英雄\\n- 全部英雄皮肤\\n- 强盗族\\n- 季节棋盘皮肤\\n- 全部高级骰子\\n- 全部中篇小说\\n\\n订阅者还可获得：\\",
+  "why": "数字: EN[10] vs ZH[1, 9]"
+ },
+ {
+  "id": "STORE_SUBSCRIPTION_MONTH_03_DESCRIPTION",
+  "en": "Subscription grants access to all premium content:\\n- All Heroes\\n- All Hero Skins\\n- The Bandit Clan\\n- Seaso",
+  "zh": "订阅可访问所有高级内容：\\n- 全部英雄\\n- 全部英雄皮肤\\n- 强盗族\\n- 季节棋盘皮肤\\n- 全部高级骰子\\n- 全部中篇小说\\n\\n订阅者还可获得：\\",
+  "why": "数字: EN[10] vs ZH[1, 9]"
+ },
+ {
+  "id": "STORE_SUBSCRIPTION_MONTH_12_DESCRIPTION",
+  "en": "Subscription grants access to all premium content:\\n- All Heroes\\n- All Hero Skins\\n- The Bandit Clan\\n- Seaso",
+  "zh": "订阅可访问所有高级内容：\\n- 全部英雄\\n- 全部英雄皮肤\\n- 强盗族\\n- 季节棋盘皮肤\\n- 全部高级骰子\\n- 全部中篇小说\\n\\n订阅者还可获得：\\",
+  "why": "数字: EN[10] vs ZH[1, 9]"
+ },
+ {
+  "id": "STORE_SUBSCRIPTION_TERMS_DESCRIPTION",
+  "en": "Please note: New subscriptions are no longer available for purchase. If your payment lapses or you cancel your",
+  "zh": "请注意：新订阅已不再提供购买。如果你的付款中断或取消订阅，将无法通过任何方式重新订阅。\\n订阅可访问高级内容，包括全部英雄、全部英雄皮肤、强盗族、季节棋盘皮肤、",
+  "why": "数字: EN[10, 24] vs ZH[9, 24]"
+ },
+ {
+  "id": "STORE_USURPERS_DESCRIPTION",
+  "en": "Join the fray for Armello's throne with Armello's first major DLC pack, including four new playable Heroes and",
+  "zh": "加入阿门罗王座之争！阿门罗首个大型 DLC 包内含四位全新可游玩英雄与四枚全新戒指——每个部族一枚！",
+  "why": "符号-: EN1 ZH0"
+ },
+ {
+  "id": "TOOLTIP_HEROPOWERAGNIYA_BODYTEXT",
+  "en": "After Agniya kills a Creature in Battle, she gains the Worm’s Blessing, +1 Health at the start of your turn fo",
+  "zh": "阿格尼亚在战斗中击杀一个生物后，获得蠕虫赐福：在接下来 2 回合中，每回合开始时 +1 生命。",
+  "why": "数字: EN[1, 2] vs ZH[1, 1, 2]"
+ },
+ {
+  "id": "TOOLTIP_HEROPOWERBRUN_BODYTEXT",
+  "en": "+1 Fight for each Spell cast until the end of your next Battle or the end of your next turn.",
+  "zh": "每施放一个法术 +1 战力，持续到你下次战斗结束或下个回合结束。",
+  "why": "数字: EN[1] vs ZH[1, 1]"
+ },
+ {
+  "id": "TOOLTIP_HEROPOWERGRIOTTE_BODYTEXT",
+  "en": "Griotte's Clan Affinity Dice Bonus is equal to the number of Trickery Cards played the previous Day.",
+  "zh": "格莉奥特的部族亲和骰子加成等于前一天打出的诡术卡牌数量。",
+  "why": "术语缺失: Day→白天"
+ },
+ {
+  "id": "TOOLTIP_HEROPOWERMAGNA_HEADINGTEXT",
+  "en": "Shield Maiden",
+  "zh": "盾卫",
+  "why": "术语缺失: Shield→盾牌"
+ },
+ {
+  "id": "TOOLTIP_HEROPOWERSYLAS_BODYTEXT",
+  "en": "For each Bounty Level Sylas has, he gains +1 Sword in Battle. These swords pierce when fighting King's Guards.",
+  "zh": "塞拉斯每拥有 1 级悬赏，便在战斗中获得 +1 剑。对抗国王守卫时，这些剑具有贯穿效果。",
+  "why": "数字: EN[1] vs ZH[1, 1]; 术语缺失: Fight→战力"
+ },
+ {
+  "id": "TOOLTIP_HEROPOWERYORDANA_BODYTEXT",
+  "en": "Spells cast to Yordana during her turn are devoured in her cauldron for -1 Magic, granting a Pact Spell at the",
+  "zh": "在尤尔达娜的回合内对她施放的法术，会以 -1 魔法的代价被她的坩埚吞噬，并在她的回合结束时给予一张契约法术。",
+  "why": "数字: EN[1] vs ZH[1, 1]"
+ },
+ {
+  "id": "UI_GDPR_MESSAGE_DESCRIPTION",
+  "en": "We care about your data and privacy and want to give you more control.\\n\\nTo that end, there are now two ways ",
+  "zh": "我们时刻关切你的数据和隐私以及想给玩家更多自由控制的权利。\\n\\n最终，现在推出两种能够游玩《阿门罗》的方法，包括一种全面隐私、无需收集任何认证数据的离线模式以",
+  "why": "数字: EN[2] vs ZH[]"
+ }
+]

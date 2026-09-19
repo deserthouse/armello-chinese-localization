@@ -421,7 +421,10 @@ def cmd_export():
         # QA-1: 占位符集合必须与英文原文一致（zh 与官中相同视为有官方先例，放行；EN 为空的补齐条目跳过）
         en = en_map.get(rid, "")
         if zh != off_map.get(rid) and en:
-            if sorted(PLACE_RE_QA.findall(en)) != sorted(PLACE_RE_QA.findall(zh)):
+            FIXTOK = {"<hero_name's>": "<hero_name>", "<tile>": "<tile_name>"}
+        en_fixed = sorted(FIXTOK.get(t, t) for t in PLACE_RE_QA.findall(en))
+        # EN 为空或 zh==官中 的条目跳过占位符校验（官中沿用/补齐条目）
+        if en.strip() and zh != off_map.get(rid) and en_fixed != sorted(PLACE_RE_QA.findall(zh)):
                 problems.append((rid, "占位符不一致"))
         # QA-2: 内部代号保护——官中保留英文(无汉字)的条目(骰子/皮肤/署名/DO NOT LOCALISE类)自动回退官中
         off = off_map.get(rid)

@@ -1,0 +1,16 @@
+{
+ "usage": {
+  "prompt_tokens": 20813,
+  "completion_tokens": 10319,
+  "total_tokens": 31132,
+  "prompt_tokens_details": {
+   "cached_tokens": 0
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 9871
+  },
+  "prompt_cache_hit_tokens": 0,
+  "prompt_cache_miss_tokens": 20813
+ },
+ "content": "1\tKEEP\n2\tKEEP\n3\tREVISE\t西米恩之臂\t专名表强制一致：“Simeon's Arms = 西米恩之臂”，新译“西米恩兵器铺”违规\n4\tREVISE\t西米恩之臂开业大吉！\t专名表强制一致：“Simeon's Arms = 西米恩之臂”，新译“西米恩兵器铺”违规\n5\tKEEP\n6\tKEEP\n7\tKEEP\n8\tKEEP\n9\tKEEP\n10\tKEEP\n11\tKEEP\n12\tKEEP\n13\tKEEP\n14\tKEEP\n15\tKEEP\n16\tKEEP\n17\tKEEP\n18\tKEEP\n19\tKEEP\n20\tKEEP\n21\tKEEP\n22\tKEEP\n23\tKEEP\n24\tKEEP\n25\tKEEP\n26\tKEEP\n27\tKEEP\n28\tKEEP\n29\tKEEP\n30\tKEEP\n31\tKEEP\n32\tKEEP\n33\tKEEP\n34\tKEEP\n35\tREVISE\t你怒火冲天，鞭子挥出的火花照亮天空，玷污了这块场地。所有魔法——无论是对方的还是你的——都被清除。\t漏译原文“The sky shines with sparks from your whip”，且“defiling the site”误作“怒火倾泻在整个场地”\n36\tKEEP\n37\tKEEP\n38\tKEEP\n39\tKEEP\n40\tKEEP\n41\tKEEP\n42\tKEEP\n43\tKEEP\n44\tKEEP\n45\tKEEP\n46\tREVISE\t一个披着斗篷的家伙朝酒吧挥了挥手，“能干的和能打的我都有！你今天可以从我这里挑一个随从交个朋友！”\t原文“waves to the bar”是向酒吧挥手，不是“闪身进了酒吧”；Follower 已按术语修正\n47\tKEEP\n48\tKEEP\n49\tKEEP\n50\tKEEP"
+}
