@@ -96,8 +96,12 @@ pool = [r for r in recs if r.get("en") and r.get("zh")]
 if args.missing:
     judged = set()
     try:
-        for l in open("tests/threeway_log_full.jsonl", encoding="utf-8"):
-            judged.add(json.loads(l)["id"])
+        for lg in ("tests/threeway_log_full.jsonl", "tests/threeway_log_miss.jsonl"):
+            try:
+                for l in open(lg, encoding="utf-8"):
+                    judged.add(json.loads(l)["id"])
+            except FileNotFoundError:
+                pass
     except FileNotFoundError:
         pass
     pool = [r for r in pool if r["id"] not in judged]
