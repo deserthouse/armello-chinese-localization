@@ -169,3 +169,29 @@ Scarcasting 疤痕施法 ｜ Scarcaster 疤痕施法者
 
 ## 禁止翻译（破坏会导致 repack 后崩溃/乱码）
 占位符 `{0}`/`%s` ｜ 富文本标签 `<special>`/`<sprite>`/`<color>` ｜ 换行符 `\n` ｜ 可交易物品·皮肤·骰子内部代号 ｜ 纯 ID/代码/版本号/URL
+
+---
+
+## 十四、三方拉通轮增补（v1.2 · 2026-09-19）
+
+> 来源：全量三方审校（deepseek-flash+思考，9,688 条）568 条规则候选蒸馏 + 人工仲裁。
+> **专名权威层**：1,192 条名称词条见 `tests/glossary_names_v12.json`（机器 SSOT，导出前 QA-4 强制校验）。
+
+| EN | 中文 | 备注 |
+|---|---|---|
+| Stone Circle | 石环 | 禁"巨石阵" |
+| Palace（含派生） | 王宫 | 禁"宫殿/皇宫" |
+| Terrorised / Terrorise | 恐吓 | **裁决依据=官中实证**；模型提案"摧毁"已否决（摧毁是另一机制 Razed） |
+| Explode Pool | 爆发池 | 禁"爆炸池" |
+| Pierce / Piercing | 贯穿 | strike through 才译"刺穿"，二者严格区分 |
+| Bounty（状态/通缉） | 悬赏 | 禁"赏金"；Gold=金币 |
+| Bonus Die（战斗加骰） | 加成骰子 | Bounty Dice=悬赏骰子，三者禁混 |
+| House Rule | 房规 | 禁"房屋规则" |
+| Settlement | 聚落 | 禁回退"定居点" |
+| Sorcerer | 咒术师 | 术士已被 Warlock 占用；禁"魔术师/方士" |
+| Strategist | 战略家 | 卡牌与成就统一 |
+| Armellian | 阿门罗人 | 弃"阿门罗公民" |
+| Squire | 侍从 | 禁"护卫" |
+
+**人名规范**：一律音译、名·姓顺序（Bluff Broketooth→布拉夫·破牙），禁止意译；官中误译者按音译修正。
+**代词**：指代物件（石头/卡牌/印记）的 they/it → 它/它们，不得用"他们"。
