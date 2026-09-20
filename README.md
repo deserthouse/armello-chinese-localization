@@ -15,15 +15,11 @@
 
 ## 🎮 安装
 
-**textonly 版**（仅文本）：
-1. 解压，将 `resources.assets` 复制到 `armello_Data\` 覆盖同名文件
+**所有版本安装方式相同：把压缩包内全部内容解压到游戏的 `armello_Data` 文件夹，覆盖同名文件即可。**
 
-**font / artfont 版**（文本 + 字体，共 3 个文件）：
-1. `resources.assets` → `armello_Data\`
-2. `resources.assets.resS` → `armello_Data\`
-3. `StreamingAssets/ResourceBundles/gamedatabase.unity3d` → `armello_Data/StreamingAssets/ResourceBundles/`
-
-> 建议覆盖前备份原文件。v0.2 升级用户注意：v0.3 新增 `resources.assets.resS` 覆盖步骤，请勿遗漏，否则主菜单字体不会生效。
+> 游戏目录找法：Steam 库中右键 Armello → 管理 → 浏览本地文件 → 进入 `Armello\armello_Data\`
+>
+> 压缩包内的 `StreamingAssets` 子文件夹会自动落到正确位置，无需手动操作。建议覆盖前备份原文件。
 
 ## ↩️ 还原官方中文
 
