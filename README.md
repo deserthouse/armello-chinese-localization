@@ -1,28 +1,33 @@
 # Armello 简体中文重译汉化补丁
 
-> 🚧 **Pre-Release v0.2**：提供两个版本——
-> - **font 版**（231MB）：汉化文本 + 中文字体替换（正文=霞鹜文楷，标题=思源宋体 Heavy）
+> **Pre-Release v0.3**：提供三个版本——
+> - **font 版**（308MB）：汉化文本 + 中文字体替换（正文=霞鹜文楷，标题=思源宋体 Heavy，主菜单=霞鹜文楷）
+> - **artfont 版**（271MB）：汉化文本 + 毛笔楷书艺术字（正文与主菜单=马善政）
 > - **textonly 版**（42MB）：仅汉化文本，保持官方原字体
 >
-> 从 [Releases](https://github.com/deserthouse/armello-chinese-localization/releases) 下载；font 版含两个文件，需分别覆盖到 `armello_Data\` 和 `armello_Data\StreamingAssets\ResourceBundles\`，详见压缩包内说明。
+> 从 [Releases](https://github.com/deserthouse/armello-chinese-localization/releases) 下载；font 版与 artfont 版含三个文件，需分别覆盖到不同目录，详见压缩包内安装说明。
 
 非官方简体中文全量重译。基于官方中文的机翻问题，对游戏内 **10,867 条**文本逐条对照英文原文重新翻译与审校，覆盖任务剧情、卡牌、物品、UI、成就、对话等全部内容。
 
 ## 📦 下载
 
-前往 [**Releases 页面**](https://github.com/deserthouse/armello-chinese-localization/releases) 下载最新预发布版 `armello-zh-patch-v0.1.zip`。
+前往 [**Releases 页面**](https://github.com/deserthouse/armello-chinese-localization/releases) 下载最新版。
 
-## 🎮 安装（三步）
+## 🎮 安装
 
-1. 解压压缩包，得到 `resources.assets`
-2. 找到游戏目录（Steam 库中右键 Armello → 管理 → 浏览本地文件，进入 `armello_Data` 文件夹）
-3. 将 `resources.assets` 复制进去，**覆盖**同名文件，启动游戏
+**textonly 版**（仅文本）：
+1. 解压，将 `resources.assets` 复制到 `armello_Data\` 覆盖同名文件
 
-> 建议覆盖前先把原文件备份一份（或复制一份改名为 `resources.assets.backup`）。
+**font / artfont 版**（文本 + 字体，共 3 个文件）：
+1. `resources.assets` → `armello_Data\`
+2. `resources.assets.resS` → `armello_Data\`
+3. `StreamingAssets/ResourceBundles/gamedatabase.unity3d` → `armello_Data/StreamingAssets/ResourceBundles/`
+
+> 建议覆盖前备份原文件。v0.2 升级用户注意：v0.3 新增 `resources.assets.resS` 覆盖步骤，请勿遗漏，否则主菜单字体不会生效。
 
 ## ↩️ 还原官方中文
 
-进入 `armello_Data` 文件夹，删除补丁的 `resources.assets`，把你备份的原文件名改回 `resources.assets` 即可。
+把备份的原文件名改回即可（font 版需还原全部三个文件）。
 
 ## ❓ 常见问题
 
@@ -34,9 +39,9 @@
 
 答：不会。补丁只替换显示文本，不修改任何游戏逻辑与数值。
 
-**问：想改回官方中文怎么办？**
+**问：font 版和 artfont 版有什么区别？**
 
-答：见上方「还原官方中文」，用你备份的原文件覆盖回去即可。
+答：文本内容完全相同，区别仅在于字体风格——font 版正文用霞鹜文楷（清爽手写楷体），artfont 版用马善政毛笔楷书（粗犷书法风）。选你喜欢的即可，不要混装。
 
 **问：发现错别字或翻译问题？**
 
@@ -44,9 +49,7 @@
 
 ## ✅ 质量保障
 
-- 全部文本逐条对照英文原文重译与审校，官中优秀译文予以保留
-- 术语与风格执行统一规范（见 GLOSSARY.md / STYLE_GUIDE.md）
-- 占位符、格式标签经程序化校验，打包前全部通过
+全部 10,867 条文本经 **多轮 AI 引擎审校**，最终由 DeepSeek Pro（思考模式）拉通英文原文、官方中文与补丁新译文进行三方综合审查，择优选用的 **AI 精校版文本**。术语统一执行 GLOSSARY 与 STYLE_GUIDE 规范，占位符与格式标签经程序化校验。AI 精校虽已大幅降低错漏率，但个别错漏仍无法完全避免，欢迎通过 Issue 反馈。
 
 ## 🔧 给开发者
 
