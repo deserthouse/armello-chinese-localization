@@ -65,7 +65,7 @@
 
 ## 🔧 给开发者
 
-流水线与源数据在本仓库内：`master.jsonl`（全部条目及决策留痕）、`pipeline.py`（审计/导出入口）、`repack.py`（打包）、`GLOSSARY.md` + `STYLE_GUIDE.md`（标准资产）。详见各文件头部说明。
+技术笔记见 [HACKING.md](HACKING.md)——包含文本定位、UnityPy 解包重打包方法、SDF 字体图集替换原理等。源数据 `master.jsonl` 含全部条目及逐条决策留痕（provenance 审计链）。
 
 ## 🤖 AI 使用声明
 

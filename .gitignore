@@ -8,3 +8,9 @@ fontwork/
 release/
 release_build/
 .zcode/
+pipeline.py
+repack.py
+flash_translate.py
+project_status.md
+AGENTS.md
+tests/
