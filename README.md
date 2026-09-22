@@ -1,6 +1,6 @@
 <div align="center">
 
-# Armello 简体中文重译补丁
+# <img src=docs/logo.png width=360 alt=Armello/> 简体中文重译补丁
 
 **非官方全量重译 —— 10,867 条文本逐条精校**
 
