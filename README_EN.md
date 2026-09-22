@@ -6,13 +6,15 @@
 
 <p>
   <img src="docs/logo_schinese.png" height="130" alt="阿门罗"/>
-  <img src="docs/logo_dot_v2.png" height="130" alt="·"/>
+  <img src="docs/logo_dot_v3.png" height="130" alt="·"/>
   <img src="docs/logo_tc.png" height="130" alt="愛門羅"/>
 </p>
 
 <img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/>
 
-# Armello Chinese Relocalization
+# Armello Chinese Localization
+
+<sub>Simplified Chinese: full retranslation · Traditional Chinese: official-translation refinement · Fonts: three variants</sub>
 
 [![License](https://img.shields.io/badge/License-Fan%20Made-blue.svg)](#-license)
 [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-installation)
@@ -21,7 +23,7 @@
 
 </div>
 
----
+<br/>
 
 > **Armello Chinese Relocalization** is an unofficial fan project that retranslates all 10,867 in-game text entries from English, addressing the official Chinese translation's machine-translation quality issues. Final text is curated by DeepSeek Pro (thinking mode) with three-way comparison of English source, official Chinese, and the new translation — an **AI-refined edition**.
 >

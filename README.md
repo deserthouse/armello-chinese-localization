@@ -6,13 +6,15 @@
 
 <p>
   <img src="docs/logo_schinese.png" height="130" alt="阿门罗"/>
-  <img src="docs/logo_dot_v2.png" height="130" alt="·"/>
+  <img src="docs/logo_dot_v3.png" height="130" alt="·"/>
   <img src="docs/logo_tc.png" height="130" alt="愛門羅"/>
 </p>
 
 <img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/>
 
-# Armello 简体中文重译补丁
+# Armello 中文本地化补丁
+
+<sub>简体中文 · 全量重译 ｜ 繁体中文 · 官方译本精修 ｜ 中文字体 · 三档替换</sub>
 
 [![License](https://img.shields.io/badge/License-Fan%20Made-blue.svg)](#-版权声明)
 [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-安装使用)
@@ -21,7 +23,7 @@
 
 </div>
 
----
+<br/>
 
 > **Armello 简体中文重译补丁** 是一个非官方粉丝项目，基于官方中文的机翻问题，对游戏内全部 10,867 条文本逐条对照英文原文重新翻译与审校——最终由 DeepSeek Pro（思考模式）拉通原文、官中与新译文三方综合审查，择优选用的 **AI 精校版文本**。
 >
