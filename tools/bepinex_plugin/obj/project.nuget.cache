@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "mdRKQp952yA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\deser\\Projects\\armello-chinese-localization\\tools\\bepinex_plugin\\ArmelloUrlFix.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\deser\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.29\\microsoft.netcore.app.ref.8.0.29.nupkg.sha512",
+    "C:\\Users\\deser\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.29\\microsoft.windowsdesktop.app.ref.8.0.29.nupkg.sha512",
+    "C:\\Users\\deser\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.29\\microsoft.aspnetcore.app.ref.8.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}
