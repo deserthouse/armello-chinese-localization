@@ -14,12 +14,11 @@
 
 # Armello Chinese Localization
 
-<sub>Simplified Chinese: full retranslation · Traditional Chinese: official-translation refinement · Fonts: three variants</sub>
-
 [![License](https://img.shields.io/badge/License-Fan%20Made-blue.svg)](#-license)
 [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-installation)
 [![Release](https://img.shields.io/github/v/release/deserthouse/armello-chinese-localization?include_prereleases&color=yellow)](https://github.com/deserthouse/armello-chinese-localization/releases)
 
+<sub>Simplified Chinese: full retranslation · Traditional Chinese: official-translation refinement · Fonts: three variants</sub>
 
 </div>
 

@@ -14,12 +14,11 @@
 
 # Armello 中文本地化补丁
 
-<sub>简体中文 · 全量重译 ｜ 繁体中文 · 官方译本精修 ｜ 中文字体 · 三档替换</sub>
-
 [![License](https://img.shields.io/badge/License-Fan%20Made-blue.svg)](#-版权声明)
 [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-安装使用)
 [![Release](https://img.shields.io/github/v/release/deserthouse/armello-chinese-localization?include_prereleases&color=yellow)](https://github.com/deserthouse/armello-chinese-localization/releases)
 
+<sub>简体中文 · 全量重译 ｜ 繁体中文 · 官方译本精修 ｜ 中文字体 · 三档替换</sub>
 
 </div>
 
