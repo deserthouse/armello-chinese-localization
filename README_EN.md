@@ -18,6 +18,8 @@
 ---
 
 > **Armello Chinese Relocalization** is an unofficial fan project that retranslates all 10,867 in-game text entries from English, addressing the official Chinese translation's machine-translation quality issues. Final text is curated by DeepSeek Pro (thinking mode) with three-way comparison of English source, official Chinese, and the new translation — an **AI-refined edition**.
+>
+> 🧩 Recommended companion: [Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix) — a BepInEx patch fixing the engine bug where tooltip link tags leak as garbled text. Independent installation, fully compatible with this patch.
 
 ## ✨ Features
 
@@ -77,10 +79,6 @@ Choose one of three versions (text content is identical, only fonts differ):
 4. Launch the game
 
 > Back up original files before overwriting. To restore, rename backups back.
-
-### Recommended: Tooltip Fix
-
-> 🧩 **[Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix)** — Fixes an engine bug where tooltip link tags in card descriptions leak as visible garbled text. Present in the official version too. Independent installation, fully compatible with this patch.
 
 ## ❓ FAQ
 
