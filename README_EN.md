@@ -65,9 +65,9 @@ Choose one of three versions (text content is identical, only fonts differ):
 
 | Version | Size | Best for |
 |---|---|---|
-| **textonly** | 42MB | Text only, keep official fonts |
-| **font** | 308MB | Text + LXGW WenKai (clean handwriting style) |
-| **artfont** | 271MB | Text + Ma Shan Zheng (bold brush calligraphy) |
+| **textonly** | 39.7MB | Text only, keep official fonts |
+| **font** | 293.9MB | Text + LXGW WenKai (clean handwriting style) |
+| **artfont** | 258.5MB | Text + Ma Shan Zheng (bold brush calligraphy) |
 
 ### Steps
 
