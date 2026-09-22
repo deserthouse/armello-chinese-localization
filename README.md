@@ -6,7 +6,7 @@
 
 <p>
   <img src="docs/logo_schinese.png" height="130" alt="阿门罗"/>
-  <img src="docs/logo_dot.png" height="130" alt="·"/>
+  <img src="docs/logo_dot_v2.png" height="130" alt="·"/>
   <img src="docs/logo_tc.png" height="130" alt="愛門羅"/>
 </p>
 
