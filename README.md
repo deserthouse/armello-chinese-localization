@@ -1,16 +1,16 @@
 <div align="center">
 
-# <img src="docs/logo_schinese.png" width="280" alt="阿门罗"/> 简体中文重译补丁
+<img src="docs/logo_schinese.png" width="280" alt="阿门罗"/>
 
-**非官方全量重译 —— 10,867 条文本逐条精校**
+# Armello 简体中文重译补丁
 
-<sub><img src="docs/logo_tchinese.png" width="72" alt="阿門羅"/> 阿門羅</sub>　<sub><img src="docs/logo.png" width="72" alt="Armello"/> Armello</sub>
-
-<img src="docs/slogan.png" width="420" alt="By Armellians, for Armellians"/>
+<img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/>
 
 [![License](https://img.shields.io/badge/License-Fan%20Made-blue.svg)](#-版权声明)
 [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-安装)
 [![Release](https://img.shields.io/github/v/release/deserthouse/armello-chinese-localization?include_prereleases&color=yellow&style=flat-square)](https://github.com/deserthouse/armello-chinese-localization/releases)
+
+<sub>简中 阿门罗</sub>　<sub>繁中 阿門羅</sub>　<sub>EN Armello</sub>
 
 </div>
 
