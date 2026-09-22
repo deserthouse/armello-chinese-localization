@@ -2,11 +2,17 @@
 
 [简体中文](README.md) · [繁體中文](README_TC.md) · [English](README_EN.md)
 
-<img src="docs/logo_schinese.png" width="280" alt="阿门罗"/>
+<img src="docs/logo_en_main.png" width="300" alt="Armello"/>
 
-# Armello 简体中文重译补丁
+<p>
+  <img src="docs/logo_schinese.png" height="130" alt="阿门罗"/>
+  &nbsp;·&nbsp;
+  <img src="docs/logo_tc.png" height="130" alt="愛門羅"/>
+</p>
 
 <img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/>
+
+# Armello 简体中文重译补丁
 
 [![License](https://img.shields.io/badge/License-Fan%20Made-blue.svg)](#-版权声明)
 [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-安装使用)
@@ -20,6 +26,8 @@
 > **Armello 简体中文重译补丁** 是一个非官方粉丝项目，基于官方中文的机翻问题，对游戏内全部 10,867 条文本逐条对照英文原文重新翻译与审校——最终由 DeepSeek Pro（思考模式）拉通原文、官中与新译文三方综合审查，择优选用的 **AI 精校版文本**。
 >
 > 🧩 强烈建议同时安装 [Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix)：否则部分卡牌描述会触发游戏引擎的换行渲染 bug，外显 `[/url]` 乱码文字。两者独立安装、互不依赖。
+>
+> 🚧 繁体中文精修版施工中——以官方繁中为底本、只修错漏（术语沿用台版，如 Rot=汙穢），随下个版本发布。
 
 ## ✨ 项目特性
 

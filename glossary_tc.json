@@ -1,0 +1,131 @@
+{
+ "_meta": {
+  "title": "Armello 繁体中文术语表（机读版）",
+  "version": "1.0",
+  "date": "2026-09-23",
+  "route": "官繁精修：以官方繁中为底，只修真错误；术语甲/乙类跟官繁，丙类按简中体系修正",
+  "sources": "tests/tc_recon_glossary_mined.json (1,363 专名对齐) + GLOSSARY_TC.md 裁决"
+ },
+ "fixed_overrides": {
+  "Scarcasting": "疤痕施法",
+  "King's Guard": "國王守衛",
+  "Cauldron Crone": "坩堝老嫗"
+ },
+ "terms": {
+  "Agniya": "艾格尼雅",
+  "Alchemist": "煉金術師",
+  "Armello": "愛門羅",
+  "Bandit Clan": "強盜部族",
+  "Bane": "魔鴆",
+  "Bard": "吟遊詩人",
+  "Barnaby": "巴納比",
+  "Bear Clan": "熊族",
+  "Brun": "布朗",
+  "Cauldron Crone": "坩堝老嫗",
+  "Consecrate": "供奉",
+  "Corrupted": "腐化",
+  "Curse of Blood": "血源咒約",
+  "Curse of Eye": "眼瞳咒約",
+  "Curse of Fate": "命運咒約",
+  "Curse of Skill": "技藝咒約",
+  "Curse of Valour": "勇武咒約",
+  "Day": "白天",
+  "Dragon Clan": "龍之部族",
+  "Elyssia": "艾西莉亞",
+  "Evade": "閃避",
+  "Fang": "尖牙",
+  "Follower": "隨從",
+  "Fortified": "防禦強化",
+  "Ghor": "古爾",
+  "Griotte": "格里葉",
+  "Hargrave": "哈格雷夫",
+  "Hero": "英雄！",
+  "Heroes": "英雄",
+  "Horace": "霍雷斯",
+  "Infected": "被感染",
+  "King's Guard": "國王守衛",
+  "Mirror Cape": "冰鑒斗篷",
+  "Morning Star": "晨星",
+  "Oxana": "歐克薩娜",
+  "Peril": "危機",
+  "Poisoned": "中毒",
+  "Rabbit Clan": "兔族",
+  "Rat Clan": "鼠族",
+  "Reflect": "反思",
+  "Reprieve": "緩刑",
+  "Rite of Wyld": "懷爾德驅邪術",
+  "River": "里弗",
+  "Rot": "汙穢",
+  "Royal": "皇室",
+  "Royal Shield": "皇室護盾",
+  "Sargon": "薩爾貢",
+  "Scarcaster": "疤痕施法者",
+  "Scarcasting": "疤痕施法",
+  "Scarlet": "絲卡蕾特",
+  "Scout": "偵查",
+  "Shield Maiden": "女盾衛",
+  "Spirit Walker": "心靈行者",
+  "Squire": "侍從",
+  "Stealth": "潛行",
+  "Stone Wards": "守護石",
+  "Sylas": "賽拉斯",
+  "The Cleansing Wyld": "懷爾德的淨化",
+  "Twiss": "崔絲",
+  "Volodar": "弗羅達",
+  "Winged Boots": "飛天翅靴",
+  "Wolf Clan": "狼族",
+  "Wyld": "懷爾德",
+  "Wyld Born": "懷爾德的恩賜",
+  "Wyld Talisman": "懷爾德護符",
+  "Wyld Weed": "懷爾德芳草",
+  "Wyld's Warning": "懷爾德的警告",
+  "Wyldfyre Staff": "懷爾德烈焰權杖",
+  "Wyldhide": "懷爾德寶鎧",
+  "Wyldsap": "懷爾德樹液",
+  "Yordana": "約達納",
+  "Zosha": "佐莎"
+ },
+ "context_dependent": {
+  "...Happily Ever After": [
+   "……從此幸福地生活著",
+   "……從此過著幸福快樂的日子"
+  ],
+  "Amber": [
+   "安柏",
+   "琥珀印戒",
+   "遠征者"
+  ],
+  "Guardian": [
+   "守護之樹人",
+   "守護者"
+  ],
+  "Guild Business": [
+   "公會事務",
+   "道上規矩"
+  ],
+  "Listener": [
+   "聆聽者",
+   "聽者之符"
+  ],
+  "Mercurio": [
+   "墨可利歐",
+   "笑刀"
+  ],
+  "Night": [
+   "夜",
+   "黑夜"
+  ],
+  "Ruby": [
+   "紅寶石",
+   "紅寶石印戒"
+  ],
+  "Sana": [
+   "森林姊妹",
+   "薩娜"
+  ],
+  "Thane": [
+   "冬狼",
+   "森"
+  ]
+ }
+}

@@ -2,11 +2,17 @@
 
 [简体中文](README.md) · [繁體中文](README_TC.md) · [English](README_EN.md)
 
-<img src="docs/logo_english.png" width="280" alt="Armello"/>
+<img src="docs/logo_en_main.png" width="300" alt="Armello"/>
 
-# Armello Chinese Relocalization
+<p>
+  <img src="docs/logo_schinese.png" height="130" alt="阿门罗"/>
+  &nbsp;·&nbsp;
+  <img src="docs/logo_tc.png" height="130" alt="愛門羅"/>
+</p>
 
 <img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/>
+
+# Armello Chinese Relocalization
 
 [![License](https://img.shields.io/badge/License-Fan%20Made-blue.svg)](#-license)
 [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-installation)
@@ -20,6 +26,8 @@
 > **Armello Chinese Relocalization** is an unofficial fan project that retranslates all 10,867 in-game text entries from English, addressing the official Chinese translation's machine-translation quality issues. Final text is curated by DeepSeek Pro (thinking mode) with three-way comparison of English source, official Chinese, and the new translation — an **AI-refined edition**.
 >
 > 🧩 Strongly recommended alongside [Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix): without it, some card descriptions can trigger an engine line-wrapping bug that leaks visible `[/url]` garbled text. Independent installation, no dependency.
+>
+> 🚧 Traditional Chinese refinement in progress — built on the official Traditional Chinese text, fixing errors only (Taiwan terminology preserved, e.g. Rot = 汙穢); ships with the next release.
 
 ## ✨ Features
 
