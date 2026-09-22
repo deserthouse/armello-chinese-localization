@@ -1,8 +1,10 @@
 <div align="center">
 
-# <img src="docs/logo_chinese.png" width="320" alt=Armello/> 简体中文重译补丁
+# <img src="docs/logo_schinese.png" width="280" alt="阿门罗"/> 简体中文重译补丁
 
 **非官方全量重译 —— 10,867 条文本逐条精校**
+
+<sub><img src="docs/logo_tchinese.png" width="72" alt="阿門羅"/> 阿門羅</sub>　<sub><img src="docs/logo.png" width="72" alt="Armello"/> Armello</sub>
 
 让每一句对白都值得读
 
