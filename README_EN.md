@@ -4,6 +4,8 @@
 
 <img src="docs/logo_en_main.png" width="300" alt="Armello"/>
 
+<br/>
+
 <p>
   <img src="docs/logo_schinese.png" height="130" alt="阿门罗"/>
   <img src="docs/logo_dot_v3.png" height="130" alt="·"/>
@@ -24,7 +26,7 @@
 
 <br/>
 
-> **Armello Chinese Relocalization** is an unofficial fan project that retranslates all 10,867 in-game text entries from English, addressing the official Chinese translation's machine-translation quality issues. Final text is curated by DeepSeek Pro (thinking mode) with three-way comparison of English source, official Chinese, and the new translation — an **AI-refined edition**.
+> The retranslation line of **Armello Chinese Localization** — all 10,867 in-game text entries retranslated from English, addressing the official Chinese translation's machine-translation quality issues. Final text is curated by DeepSeek Pro (thinking mode) with three-way comparison of English source, official Chinese, and the new translation — an **AI-refined edition**.
 >
 > 🧩 Strongly recommended alongside [Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix): without it, some card descriptions can trigger an engine line-wrapping bug that leaks visible `[/url]` garbled text. Independent installation, no dependency.
 >

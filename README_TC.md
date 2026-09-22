@@ -4,6 +4,8 @@
 
 <img src="docs/logo_en_main.png" width="300" alt="Armello"/>
 
+<br/>
+
 <p>
   <img src="docs/logo_schinese.png" height="130" alt="阿门罗"/>
   <img src="docs/logo_dot_v3.png" height="130" alt="·"/>
@@ -24,7 +26,7 @@
 
 <br/>
 
-> **Armello 簡體中文重譯補丁** 是一個非官方粉絲專案，基於官方中文的機翻問題，對遊戲內全部 10,867 條文字逐條對照英文原文重新翻譯與審校——最終由 DeepSeek Pro（思考模式）拉通原文、官中與新譯文三方綜合審查，擇優選用的 **AI 精校版文字**。
+> **Armello 中文本地化補丁** 旗下的簡體中文重譯線——基於官方中文的機翻問題，對遊戲內全部 10,867 條文字逐條對照英文原文重新翻譯與審校，最終由 DeepSeek Pro（思考模式）拉通原文、官中與新譯文三方綜合審查，擇優選用的 **AI 精校版文字**。
 >
 > 🧩 強烈建議同時安裝 [Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix)：否則部分卡牌描述會觸發遊戲引擎的換行渲染 bug，外顯 `[/url]` 亂碼文字。兩者獨立安裝、互不依賴。
 >
