@@ -110,7 +110,7 @@ See [HACKING.md](HACKING.md) for technical details — text location, UnityPy un
 
 ## 🤖 AI Usage Disclosure
 
-The vast majority of translation, review, and engineering work on this project was performed by **AI (large language models)**. The human role is requirements, decision-making, and final acceptance. AI translation quirks may exist — feedback via Issue is welcome.
+This project contains no human contribution; the vast majority of the work was done by **AI**. AI translation quirks may exist — feedback via Issue is welcome.
 
 ## 📄 License
 
