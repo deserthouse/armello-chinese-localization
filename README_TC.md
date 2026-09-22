@@ -10,7 +10,7 @@
 
 [![License](https://img.shields.io/badge/License-Fan%20Made-blue.svg)](#-版權聲明)
 [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-安裝使用)
-[![Release](https://img.shields.io/github/v/release/deserthouse/armello-chinese-localization?include_prereleases&color=yellow&style=flat-square)](https://github.com/deserthouse/armello-chinese-localization/releases)
+[![Release](https://img.shields.io/github/v/release/deserthouse/armello-chinese-localization?include_prereleases&color=yellow)](https://github.com/deserthouse/armello-chinese-localization/releases)
 
 </div>
 
