@@ -18,7 +18,7 @@
 
 > **Armello 簡體中文重譯補丁** 是一個非官方粉絲專案，基於官方中文的機翻問題，對遊戲內全部 10,867 條文字逐條對照英文原文重新翻譯與審校——最終由 DeepSeek Pro（思考模式）拉通原文、官中與新譯文三方綜合審查，擇優選用的 **AI 精校版文字**。
 >
-> 🧩 推薦搭配 [Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix)——修復遊戲引擎 tooltip 連結標籤跨行洩露為亂碼文字的 bug 的 BepInEx 補丁，獨立安裝、與本補丁完全相容。
+> 🧩 強烈建議同時安裝 [Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix)：否則部分卡牌描述會觸發遊戲引擎的換行渲染 bug，外顯 `[/url]` 亂碼文字。兩者獨立安裝、互不依賴。
 
 ## ✨ 專案特性
 
@@ -45,6 +45,8 @@
 ## 📸 效果預覽
 
 ### font 版（霞鶩文楷）
+
+> 💡 截圖中可注意到一處遊戲引擎 bug：月亮鐮刀的效果文字外顯了 `[/url]` 標籤（與字型和翻譯無關）。安裝 [Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix) 即可消除。
 
 <p float="left">
   <img src="docs/screenshots/font_mainmenu.png" width="400" alt="font 版主選單"/>

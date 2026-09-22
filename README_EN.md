@@ -19,7 +19,7 @@
 
 > **Armello Chinese Relocalization** is an unofficial fan project that retranslates all 10,867 in-game text entries from English, addressing the official Chinese translation's machine-translation quality issues. Final text is curated by DeepSeek Pro (thinking mode) with three-way comparison of English source, official Chinese, and the new translation — an **AI-refined edition**.
 >
-> 🧩 Recommended companion: [Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix) — a BepInEx patch fixing the engine bug where tooltip link tags leak as garbled text. Independent installation, fully compatible with this patch.
+> 🧩 Strongly recommended alongside [Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix): without it, some card descriptions can trigger an engine line-wrapping bug that leaks visible `[/url]` garbled text. Independent installation, no dependency.
 
 ## ✨ Features
 
@@ -46,6 +46,8 @@ Main menu font replacement is achieved by re-baking the TMP SDF distance-field a
 ## 📸 Screenshots
 
 ### font version (LXGW WenKai)
+
+> 💡 You may notice an engine bug in the screenshot: a `[/url]` tag leaking as visible text in Moon Scythe's description (unrelated to the font or the translation). Install [Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix) to eliminate it.
 
 <p float="left">
   <img src="docs/screenshots/font_mainmenu.png" width="400" alt="font version main menu"/>
