@@ -42,20 +42,16 @@
 
 ### font 版（霞鹜文楷）
 
-<!-- 截图位置：主菜单 -->
-<!-- 建议放 2-3 张：主菜单全览 / 卡牌图录页 / 游戏内任意卡牌描述 -->
 <p float="left">
-  <img src="docs/screenshots/font_mainmenu.png" width="400" alt="font版主菜单（待放置）"/>
-  <img src="docs/screenshots/font_gallery.png" width="400" alt="font版卡牌图录（待放置）"/>
+  <img src="docs/screenshots/font_mainmenu.png" width="400" alt="font 版主菜单"/>
+  <img src="docs/screenshots/font_gallery.png" width="400" alt="font 版卡牌图录"/>
 </p>
 
 ### artfont 版（马善政毛笔楷书）
 
-<!-- 截图位置：主菜单 -->
-<!-- 建议放 2-3 张：主菜单全览 / 卡牌图录页 / 游戏内任意卡牌描述 -->
 <p float="left">
-  <img src="docs/screenshots/artfont_mainmenu.png" width="400" alt="artfont版主菜单（待放置）"/>
-  <img src="docs/screenshots/artfont_gallery.png" width="400" alt="artfont版卡牌图录（待放置）"/>
+  <img src="docs/screenshots/artfont_mainmenu.png" width="400" alt="artfont 版主菜单"/>
+  <img src="docs/screenshots/artfont_gallery.png" width="400" alt="artfont 版卡牌图录"/>
 </p>
 
 ## 🚀 安装使用
@@ -79,6 +75,10 @@
 
 > 建议覆盖前备份原文件。还原时把备份文件改回原名即可。
 
+### 推荐搭配：Tooltip Fix
+
+> 🧩 **[Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix)** —— 修复游戏引擎在卡牌描述中 tooltip 链接标签跨行泄露为乱码文字的 bug。官方版本同样存在此问题，使用任何文本 mod 后更容易触发。独立安装，与本补丁完全兼容。
+
 ## ❓ 常见问题
 
 **会影响成就或联机吗？**
@@ -88,6 +88,10 @@
 **font 版和 artfont 版有什么区别？**
 
 文本内容完全相同，区别仅在于字体风格——font 版正文用霞鹜文楷（清爽易读），artfont 版用马善政毛笔楷书（视觉冲击力强，匹配中世纪奇幻画风）。选你喜欢的即可，不要混装。
+
+**卡牌描述里偶尔看到 `[/url]` 之类的乱码？**
+
+这是游戏引擎的 tooltip 标签跨行渲染 bug（官方版本同样存在）。安装 [Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix) 即可修复。
 
 **游戏更新后补丁会失效吗？**
 
