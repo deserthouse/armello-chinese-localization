@@ -1,5 +1,7 @@
 <div align="center">
 
+[简体中文](README.md) · [繁體中文](README_TC.md) · [English](README_EN.md)
+
 <img src="docs/logo_schinese.png" width="280" alt="阿门罗"/>
 
 # Armello 简体中文重译补丁
