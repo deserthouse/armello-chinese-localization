@@ -6,7 +6,7 @@
 
 <sub><img src="docs/logo_tchinese.png" width="72" alt="阿門羅"/> 阿門羅</sub>　<sub><img src="docs/logo.png" width="72" alt="Armello"/> Armello</sub>
 
-让每一句对白都值得读
+<img src="docs/slogan.png" width="420" alt="By Armellians, for Armellians"/>
 
 [![License](https://img.shields.io/badge/License-Fan%20Made-blue.svg)](#-版权声明)
 [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-安装)
