@@ -130,6 +130,7 @@ This project contains no human contribution; the vast majority of the work was d
 - All rights to Armello, its original text, art, and audio belong to **League of Geeks**. This repository claims **no ownership** of any game content.
 - This repository contains no binary game assets (code, art, audio); it does contain text data extracted from the game (English source and official Simplified/Traditional Chinese) used solely for translation cross-reference and per-entry auditing, plus read/write tooling.
 - This is a non-commercial fan project for personal use by players who have purchased the game. Redistribution of game text separately is prohibited.
+- Screenshots and official promotional logos are used for documentation purposes; all copyrights belong to League of Geeks.
 - If the rights holder believes this repository infringes their rights, please contact for removal.
 
 ## ⚠️ Disclaimer
