@@ -4,6 +4,7 @@
 > 由官繁全量语料（10,856 条）与简中术语表（GLOSSARY v1.2, 148 词）短词条对齐挖掘生成。
 > 挖掘脚本 `tests/tc_recon_glossary.py`，中间数据 `tests/tc_recon_glossary_mined.json`（1,363 个专名）/ `tc_recon_glossary_join.json`。
 > 机读版：`glossary_tc.json`。风格规范：`STYLE_GUIDE_TC.md`。
+> 外部参考：`docs/external-codebayin-zhtw-survey-20260924.md`（2015 粉丝繁中译法体系厄魔/墮落/大地之母——已死方言,旁证乙表跟官繁的裁决;勿混入术语裁决）。
 
 ## 甲、无分歧项（官繁 = 简中直接繁化，直接沿用）
 
