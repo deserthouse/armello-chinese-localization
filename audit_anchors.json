@@ -1,0 +1,63 @@
+{
+  "_meta": {
+    "title": "Armello 审校锚点集（机读版）",
+    "version": "1.0",
+    "date": "2026-09-24",
+    "usage": "审校子会话/流水线的 prompt 注入源；与 GLOSSARY*/STYLE_GUIDE* 并列的第五件标准资产",
+    "source_of_truth": "AUDIT_ANCHORS.md（人工裁决后必须先回写 md 再同步本文件）",
+    "cross_variant": "全部判例对简繁两线同等生效"
+  },
+  "world_card": [
+    "全员拟动物：无人类。dalmatian/pup/kit/paws/howls/lair 等动物词按动物本义译（犬/幼兽/爪子/嗥叫/巢穴），禁人化词（人/孩子/手）",
+    "二元世界观：Wyld=怀尔德/懷爾德（自然野性）↔ Rot=腐化/汙穢（邪秽之力）；Corrupted=已堕落/腐化（状态）",
+    "格局：四大部族（狼熊兔鼠）+扩展族争夺狮王王位；国王可被弑杀夺冕",
+    "Bane=贝恩/魔鴆：从汙穢诞生的怪物，非人形",
+    "文体：中世纪奇幻+黑色童话+英式冷幽默；风味文常带虚构署名，语气多样",
+    "英文源文本自带毛病（非译文错）：typo（aimeless/cheif）、it's/its 混用、松散句——先识别再判",
+    "一对多高发词：trunk(树干≠树梢)/block(刑台≠街区)/kit(幼兽≠工具箱)/scale/temple 语境词"
+  ],
+  "must_fix_precedents": [
+    {"src": "howls", "bad": "咆哮", "good": "嗥叫", "why": "狼嚎≠怒吼；动物行为词按本义"},
+    {"src": "a dalmatian", "bad": "达尔马提亚人", "good": "达尔马提亚犬", "why": "全员动物"},
+    {"src": "lift heavy things", "bad": "提升重物", "good": "搬举重物", "why": "lift 物理义"},
+    {"src": "on the block", "bad": "在市場裡/街区", "good": "在刑台上", "why": "处刑剧情关键"},
+    {"src": "trunk", "bad": "樹梢", "good": "樹幹", "why": "词义错"},
+    {"src": "square in the chest", "bad": "打在身體上", "good": "正中胸口", "why": "精确部位丢失"},
+    {"src": "rabbit kit", "bad": "兔族的寶箱", "good": "幼兔", "why": "kit 幼兽义"},
+    {"src": "a hail of shots", "bad": "僅僅一發", "good": "一陣彈雨", "why": "程度反转"},
+    {"src": "eww", "bad": "的確不錯，值得一看", "good": "嫌恶语气", "why": "极性反转"},
+    {"src": "only just snatched victory", "bad": "勝利就這樣消失了", "good": "勉強奪得勝利", "why": "结果反转"},
+    {"src": "bouncing ball", "bad": "舞會", "good": "彈跳的球", "why": "ball 词义错读"},
+    {"src": "mere pups", "bad": "小夥子", "good": "幼崽", "why": "动物幼崽义"},
+    {"src": "Slay the creature. Their time has come.", "bad": "幫助解除痛苦", "good": "殺死這個生物。牠的大限已到", "why": "整句编造=最重级"},
+    {"src": "the bear", "bad": "祭司", "good": "熊", "why": "对象错位"},
+    {"src": "the seer", "bad": "流浪者們", "good": "先知", "why": "对象错位"},
+    {"src": "Scarcasting", "bad": "疤痕製造", "good": "疤痕施法", "why": "casting=施法"},
+    {"src": "saw through trickery", "bad": "仔細查看贗品", "good": "識破詭計", "why": "trickery≠贗品"},
+    {"src": "nearly captured", "bad": "抓住了", "good": "差點抓住", "why": "程度/时态"},
+    {"src": "Reprieve or by death", "bad": "緩刑和死亡", "good": "緩刑或死亡", "why": "逻辑连接词"},
+    {"src": "多字typo", "bad": "追隨者你", "good": "追隨你", "why": "typo"},
+    {"src": "would not disappoint", "bad": "如果贏了，不會失望", "good": "不會讓人失望", "why": "凭空造条件句"}
+  ],
+  "keep_precedents": [
+    {"item": "冰鑒斗篷(Mirror Cape)", "no_change_to": "明鏡斗篷", "why": "雅言文风资产"},
+    {"item": "小兒(puppy 自谦)", "no_change_to": "小犬", "why": "成语化表达非词义错"},
+    {"item": "擊敗(sought to destroy)", "no_change_to": "消滅", "why": "边界默认不动"},
+    {"item": "守護石扩写'抵擋腐化生物入侵'", "no_change_to": "删除", "why": "扩写保留除非矛盾"},
+    {"item": "主權統治從未分割(credits)", "no_change_to": "删除", "why": "官方致敬惯例补全"},
+    {"item": "塗上(劇毒條)", "no_change_to": "獲得", "why": "动词文风不动（但劇毒→中毒术语要修）"}
+  ],
+  "priority_rules": [
+    "1 词义错（对象/程度/极性/词性本义）→ 必修",
+    "2 语义同向的选词偏移 → 必修（2026-09-24 口径）",
+    "3 纯文风/句式/扩写/成语化 → 不改",
+    "4 术语不一致 → 按术语表修",
+    "5 拿不准 → 上报终审（附原词语素分析），不许自行拍板"
+  ],
+  "format_redlines": [
+    "占位符 <hero_name>/色码[B20A0EFF]/<sprite>/[-]/{0} 原样保留",
+    "字面 \\n 数量与原文一致",
+    "引号：简中用\"\"，繁中用「」",
+    "最小改动：只动有错的部分，禁整句重写（除非原句结构即错）"
+  ]
+}

@@ -1,10 +1,11 @@
 {
  "_meta": {
   "title": "Armello 繁体中文术语表（机读版）",
-  "version": "1.0",
+  "version": "1.1",
   "date": "2026-09-23",
   "route": "官繁精修：以官方繁中为底，只修真错误；术语甲/乙类跟官繁，丙类按简中体系修正",
-  "sources": "tests/tc_recon_glossary_mined.json (1,363 专名对齐) + GLOSSARY_TC.md 裁决"
+  "sources": "tests/tc_recon_glossary_mined.json (1,363 专名对齐) + GLOSSARY_TC.md 裁决",
+  "v1_1_note": "2026-09-24：M1 修正实战术语补录（皇室法師/先知/魔法師/預言家）+ 禁用变体层；劇毒规则改为标签作用域"
  },
  "fixed_overrides": {
   "Scarcasting": "疤痕施法",
@@ -83,7 +84,11 @@
   "Wyldhide": "懷爾德寶鎧",
   "Wyldsap": "懷爾德樹液",
   "Yordana": "約達納",
-  "Zosha": "佐莎"
+  "Zosha": "佐莎",
+  "royal magus": "皇室法師",
+  "seer": "先知",
+  "magus": "魔法師",
+  "soothsayer": "預言家"
  },
  "context_dependent": {
   "...Happily Ever After": [
@@ -126,6 +131,17 @@
   "Thane": [
    "冬狼",
    "森"
+  ],
+  "占星師": [
+   "先知(seer)或魔法師(magus)按原文——占星師为误译变体"
+  ],
+  "Spirit(属性)": [
+   "精力(数值语境)",
+   "心靈(复合词如心靈石)"
   ]
+ },
+ "deprecated_variants": {},
+ "deprecated_in_tags": {
+  "劇毒": "中毒（仅 <tooltip_*>/<specialstatus_*> 标签内；叙事形容保留劇毒）"
  }
 }
