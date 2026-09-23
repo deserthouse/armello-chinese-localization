@@ -52,7 +52,9 @@
 | **artfont** | Ma Shan Zheng (brush calligraphy) | Source Han Serif Heavy | Ma Shan Zheng |
 | **textonly** | Official font | Official font | Official font |
 
-Main menu font replacement is achieved by re-baking the TMP SDF distance-field atlas (see [HACKING.md](HACKING.md)). All fonts are OFL open-source licensed.
+All fonts are licensed under SIL OFL 1.1 — copyright and authors (LXGW WenKai / Source Han Serif SC & TC Heavy / Ma Shan Zheng) listed in [licenses/FONT-LICENSES.txt](licenses/FONT-LICENSES.txt); the full license text ships inside the font and artfont packages.
+
+Main menu font replacement is achieved by re-baking the TMP SDF distance-field atlas (see [HACKING.md](HACKING.md)).
 
 ## 📸 Screenshots
 
@@ -126,7 +128,7 @@ This project contains no human contribution; the vast majority of the work was d
 ## 📄 License
 
 - All rights to Armello, its original text, art, and audio belong to **League of Geeks**. This repository claims **no ownership** of any game content.
-- This repository contains no game assets — only community translations and tooling.
+- This repository contains no binary game assets (code, art, audio); it does contain text data extracted from the game (English source and official Simplified/Traditional Chinese) used solely for translation cross-reference and per-entry auditing, plus read/write tooling.
 - This is a non-commercial fan project for personal use by players who have purchased the game. Redistribution of game text separately is prohibited.
 - If the rights holder believes this repository infringes their rights, please contact for removal.
 
