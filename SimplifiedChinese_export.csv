@@ -3161,7 +3161,7 @@ INV_BADGE_20000_GIFTER_STATTRACKCONFIG_ENTRIES_2_DESCRIPTION,我想你肯定会�
 INV_BADGE_20000_GIFTER_STATTRACKCONFIG_ENTRIES_2_TITLE,慷慨的赠礼人
 INV_BADGE_20000_GIFTER_STATTRACKCONFIG_ENTRIES_3_DESCRIPTION,瞧，这儿有位喜欢大家的人。看看他，送礼物跟玩儿似的！\n\n已拆开 {0} 份礼物，还在增加！
 INV_BADGE_20000_GIFTER_STATTRACKCONFIG_ENTRIES_3_TITLE,高尚的赠礼人
-INV_BADGE_20000_GIFTER_STATTRACKCONFIG_ENTRIES_4_DESCRIPTION,这就是你的父母亲希望你成为的那种神秘玩家。那个孩子是社交场合的中心人物。\n\n已经拆开了 {0} 份礼物！
+INV_BADGE_20000_GIFTER_STATTRACKCONFIG_ENTRIES_4_DESCRIPTION,这就是你的父母亲希望你成为的那种神话级玩家。那个孩子是社交场合的中心人物。\n\n已经拆开了 {0} 份礼物！
 INV_BADGE_20000_GIFTER_STATTRACKCONFIG_ENTRIES_4_TITLE,真正大手笔的赠礼人
 INV_BADGE_20000_GIFTER_STATTRACKCONFIG_ENTRIES_5_DESCRIPTION,嗯，好吧，这个人爱你们所有人。非常爱。就是非常非常爱。我们怎么知道？！\n\n他们已经为社区拆开了 {0} 份礼物！
 INV_BADGE_20000_GIFTER_STATTRACKCONFIG_ENTRIES_5_TITLE,礼物爱人
@@ -3275,9 +3275,9 @@ INV_DICESUBSCRIBER3_DESCRIPTION,奖励给那些通过持有至少三个月活跃
 INV_DICESUBSCRIBER3_TITLE,黄金用户骰子
 INV_DICESUBSCRIBER4_DESCRIPTION,奖励给那些通过持有至少六个月活跃订阅，向王国证明其忠诚的阿门罗人。
 INV_DICESUBSCRIBER4_TITLE,白金用户骰子
-INV_DICE_1001_WINTER_DESCRIPTION,来自阿门罗最寒冷的山峰，这些神奇的冬之骰子只见于游历最广的英雄冰冻的爪中。\n\n于年末节假日期间掉落。
+INV_DICE_1001_WINTER_DESCRIPTION,来自阿门罗最寒冷的山峰，这些神奇的冬之骰子只见于游历最广的英雄结霜的爪中。\n\n于年末节假日期间掉落。
 INV_DICE_1001_WINTER_TITLE,冬之骰子
-INV_DICE_1002_TWITCH_DESCRIPTION,让有前排票的用户见证 Good Bits。\n\n奖励给在 Twitch 上订阅极客联盟的用户。
+INV_DICE_1002_TWITCH_DESCRIPTION,让有前排票的用户见证精彩片段 Good Good。\n\n奖励给在 Twitch 上订阅极客联盟的用户。
 INV_DICE_1002_TWITCH_TITLE,Twitch 骰子
 INV_DICE_1003_GEEK_DESCRIPTION,这些华丽的骰子每次投掷都会爆发，并能匹配任何陷阱符号。哈哈，开玩笑的。\n\n只有在现实中遇到 League of Geeks 的开发者才能获得。（是的，我们知道这很荒谬。）
 INV_DICE_1003_GEEK_TITLE,极客骰子
@@ -3340,7 +3340,7 @@ INV_HEROBEAR03_DESCRIPTION,"一只平凡的熊，却与森林有着深厚的亲�
 INV_HEROBEAR03_TITLE,戈尔，怀尔德之亲
 INV_HEROBEAR04_DESCRIPTION,"一位古怪的老妪，不计代价地献身于怀尔德之道……\n\n[c]战力：[/c]2, [c]体力：[/c]5, [c]智力：[/c]4, [c]灵力：[/c]5\n\n[c]坩埚老妪[/c]\n在她回合内对尤尔达娜施放的法术会被坩埚吞噬，消耗 1 点魔法，回合结束时她获得一个契约法术。"
 INV_HEROBEAR04_TITLE,尤尔达娜，吞噬者
-INV_HERORABBIT01_DESCRIPTION,"一名全能的多面手，行囊里常携带着大量金币。\n\n[c]战力：[/c]3, [c]体力：[/c]5, [c]智力：[/c]4, [c]灵力：[/c]4\n\n[c]盗墓者[/c]\n 提高在探索地牢时获得奖励的几率。"
+INV_HERORABBIT01_DESCRIPTION,"一名全能的多面手，还揣着一只沉甸甸的钱袋。\n\n[c]战力：[/c]3, [c]体力：[/c]5, [c]智力：[/c]4, [c]灵力：[/c]4\n\n[c]盗墓者[/c]\n 提高在探索地牢时获得奖励的几率。"
 INV_HERORABBIT01_TITLE,安布尔，远寻者
 INV_HERORABBIT02_DESCRIPTION,一个小天才，足智多谋而又容易激动！\n\n[c]战力：[/c]4，[c]体力：[/c]6，[c]智力：[/c]4，[c]灵力：[/c]2\n\n[c]修补匠[/c]\n覆盖装备背包中的道具时，该道具会回到你的手牌，且不再产生其费用或收益。
 INV_HERORABBIT02_TITLE,巴纳比，古怪之灵
@@ -3599,7 +3599,7 @@ INV_S8_2751_DICE_LEGENDARY1_TITLE,秘密财富骰子
 INV_SIGNET02_DESCRIPTION,[c]黑曜石[/c]\n\n你占领的所有聚落获得侦察，且任何夺走你聚落的生物也获得侦察，直至你的下一回合结束。\n\n鼠族戒指。仅鼠族英雄可装备。
 INV_SIGNET03_DESCRIPTION,[c]红宝石[/c]\n\n战斗中首个掷出的剑将爆发。\n\n鼠族戒指。仅鼠族英雄可装备。
 INV_SIGNET04_DESCRIPTION,[c]绿松石[/c]\n\n获得闪避与+2爆发池。\n\n鼠族戒指。仅鼠族英雄可装备。
-INV_SIGNET06_DESCRIPTION,[c]粉黄玉[/c]\n\n聚落收入翻倍。\n\n兔族戒指。兔族英雄均可佩戴。
+INV_SIGNET06_DESCRIPTION,[c]粉色黄玉[/c]\n\n聚落收入翻倍。\n\n兔族戒指。兔族英雄均可佩戴。
 INV_SIGNET07_DESCRIPTION,[c]钻石[/c]\n\n每个已装备宝藏和招募的随从 +1 声望。\n\n兔族戒指。兔族英雄均可佩戴。
 INV_SIGNET08_DESCRIPTION,[c]太阳石[/c]\n\n 在白天的战斗和陷阱中，+1 太阳。\n\n 兔族戒指。所有兔族英雄均可佩戴。
 INV_SIGNET10_DESCRIPTION,[c]月光石[/c]\n\n战斗中每击杀一次 +2 魔法。\n\n 狼族戒指。所有狼族英雄均可佩戴。
@@ -3607,7 +3607,7 @@ INV_SIGNET11_DESCRIPTION,[c]缟玛瑙[/c]\n\n战斗中每击杀一次 +2 金币�
 INV_SIGNET12_DESCRIPTION,[c]天青石[/c]\n\n无视山地地形行动惩罚。\n\n狼族戒指。所有狼族英雄均可佩戴。
 INV_SIGNET14_DESCRIPTION,[c]石英[/c]\n\n若在石环中，黎明时 -1 腐化。\n\n熊族戒指。熊族英雄均可佩戴。
 INV_SIGNET15_DESCRIPTION,[c]紫水晶[/c]\n\n每燃烧一张法术卡 +1 魔法，每燃烧一张腐化法术卡 +2 魔法。\n\n熊族戒指。熊族英雄均可佩戴。
-INV_SIGNET16_DESCRIPTION,[c]琥珀[/c]\n\n战斗中的燃烧太阳和月亮卡牌始终被视为击中，并且其中的第一个爆炸。\n\n熊族戒指。所有熊族英雄均可佩戴。
+INV_SIGNET16_DESCRIPTION,[c]琥珀[/c]\n\n战斗中的燃烧太阳和月亮卡牌始终被视为击中，并且其中的第一个爆发。\n\n熊族戒指。所有熊族英雄均可佩戴。
 INV_SIGNET17_DESCRIPTION,[c]坦桑石[/c]\n\n成功逃离陷阱时 +2 金币。\n\n鼠族戒指。鼠族英雄均可佩戴。
 INV_SIGNET18_DESCRIPTION,[c]彩虹石英[/c]\n\n每个黎明 +1 魔法和 +1 金币。\n\n兔族戒指。兔族英雄均可佩戴。
 INV_SIGNET19_DESCRIPTION,[c]红电气石[/c]\n\n当你生命为 3 点或更少时，+3 战力。\n\n狼族戒指。所有狼族英雄均可佩戴。
@@ -9440,7 +9440,7 @@ STORE_SUBSCRIPTION_MONTH_01_DESCRIPTION,订阅可访问所有高级内容：\n- 
 STORE_SUBSCRIPTION_MONTH_01_LINE2,解锁阿门罗的一切内容与更多惊喜
 STORE_SUBSCRIPTION_MONTH_01_LINE4,每月
 STORE_SUBSCRIPTION_MONTH_01_TITLE,月度订阅
-STORE_SUBSCRIPTION_MONTH_03_DESCRIPTION,订阅可访问所有高级内容：\n- 全部英雄\n- 全部英雄皮肤\n- 强盗族\n- 季度桌面皮肤\n- 全部高级骰子\n- 全部中篇小说\n\n订阅者还可获得：\n- 宝箱 9 折优惠！\n- 一枚专属且不断进化的订阅者徽章。\n- 能反映订阅时长的专属订阅者骰子！
+STORE_SUBSCRIPTION_MONTH_03_DESCRIPTION,订阅可访问所有高级内容：\n- 全部英雄\n- 全部英雄皮肤\n- 强盗族\n- 季节棋盘皮肤\n- 全部高级骰子\n- 全部中篇小说\n\n订阅者还可获得：\n- 宝箱 9 折优惠！\n- 一枚专属且不断进化的订阅者徽章。\n- 能反映订阅时长的专属订阅者骰子！
 STORE_SUBSCRIPTION_MONTH_03_LINE2,预付可享 20% 折扣。
 STORE_SUBSCRIPTION_MONTH_03_LINE4,每 3 个月
 STORE_SUBSCRIPTION_MONTH_03_TITLE,订阅 3 个月

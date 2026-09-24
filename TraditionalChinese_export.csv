@@ -336,7 +336,7 @@ ACT3_04_LOCALPLAYERQUESTSPAWNEDSEQUENCE_CHANGEMETAADVICESEQUENCEELEMENTS_0_ADVIC
 ACT3_04_LOCALPLAYERQUESTSPAWNEDSEQUENCE_FOCUSADVICESEQUENCEELEMENTS_0_PROMPT_TEXT,這是一張咒術卡牌。
 ACT3_04_LOCALPLAYERQUESTSPAWNEDSEQUENCE_FOCUSADVICESEQUENCEELEMENTS_1_PROMPT_TEXT,需要消耗魔法來使用它。
 ACT3_04_LOCALPLAYERQUESTSPAWNEDSEQUENCE_FOCUSADVICESEQUENCEELEMENTS_2_PROMPT_TEXT,你的精力值多寡也會影響到\n你施用咒術卡牌的範圍能有多遠。
-ACT3_04_LOCALPLAYERQUESTSPAWNEDSEQUENCE_FOCUSADVICESEQUENCEELEMENTS_3_PROMPT_TEXT,這是魔法。它可以被用來施放咒術卡牌，\n並且每逢黃昏時都會重置。
+ACT3_04_LOCALPLAYERQUESTSPAWNEDSEQUENCE_FOCUSADVICESEQUENCEELEMENTS_3_PROMPT_TEXT,這是魔法。它可以被用來施放咒術卡牌，\n並且每逢黃昏時都會補滿。
 ACT3_04_LOCALPLAYERQUESTSPAWNEDSEQUENCE_FOCUSADVICESEQUENCEELEMENTS_4_PROMPT_TEXT,對你自己使用『專注』。
 ACT3_04_LOCALPLAYERQUESTSPAWNEDSEQUENCE_FOCUSADVICESEQUENCEELEMENTS_5_PROMPT_TEXT,這是你的魔法。可被用來施放咒術卡牌，\n並且每逢黃昏時都會重置。
 ACT3_04_LOCALPLAYERQUESTSPAWNEDSEQUENCE_PROLOGUEADVISORSEQUENCEELEMENTS_0_ADVICE_TEXT,尋找吟遊詩人、有機會撈到寶藏、還很可能遭遇危險！可以的話我想待在外面。
@@ -417,7 +417,7 @@ ACT4_10_COMPLETEFIRSTQUESTSEQUENCE_PROLOGUEADVISORSEQUENCEELEMENTS_0_ADVICE_TEXT
 ACT4_10_COMPLETEFIRSTQUESTSEQUENCE_SETCUSTOMCITIZENSEQUENCEELEMENTS_0_QUESTDESCRIPTION_TEXT,我覺得我們應該把心靈石帶到城堡去。
 ACT4_10_RECEIVESECONDQUESTSEQUENCE_CHANGEMETAADVICESEQUENCEELEMENTS_0_ADVICE_TEXT,前往<quest_tile>。
 ACT4_11_ENTERPALACESEQUENCE_FOCUSADVICESEQUENCEELEMENTS_0_PROMPT_TEXT,王宮花園被幾個強大的王宮危機防護著，\n在被擊敗之前會一直存在。
-ACT4_11_ENTERPALACESEQUENCE_FOCUSADVICESEQUENCEELEMENTS_1_PROMPT_TEXT,接近王宮十分困難。記得收集一手好牌，\n必要時，燒毀它們來獲取勝機。
+ACT4_11_ENTERPALACESEQUENCE_FOCUSADVICESEQUENCEELEMENTS_1_PROMPT_TEXT,攻破王宮十分困難。記得收集一手好牌，\n必要時，燒毀它們來獲取勝機。
 ACT4_11_ENTERPALACESEQUENCE_PROLOGUEADVISORSEQUENCEELEMENTS_0_ADVICE_TEXT,封鎖王宮，誰也不許進來！我們必須守住這個王國。
 ACT4_11_ENTERPALACESEQUENCE_PROLOGUEADVISORSEQUENCEELEMENTS_1_ADVICE_TEXT,薩娜，王宮看來不太一樣，似乎…開始了嚴密的防禦！
 ACT4_11_ENTERPALACESEQUENCE_PROLOGUEADVISORSEQUENCEELEMENTS_2_ADVICE_TEXT,難道國王還不曉得我們這兒有帶著一塊心靈石嗎？
@@ -857,7 +857,7 @@ CARD_ITM05_NAME,化裝面具
 CARD_ITM05_STATUSFEEDPLAYEDTOCREATURE,<from_creature>對<to_creature>使用了<card>。
 CARD_ITM05_STATUSFEEDPLAYEDTOTILE,<from_creature>對<tile_name>使用了<card>。
 CARD_ITM05_TARGETTEXT,可裝備
-CARD_ITM06_DESCRIPTION,在夜晚時能夠讓\n<tooltip_HeroExplodePool>爆裂池</tooltip_HeroExplodePool> +2，\n這時的月亮符號\n也會爆炸。
+CARD_ITM06_DESCRIPTION,在夜晚時能夠讓\n<tooltip_HeroExplodePool>爆裂池</tooltip_HeroExplodePool> +2，\n這時的月亮符號\n也會爆裂。
 CARD_ITM06_FLAVORTEXT,在暗夜注視之下，它必將得以豐收。在暗夜注視之下，懷爾德始終護佑。
 CARD_ITM06_FLAVORTEXTAUTHOR,~德魯伊禱言
 CARD_ITM06_NAME,銀月巨鐮
@@ -1351,7 +1351,7 @@ CARD_MAG29_NAME,傳送
 CARD_MAG29_STATUSFEEDPLAYEDTOCREATURE,<from_creature>對<to_creature>使用了<card>。
 CARD_MAG29_STATUSFEEDPLAYEDTOTILE,<from_creature>對<tile_name>使用了<card>。
 CARD_MAG29_TARGETTEXT,施用於空白格子
-CARD_MAG30_DESCRIPTION,直到黎明之前，\n受到指定的空格\n誰都無法進出。
+CARD_MAG30_DESCRIPTION,直到黎明之前，\n受到指定的地格\n誰都無法進出。
 CARD_MAG30_FLAVORTEXT,整個村子的人被困住了！那些荊棘都長到天上去了。
 CARD_MAG30_FLAVORTEXTAUTHOR,~斯圖弗·格里夫斯
 CARD_MAG30_NAME,荊棘之牆
@@ -1391,7 +1391,7 @@ CARD_MAG36_FLAVORTEXTAUTHOR,~托爾大師
 CARD_MAG36_NAME,心靈之種
 CARD_MAG36_STATUSFEEDPLAYEDTOTILE,<from_creature>對<tile_name>使用了<card>。
 CARD_MAG36_TARGETTEXT,施用於沼澤
-CARD_MAG46_DESCRIPTION,在空格召喚能使\n生命值 -1 的毒霧\n且效果會持續到\n下個黎明為止。
+CARD_MAG46_DESCRIPTION,在地格上召喚能使\n生命值 -1 的毒霧\n且效果會持續到\n下個黎明為止。
 CARD_MAG46_FLAVORTEXT,懷爾德渴望奪取生命，一如它滋養生命。
 CARD_MAG46_FLAVORTEXTAUTHOR,~獵人尼基爾
 CARD_MAG46_NAME,腐朽之霧
@@ -1575,7 +1575,7 @@ CARD_TRK21_NAME,敢死隊
 CARD_TRK21_STATUSFEEDPLAYEDTOCREATURE,<from_creature>對<to_creature>使用了<card>。
 CARD_TRK21_STATUSFEEDPLAYEDTOTILE,<from_creature>對<tile_name>使用了<card>。
 CARD_TRK21_TARGETTEXT,施用於危機
-CARD_TRK22_DESCRIPTION,向目標挖角 1 名\n隊伍中的隨從。
+CARD_TRK22_DESCRIPTION,奪取 1 名\n隊伍中的隨從。
 CARD_TRK22_FLAVORTEXT,忠誠不是美德，而是用金錢交易換取的。
 CARD_TRK22_FLAVORTEXTAUTHOR,~金牙銀行格言
 CARD_TRK22_NAME,賄賂
@@ -2098,7 +2098,7 @@ CHATMESSAGE_MERCY_RABBIT02,不要過來這裡！這裡沒有人！
 CHATMESSAGE_MERCY_RABBIT03,不要擋路，讓開。
 CHATMESSAGE_MERCY_RABBIT04,饒了我吧！求你！
 CHATMESSAGE_MERCY_RAT01,真正的威脅另有其人。
-CHATMESSAGE_MERCY_RAT02,我不是你的目標。退下！
+CHATMESSAGE_MERCY_RAT02,我不是你的目標。退後！
 CHATMESSAGE_MERCY_RAT03,你不會傷害一隻年邁的老鼠的，是吧？
 CHATMESSAGE_MERCY_RAT04,饒了我吧！饒了我吧！
 CHATMESSAGE_MERCY_WOLF01,退後。
@@ -2371,7 +2371,7 @@ DEBUTTRAILER_SUBTITLE,偉大的英雄，承受著旅程的重擔，並非在肩�
 DECL_0001_KINGSDECLARATIONDATA_ACTIONTEXTID,徵收稅賦
 DECL_0001_KINGSDECLARATIONDATA_DECLARATIONMESSAGEID,國王宣佈了納稅是\n義務！每位英雄必\n須繳納 2 枚金幣。\n交不起稅怎麼辦？\n那就威望 -1。
 DECL_0002_KINGSDECLARATIONDATA_ACTIONTEXTID,靈魂貢品
-DECL_0002_KINGSDECLARATIONDATA_DECLARATIONMESSAGEID,國王將向所有英雄\n各吸收 2 點魔法。\n魔法不足怎麼辦？\n那就威望 -1。
+DECL_0002_KINGSDECLARATIONDATA_DECLARATIONMESSAGEID,國王將向所有英雄\n各抽取 2 點魔法。\n魔法不足怎麼辦？\n那就威望 -1。
 DECL_0003_KINGSDECLARATIONDATA_ACTIONTEXTID,和平條約
 DECL_0003_KINGSDECLARATIONDATA_DECLARATIONMESSAGEID,直到下一個黎明之\n前，所有英雄不准\n相互交戰，違抗者\n將遭受威望 -3。
 DECL_0004_KINGSDECLARATIONDATA_ACTIONTEXTID,災禍之獸
@@ -2427,7 +2427,7 @@ DECL_0028_KINGSDECLARATIONDATA_DECLARATIONMESSAGEID,王宮中，所有國王\n�
 DECL_0029_KINGSDECLARATIONDATA_ACTIONTEXTID,生命維持
 DECL_0029_KINGSDECLARATIONDATA_DECLARATIONMESSAGEID,國王與威望首領訂\n定血之盟約，雙方\n獲得生命值 +1。
 DECL_0030_KINGSDECLARATIONDATA_ACTIONTEXTID,黑暗大軍
-DECL_0030_KINGSDECLARATIONDATA_DECLARATIONMESSAGEID,國王獻祭了他所有\n的守衛並召喚一群\n魔鴆替代其位置。\n黑暗大軍降臨了！
+DECL_0030_KINGSDECLARATIONDATA_DECLARATIONMESSAGEID,國王獻祭了他所有\n的國王守衛並召喚一群\n魔鴆替代其位置。\n黑暗大軍降臨了！
 DECL_0031_KINGSDECLARATIONDATA_ACTIONTEXTID,詛咒之國
 DECL_0031_KINGSDECLARATIONDATA_DECLARATIONMESSAGEID,國王對境內所有一\n般危機施加咒術：\n詛咒之地，來加強\n它們的危機難度。
 DECL_0032_KINGSDECLARATIONDATA_ACTIONTEXTID,私人保全
@@ -2675,7 +2675,7 @@ GAMECONFIG_CONFIG_OVERKILLCONFIG_LEVELCONFIGS_2_COMBATTEXT,超量擊殺
 GAMECONFIG_CONFIG_OVERKILLCONFIG_LEVELCONFIGS_3_COMBATTEXT,屠殺
 GAMECONFIG_CONFIG_OVERKILLCONFIG_LEVELCONFIGS_4_COMBATTEXT,殲滅
 GAMECONFIG_CONFIG_OVERKILLCONFIG_LEVELCONFIGS_5_COMBATTEXT,屈辱
-GAMEGUIDEPAGE_AMBUSH_BODYTEXT,當角色與潛行的對象發生衝突，就會進入被伏擊狀態。即使是兩個隱身的角色也有可能意外發生衝突，從而互相伏擊對方。\n\n<sprite52>\n\n當角色被伏擊時，他們將無法燒毀卡牌。
+GAMEGUIDEPAGE_AMBUSH_BODYTEXT,當角色與潛行的對象發生衝突，就會進入被伏擊狀態。即使是兩個潛行的角色也有可能意外發生衝突，從而互相伏擊對方。\n\n<sprite52>\n\n當角色被伏擊時，他們將無法燒毀卡牌。
 GAMEGUIDEPAGE_AMBUSH_TITLETEXT,伏擊
 GAMEGUIDEPAGE_ARMELLIANDICE_BODYTEXT,<sprite01>\n[b]【劍】 [/b]算作一次攻擊。\n\n<sprite02>\n[b]【盾牌】 [/b]算作一次防禦，擋住一次對手的攻擊。\n\n<sprite03>\n[b]【太陽】 [/b]在白天擲骰時算作一次攻擊。\n\n<sprite04>\n[b]【月亮】 [/b]在黑夜擲骰時算作一次攻擊。\n\n<sprite05>\n[b]【汙穢】 [/b]算作一次未命中。\n\n<sprite06>\n[b]【懷爾德之樹】[/b]算作一次攻擊和爆炸（獎勵一顆額外骰子）！\n\n小提醒：如果你的汙穢達到 5 而成為腐化狀態，你的懷爾德與汙穢都會被轉換 ── 懷爾德將會被算作未命中，汙穢將被算作攻擊和爆炸！\n\n[b]骰子修改：[/b]\n\n特定卡牌和英雄能力將影響擲骰的結果。這些影響被稱為骰子調節。骰子調節一共有三種。\n\n[b]● 穿透：[/b]擊穿一次防禦，即使對手格擋也會受到傷害。\n\n[b]● 反射：[/b]格擋攻擊，並反彈傷害給你的對手。\n\n[b]● 劇毒：[/b]如果該攻擊造成傷害，對手將會中毒。\n\n小提醒：如果同時出現兩個被調節的骰子（例如穿透遇到反射），它們會互相抵銷，不產生任何效果。
 GAMEGUIDEPAGE_ARMELLIANDICE_TITLETEXT,愛門羅的骰子
@@ -2691,7 +2691,7 @@ GAMEGUIDEPAGE_CHESTSANDKEYS_BODYTEXT,<sprite55>\n作為加入多人遊戲的獎�
 GAMEGUIDEPAGE_CHESTSANDKEYS_TITLETEXT,寶箱收藏品
 GAMEGUIDEPAGE_CHESTSMOBILE_BODYTEXT,<sprite55>\n作為完成遊戲的獎勵，玩家會拿到寶箱。\n\n寶箱會以「收藏」系列推出，每種收藏包含多種獨特的骰子，並分為五個稀有等級：普通、罕見、稀有、史詩以及傳說。\n\n<sprite57>\n\n玩家可在物品欄中打開寶箱，並且獲得一個隨機的骰子。\n\n附註：可用的收藏會不斷更新，快在遊戲中將它們一一集齊吧！
 GAMEGUIDEPAGE_CHESTSMOBILE_TITLETEXT,寶箱
-GAMEGUIDEPAGE_CLANGROUNDS_BODYTEXT,部族屬地是遊戲的一項特殊區域，專門儲存你的印戒、護符、外觀、對話、吹噓以及其它可自訂的選項。\n\n<sprite65>\n\n你可以利用部族屬地為每一位英雄設定獨特的裝備配置，並示範不同的組合。\n\n你在部族屬地也能查看關於英雄精通之路的訊息，以及你尚未解鎖的獎勵。\n\n你可以透過主選單存取部族屬地。
+GAMEGUIDEPAGE_CLANGROUNDS_BODYTEXT,部族屬地是遊戲的一項特殊區域，專門儲存你的印戒、護符、外觀、對話、吹噓以及其它可自訂的選項。\n\n<sprite65>\n\n你可以利用部族屬地為每一位英雄設定獨特的裝備配置，並試用不同的組合。\n\n你在部族屬地也能查看關於英雄精通之路的訊息，以及你尚未解鎖的獎勵。\n\n你可以透過主選單存取部族屬地。
 GAMEGUIDEPAGE_CLANGROUNDS_TITLETEXT,部族屬地
 GAMEGUIDEPAGE_COMBAT_BODYTEXT,在戰鬥中，雙方都將擲出數量等同於戰力值的骰子。\n\n<sprite10>\n\n你只要擲出比對手防禦骰子更多的攻擊骰子，就能對對手造成傷害。\n\n<sprite11>\n\n給對手造成較多傷害、並且存活下來的一方會贏得戰鬥。\n\n如果攻擊方贏得戰鬥，他們會佔領前方的格子，將防禦方逼退。\n\n如果防禦方贏得戰鬥，他們會堅守在原來的格子上。\n\n如果一方的生命耗盡，他們就會死亡並結束回合，同時返回部族城堡。
 GAMEGUIDEPAGE_COMBAT_TITLETEXT,戰鬥
@@ -2727,7 +2727,7 @@ GAMEGUIDEPAGE_RECONNECT_BODYTEXT,<sprite64>\n\n如果您的任務因連線丟失
 GAMEGUIDEPAGE_RECONNECT_TITLETEXT,重新連線
 GAMEGUIDEPAGE_ROT_BODYTEXT,<sprite39>\n\n汙穢是一種暗黑的、惡毒的力量。除了知道它渴望生命、消耗生命，扭曲一切它所接觸到的事物外，關於它的資訊很少。有人說，那些想要知道其暗黑秘密的人會受其控制。\n\n汙穢的增長分為兩階段；\n\n<sprite40>\n\n[b]被感染：[/b]每逄黎明時生命值 -1。戰鬥中，擁有比你更高汙穢等級的生物將獲得你的汙穢作為獎勵骰子數！\n\n<sprite41>\n\n[b]腐化：[/b]一旦汙穢達到 5，你就完全地腐化了。被感染的效果會繼續存在；魔鴆不再主動攻擊你；戰鬥中懷爾德轉而代表未命中，而汙穢成了攻擊和爆炸。你每次殺死敵人會獲得生命值 +1、消滅魔鴆時也會使汙穢 +1；進入巨石陣或守護石，將失去與你的汙穢等量的生命值。
 GAMEGUIDEPAGE_ROT_TITLETEXT,汙穢
-GAMEGUIDEPAGE_ROUTING_BODYTEXT,英雄或生物在戰鬥中失利但倖存下來後，將往身後三個方向其中一個方向後退一格。\n\n倘若這 3 個格子都被擋住了，英雄沒辦法後退，則將被殺死（趕盡殺絕），無論是否還有生命值。\n\n<sprite42>
+GAMEGUIDEPAGE_ROUTING_BODYTEXT,英雄或生物在戰鬥中失利但倖存下來後，將往身後三個方向其中一個方向後退一格。\n\n倘若這 3 個格子都被擋住了，英雄沒辦法後退，則將被殺死（潰敗），無論是否還有生命值。\n\n<sprite42>
 GAMEGUIDEPAGE_ROUTING_TITLETEXT,潰退
 GAMEGUIDEPAGE_SPIRITSTONES_BODYTEXT,<sprite43>\n\n心靈石是古老且受人追尋著的蘊含懷爾德能量的物品。無形態而存在的生命精華。\n\n你可以通過任務、探索、冒險，在地圖上收集它們。\n\n<sprite44>\n\n收集 4 塊心靈石的英雄將被認為是心靈行者。\n\n[b]心靈行者：[/b]獲得 4 塊心靈石將免於汙穢侵襲，收到汙穢 +1 會變成生命值 -1。\n心靈石可用於淨化擁有黑暗之心的生物（比如國王、魔鴆），在他們鄰近的格子上點擊他們、淨化汙穢，快速殺死他們。附註：淨化消耗 1 行動點數，淨化後你將留在自己的格子上。最後，魔鴆主動避開心靈行者。\n\n由於他們能淨化擁有黑暗之心的生物，如果心靈行者能抵達國王的正殿，他們就能清除國王的汙穢，拯救愛門羅王國，以心靈石勝利贏得比賽。
 GAMEGUIDEPAGE_SPIRITSTONES_TITLETEXT,心靈石
@@ -2740,7 +2740,7 @@ GAMEGUIDEPAGE_TRANSMOGRIFY_TITLETEXT,變形
 GAMEPROGRESS_DESCRIPTION,使用全部八位初始英雄，以全部四種勝利方式完成序幕，登上愛門羅的王座。
 GAME_GUIDE_CHANGE_PAGE,改變主題
 GAME_GUIDE_CONTROL,上/下
-GAME_INTRO_LINE_1,無論鼠族還是熊族，各個部族都宣戰，\n\n爭奪天下的時間到了。
+GAME_INTRO_LINE_1,無論鼠族還是熊族，各個部族都宣告，\n\n爭奪天下的時間到了。
 GAME_INTRO_LINE_2,由於受到汙穢的侵襲，國王性格變得扭曲，\n\n威脅著愛門羅。
 GAME_INTRO_SKIP_TEXT,按任意鍵跳過
 GAME_INTRO_SKIP_TOUCH_TEXT,點擊跳過
@@ -2975,7 +2975,7 @@ HERO_BANDIT_04_HEROSELECTTOOLTIP,此人是天生的領袖。獨具魅力，足�
 HERO_BANDIT_04_NAME,絲卡蕾特
 HERO_BANDIT_04_TOOLTIPBODYTEXT,此人是天生的領袖。具備著領袖魅力，機智與冷酷的決心。
 HERO_BEAR_01_DESCRIPTION,森林姊妹
-HERO_BEAR_01_HEROSELECTTOOLTIP,薩娜敬奉懷爾德，\n施放咒術是她天生的本事。
+HERO_BEAR_01_HEROSELECTTOOLTIP,薩娜與懷爾德合一，\n施放咒術是她天生的本事。
 HERO_BEAR_01_NAME,薩娜
 HERO_BEAR_01_TOOLTIPBODYTEXT,薩娜與懷爾德合一，施放咒術是她天生的本事。
 HERO_BEAR_02_DESCRIPTION,橡樹破壞者
@@ -3034,11 +3034,11 @@ HERO_RAT_02_HEROSELECTTOOLTIP,一位致命的暗殺者，\n伺機而動取人性
 HERO_RAT_02_NAME,佐莎
 HERO_RAT_02_TOOLTIPBODYTEXT,一位致命的暗殺者，隨時手起刀落取人首級。
 HERO_RAT_03_DESCRIPTION,死亡預言者
-HERO_RAT_03_HEROSELECTTOOLTIP,來自帷幕彼端，交換各種秘密\n的黑暗行者。
+HERO_RAT_03_HEROSELECTTOOLTIP,來自帷幕彼端，交換各種秘密\n的恐怖化身。
 HERO_RAT_03_NAME,薩爾貢
 HERO_RAT_03_TOOLTIPBODYTEXT,來自帷幕彼端，以秘密為交易的恐怖存在。
 HERO_RAT_04_DESCRIPTION,屠夫女爵
-HERO_RAT_04_HEROSELECTTOOLTIP,一隻惡毒的、熱愛背叛的老鼠，\n具有雙重人格。
+HERO_RAT_04_HEROSELECTTOOLTIP,一隻惡毒的、熱愛背叛的老鼠，\n個性加倍。
 HERO_RAT_04_NAME,格里葉
 HERO_RAT_04_TOOLTIPBODYTEXT,一隻惡毒的、熱愛背叛的老鼠，個性加倍。
 HERO_SHELF_AMULET,護符
@@ -3059,7 +3059,7 @@ HERO_SHELF_SPIRIT_STONES_SPIRITWALKER_DESC,已經準備好使用\n心靈石淨�
 HERO_SPIRIT,精力
 HERO_WITS,智力
 HERO_WOLF_01_DESCRIPTION,冬狼
-HERO_WOLF_01_HEROSELECTTOOLTIP,森在械鬥中無人能敵，\n堪稱天生的獵手。
+HERO_WOLF_01_HEROSELECTTOOLTIP,森在兵刃戰技中無人能敵，\n堪稱天生的獵手。
 HERO_WOLF_01_NAME,森
 HERO_WOLF_01_TOOLTIPBODYTEXT,森在械鬥中無人能敵，堪稱天生的獵手。
 HERO_WOLF_02_DESCRIPTION,嗥叫之箭
@@ -3115,7 +3115,7 @@ INVMENU_TOOLTIP_TRANSMOGRIFY_HEROSKINPIECE,用5個同一部族的英雄外觀碎
 INVMENU_TRANSMOGRIFY,變形
 INVMENU_UNEQUIP,解除裝備
 INV_AMULET05_DESCRIPTION,[c]生長之符[/c]\n\n每逢黃昏來臨的時候會有自我治癒能力，使生命值 +1。\n\n英雄護符。所有英雄均可佩戴。
-INV_AMULET06_DESCRIPTION,[c]觀察之符[/c]\n\n每當進入危機之中，保證第一個符號會被直接匹配。\n\n英雄護符。所有英雄均可佩戴。
+INV_AMULET06_DESCRIPTION,[c]守望之符[/c]\n\n每當進入危機之中，保證第一個符號會被直接匹配。\n\n英雄護符。所有英雄均可佩戴。
 INV_AMULET07_DESCRIPTION,[c]偏愛之符[/c]\n\n初始即擁有威望 2 。而且你的威望絕不會降到少於 2。\n\n英雄護符。所有英雄均可佩戴。
 INV_AMULET08_DESCRIPTION,[c]敗壞之符[/c]\n\n初始汙穢為 2 ：遊戲一開始已經是被感染的狀態，故每逢黎明會遭受生命值 -1。\n\n英雄護符。所有英雄均可佩戴。
 INV_AMULET10_DESCRIPTION,[c]挖掘之符[/c]\n\n每次獲得一塊心靈石的時候，同時也能夠獲得金幣 +3。
@@ -3123,7 +3123,7 @@ INV_AMULET11_DESCRIPTION,[c]衝刺之符[/c]\n\n結束回合時，若有剩餘 1
 INV_AMULET12_DESCRIPTION,[c]紀律之符[/c]\n\n在部族特性的晝／夜加成上，額外再提供骰子數 +2。\n\n英雄護符。所有英雄均可佩戴。
 INV_AMULET13_DESCRIPTION,[c]抵抗之符[/c]\n\n每次進入戰鬥之中、或是危機中的時候，賦予盾牌 +1。\n\n英雄護符。所有英雄均可佩戴。
 INV_AMULET14_DESCRIPTION,[c]恫嚇之符[/c]\n\n在一個生物身旁格子結束你的回合之後，會使該生物在戰鬥中遭受到骰子數 -2，直到下一個回合結束。\n\n英雄護符。所有英雄均可佩戴。
-INV_AMULET15_DESCRIPTION,[c]調和之符[/c]\n\n當尚未腐化的時候，在戰鬥中，你手裡頭所有汙穢符號的卡牌會變成懷爾德符號。\n\n英雄護符。所有英雄均可佩戴。
+INV_AMULET15_DESCRIPTION,[c]調和之符[/c]\n\n當尚未腐化的時候，在戰鬥中，你手裡頭所有汙穢符號的骰面會變成懷爾德符號。\n\n英雄護符。所有英雄均可佩戴。
 INV_AMULET16_DESCRIPTION,[c] 腐朽之符[/c]\n\n每當汙穢 +1，會治癒生命值 +2，腐化狀態進入巨石陣時所受到的傷害被侷限為 3。\n\n英雄護符。所有英雄均可佩戴。
 INV_BADGE_1101_DEVELOPER_DESCRIPTION,你正在玩的這款遊戲嘛……這個傢伙也有參與製作。啊，呀。
 INV_BADGE_1101_DEVELOPER_TITLE,開發者
@@ -3291,7 +3291,7 @@ INV_DICE_1007_EARLYACCESS_DESCRIPTION,只有幫助愛門羅走向今日輝煌的
 INV_DICE_1007_EARLYACCESS_TITLE,體驗版骰子
 INV_DICE_1008_BEARCLANLEGEND_DESCRIPTION,愛門羅有許多偉大的預言皆降臨與迸發自這些骰子。傳說它們與人的精神相互聯結。\n\n熊族的傳奇骰子。\n\n精神之力，無堅不摧。
 INV_DICE_1008_BEARCLANLEGEND_TITLE,靈裔骰子
-INV_DICE_1009_RABBITCLANLEGEND_DESCRIPTION,兔族傳說裡這些骰子是由第一位在蒼穹之下遊走的兔子所使用。就從那時開始，只有豪門貴胄才能一睹它們的尊容。\n\n兔族的傳奇骰子。\n\n上接千仞，下探萬丈。
+INV_DICE_1009_RABBITCLANLEGEND_DESCRIPTION,兔族傳說裡這些骰子是由第一位在蒼穹之下遊走的兔子所使用。就從那時開始，它們便為顯貴獻藝。\n\n兔族的傳奇骰子。\n\n上接千仞，下探萬丈。
 INV_DICE_1009_RABBITCLANLEGEND_TITLE,驕傲之歌骰子
 INV_DICE_1010_RATCLANLEGEND_DESCRIPTION,這鮮紅的小立方體滿含機遇，不少可憐動物為之掏空錢包、甚至為之喪命。據說骰子主人的力量增長時它們會發出嗡嗡雜聲。\n\n鼠族的傳奇骰子。\n\n玫瑰與荊棘。
 INV_DICE_1010_RATCLANLEGEND_TITLE,玫瑰金骰子
@@ -3307,7 +3307,7 @@ INV_DICE_1015_ROYAL_DESCRIPTION,愛門羅的國王將這些骰子賜給國王守
 INV_DICE_1015_ROYAL_TITLE,皇室骰子
 INV_DICE_1016_HALLOWEEN_DESCRIPTION,這些骰子是用死刑犯的骸骨手工製成，在絞刑前夕的狂歡者中頗為流行。\n\n會在萬聖節掉落。
 INV_DICE_1016_HALLOWEEN_TITLE,絞刑前夕骰子
-INV_DICE_1017_BEARCLAN_DESCRIPTION,並非遇到所有事都要用魔法賣弄一番，熊族知道什麼時候可以用精妙的工具來解決問題。\n\n熊族的官方骰子。\n\n精神之力，無堅不摧。
+INV_DICE_1017_BEARCLAN_DESCRIPTION,並非遇到所有事都要用魔法賣弄一番，熊族知道什麼時候可以用低調的工具來解決問題。\n\n熊族的官方骰子。\n\n精神之力，無堅不摧。
 INV_DICE_1017_BEARCLAN_TITLE,熊族骰子
 INV_DICE_1018_RABBITCLAN_DESCRIPTION,即使這種包藏機遇的小物件如此簡易，兔族骰子仍然非比尋常。\n\n兔族的官方骰子。\n\n上接千仞，下探萬丈。
 INV_DICE_1018_RABBITCLAN_TITLE,兔族骰子
@@ -3336,13 +3336,13 @@ INV_HEROBEAR01_DESCRIPTION,"薩娜與懷爾德合一，施放咒術是她天生�
 INV_HEROBEAR01_TITLE,薩娜，森林姊妹
 INV_HEROBEAR02_DESCRIPTION,"懷爾德令這頭破壞熊變得勢不可擋。\n\n[c]戰力:[/c] 4, [c]體力:[/c] 6, [c]智力:[/c] 3, [c]精力:[/c] 3\n\n[c]疤痕施法者[/c]\n布朗每施展一個咒術，會在下個戰鬥中獲得一顆鎖定該咒術卡牌符號的獎勵骰子，直到下一回合結束。"
 INV_HEROBEAR02_TITLE,布朗，橡樹破壞者
-INV_HEROBEAR03_DESCRIPTION,"這只是一頭單純對森林著迷的熊。\n\n[c]戰力:[/c] 3, [c]體力:[/c] 6, [c]智力:[/c] 3, [c]精力:[/c] 4\n\n[c]樹人[/c]\n在森林中結束回合後，古爾的樹甲會啟動，使他對下一個傷害來源免疫。黎明時的汙穢傷害不受影響。"
+INV_HEROBEAR03_DESCRIPTION,"這只是一頭單純對森林著迷的熊。\n\n[c]戰力:[/c] 3, [c]體力:[/c] 6, [c]智力:[/c] 3, [c]精力:[/c] 4\n\n[c]樹鬚[/c]\n在森林中結束回合後，古爾的樹甲會啟動，使他對下一個傷害來源免疫。黎明時的汙穢傷害不受影響。"
 INV_HEROBEAR03_TITLE,古爾，懷爾德血裔
 INV_HEROBEAR04_DESCRIPTION,"一位古怪的老嫗，致力於研究懷爾德… 以各種過激的手段。\n\n[c]戰力:[/c] 2, [c]體力:[/c] 5, [c]智力:[/c] 4, [c]精力:[/c] 5\n\n[c]坩堝老嫗[/c]\n在約達納的回合，對她施用的咒術會被她的坩堝吞噬而無效且魔法 -1，並使她在回合結束時獲得 1 張特殊的條約咒術卡牌。"
 INV_HEROBEAR04_TITLE,吞噬者約達納
 INV_HERORABBIT01_DESCRIPTION,"一位全能戰士，此外錢包也很厚實。\n\n[c]戰力:[/c] 3, [c]體力:[/c] 5, [c]智力:[/c] 4, [c]精力:[/c] 4\n\n[c]古墓奇兵[/c]\n探索時有更高的機率找到獎勵。"
 INV_HERORABBIT01_TITLE,安柏，遠征者
-INV_HERORABBIT02_DESCRIPTION,"一位多才多藝而且容易激動的神童！\n\n[c]戰力:[/c] 4, [c]體力:[/c] 6, [c]智力:[/c] 4, [c]精力:[/c] 2\n\n[c]修補匠[/c]\n在裝備欄上裝備新的道具時，會將原來的裝備回收至手牌，並移除牌上的花費或增益。"
+INV_HERORABBIT02_DESCRIPTION,"一位機智過人而且容易激動的神童！\n\n[c]戰力:[/c] 4, [c]體力:[/c] 6, [c]智力:[/c] 4, [c]精力:[/c] 2\n\n[c]修補匠[/c]\n在裝備欄上裝備新的道具時，會將原來的裝備回收至手牌，並移除牌上的花費或增益。"
 INV_HERORABBIT02_TITLE,巴納比，怪咖
 INV_HERORABBIT03_DESCRIPTION,"一位以使命必達而著名的建築高手。\n\n[c]戰力:[/c] 3, [c]體力:[/c] 5, [c]智力:[/c] 5, [c]精力:[/c] 3\n\n[c]建築師[/c]\n在村落上結束回合就能對其永久地防禦強化。艾西莉亞能夠無視強化的村落的移動懲罰。"
 INV_HERORABBIT03_TITLE,艾西莉亞，兔窩的守望者
@@ -3350,13 +3350,13 @@ INV_HERORABBIT04_DESCRIPTION,"曾經是兔族中頂尖的貴族，一位功勳�
 INV_HERORABBIT04_TITLE,雷霆伯爵哈格雷夫
 INV_HERORAT01_DESCRIPTION,"一位玩弄詭術與刀劍的大師。\n\n[c]戰力:[/c] 4, [c]體力:[/c] 5, [c]智力:[/c] 5, [c]精力:[/c] 2\n\n[c]流氓[/c]\n佔領村落的時候從原所有者那裡竊取 1 金幣。"
 INV_HERORAT01_TITLE,墨可利歐，笑刀
-INV_HERORAT02_DESCRIPTION,"一位致命的暗殺者，隨時能手起刀落、取人首級。\n\n[c]戰力:[/c] 5, [c]體力:[/c] 4, [c]智力:[/c] 4, [c]精力:[/c] 3\n\n[c]鬼影[/c]\n在夜晚時，佐莎在任意地方都能進入潛行狀態。"
+INV_HERORAT02_DESCRIPTION,"一位致命的暗殺者，伺機而動、取人首級。\n\n[c]戰力:[/c] 5, [c]體力:[/c] 4, [c]智力:[/c] 4, [c]精力:[/c] 3\n\n[c]鬼影[/c]\n在夜晚時，佐莎在任意地方都能進入潛行狀態。"
 INV_HERORAT02_TITLE,佐莎，旋風
 INV_HERORAT03_DESCRIPTION,"從迷霧彼端買賣秘密的恐怖化身。\n\n[c]戰力:[/c] 3, [c]體力:[/c] 4, [c]智力:[/c] 5, [c]精力:[/c] 4\n\n[c]透視之眼[/c]\n在抽卡時，每個牌堆最上面的卡牌正面朝上。"
 INV_HERORAT03_TITLE,薩爾貢，死亡預言者
 INV_HERORAT04_DESCRIPTION,"一隻陰險狡詐、善於背叛、性格加倍的老鼠。\n\n[c]戰力:[/c] 4, [c]體力:[/c] 4, [c]智力:[/c] 5, [c]精力:[/c] 3\n\n[c]街頭女皇[/c]\n格里葉的部族特性骰子加成數，與前一日所使用的詭術卡牌數量相等。"
 INV_HERORAT04_TITLE,屠夫女爵格里葉
-INV_HEROWOLF01_DESCRIPTION,"森在械鬥中無人能敵，堪稱天生的獵手。\n\n[c]戰力:[/c] 5, [c]體力:[/c] 5, [c]智力:[/c] 3, [c]精力:[/c] 3\n\n[c]劍術大師[/c]\n戰鬥中燒毀的劍卡牌可以穿透對手的防禦。"
+INV_HEROWOLF01_DESCRIPTION,"森在兵刃戰技上無人能敵，堪稱天生的獵手。\n\n[c]戰力:[/c] 5, [c]體力:[/c] 5, [c]智力:[/c] 3, [c]精力:[/c] 3\n\n[c]劍術大師[/c]\n戰鬥中燒毀的劍卡牌可以穿透對手的防禦。"
 INV_HEROWOLF01_TITLE,森，冬狼
 INV_HEROWOLF02_DESCRIPTION,"算無遺策，出手必死。\n\n[c]戰力:[/c] 4, [c]體力:[/c] 5, [c]智力:[/c] 4, [c]精力:[/c] 3\n\n[c]女獵手[/c]\n里弗在發動攻擊前會先射箭造成 1 點傷害。如果目標被擊殺，她會留在原地（仍會消耗行動點數）。"
 INV_HEROWOLF02_TITLE,里弗，嗥叫之箭
@@ -4168,7 +4168,7 @@ PROLOGUEACT4CONFIG_REFILLCARDADVICE,你失去了你的<card>！這裡有另外�
 PROLOGUEACT4CONFIG_REFILLRESOURCESADVICE,再給你一點<stat_type>，這樣你就能使用『<card>』了。
 PROLOGUESELECT_CONTINUE,繼續
 PROLOGUE_ACT1_OUTRO_1,黑暗蠢蠢欲動著\n\n汙穢已經重新回歸愛門羅了
-PROLOGUE_ACT1_OUTRO_2,被獵捕的狼被迫撤退\n\n而老鼠為了從中牟取利益而鬼鬼祟祟
+PROLOGUE_ACT1_OUTRO_2,被獵捕的狼被迫撤退\n\n而老鼠潛入打探
 PROLOGUE_ACT2_OUTRO_1,混亂籠罩著整片大地\n\n英雄們遁離以止步謀劃
 PROLOGUE_ACT2_OUTRO_2,但在王國東方、旭日升起之時\n\n兔子的任務已經開始\n
 PROLOGUE_ACT3_OUTRO_1,國王拋棄了他那純淨的道路\n\n汙穢日益強大、橫行無阻
@@ -4300,7 +4300,7 @@ QUEST_BANDIT_1_5_QUESTINFODATA_ACTIONS_1_ACTIONTEXT,讓他們從鐵窗脫身
 QUEST_BANDIT_1_5_QUESTINFODATA_ACTIONS_1_DEFAULTOUTCOME_JOURNALTEXT,<hero_name>爬到了附近的一個鐵窗那裡，給它開了個小缺口 ── 寬到能讓人勉強擠過，但並非所有人都能通過。
 QUEST_BANDIT_1_5_QUESTINFODATA_ACTIONS_1_DEFAULTOUTCOME_OUTCOMETEXT,你爬到了他們牢房的鐵窗那裡，但只有幾個人能夠從你砍出的缺口逃脫。顯然這不是最好的越獄方法。
 QUEST_BANDIT_1_5_QUESTINFODATA_ENCOUNTERTEXT,這個小鎮中的監獄戒備相當森嚴，有著許多樓層和守衛。這任務可不簡單。
-QUEST_BANDIT_1_5_QUESTINFODATA_JOURNALENCOUNTERTEXT,我們的英雄站在這易守難攻的建築前沉思了一會，計畫著可行的方法。看來這次營救行動將讓我們在史書上流芳百世，或是屎臭萬年。
+QUEST_BANDIT_1_5_QUESTINFODATA_JOURNALENCOUNTERTEXT,我們的英雄站在這雄偉懾人的建築前，思量著各種選擇。這將是名留青史的成功，或是遺臭萬年的失敗。
 QUEST_BANDIT_1_5_QUESTINFODATA_JOURNALRUMOURTEXT,<hero_name>在通往王座的旅途中首先來到了一個小鎮，他們的強盜同夥們正被囚禁在一座大監獄裡腐爛。
 QUEST_BANDIT_1_5_QUESTINFODATA_RUMOURTEXT,我們一些最忠誠的隨從們被當地守衛給抓住了。想救他們出來光靠蠻力似乎是行不通的！
 QUEST_BANDIT_1_5_QUESTINFODATA_TITLE,劫獄救人
@@ -4680,7 +4680,7 @@ QUEST_BANDIT_3_1_QUESTINFODATA_ACTIONS_4_ACTIONTEXT,嘗試策劃劫案
 QUEST_BANDIT_3_1_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_JOURNALTEXT,我們的英雄被抓住了！正當貴族幻想著他的獎賞時，<hero_name>亮出了皇室赦令，然後得意竊笑著揚長而去了。
 QUEST_BANDIT_3_1_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_OUTCOMETEXT,你悄然離席，往後面的房間走去。你被發現了，不過出示了皇室赦令之後，他們釋放了你。
 QUEST_BANDIT_3_1_QUESTINFODATA_ENCOUNTERTEXT,你憑著一封偽造的邀請函，混進了貴族奢華的宅院裡，坐上了賭桌。你猛然注意到，有不少守衛正留意著全場。
-QUEST_BANDIT_3_1_QUESTINFODATA_JOURNALENCOUNTERTEXT,<hero_name>用假名參加了賭局，但賭注是真的！他們需要得到那顆心靈石！
+QUEST_BANDIT_3_1_QUESTINFODATA_JOURNALENCOUNTERTEXT,<hero_name>用假名參加了卡牌大賽，但賭注再真實不過。他們需要那顆心靈石！
 QUEST_BANDIT_3_1_QUESTINFODATA_JOURNALRUMOURTEXT,牌局！真是古雅！我們的英雄正忙著爭奪王位，對這肯定沒有興趣的，但如果獎品是心靈石的話就另當別論了！
 QUEST_BANDIT_3_1_QUESTINFODATA_RUMOURTEXT,這位熱愛賭博的貴族可能會因此身敗名裂，再加上耍老千是你的拿手好戲！說不定能想辦法把心靈石從他那裡給騙過來！
 QUEST_BANDIT_3_1_QUESTINFODATA_TITLE,全押
@@ -4750,7 +4750,7 @@ QUEST_BANDIT_3_4_QUESTINFODATA_JOURNALENCOUNTERTEXT,這場策反在<quest_tile>�
 QUEST_BANDIT_3_4_QUESTINFODATA_JOURNALRUMOURTEXT,<hero_name>得知了一場取他性命的陰謀，主謀竟然是自家的強盜！看來這群匪徒一點榮譽心都沒有！
 QUEST_BANDIT_3_4_QUESTINFODATA_RUMOURTEXT,氏族裡並不是每位打手都認同你代表他們來奪取王座的，煩請萬分小心。
 QUEST_BANDIT_3_4_QUESTINFODATA_TITLE,遭伏
-QUEST_BANDIT_3_5_QUESTINFODATA_ACTIONS_0_ACTIONTEXT,殺光他們！
+QUEST_BANDIT_3_5_QUESTINFODATA_ACTIONS_0_ACTIONTEXT,攻入地牢，殺光這幫匪徒！
 QUEST_BANDIT_3_5_QUESTINFODATA_ACTIONS_0_DEFAULTOUTCOME_JOURNALTEXT,<hero_name>英勇地試圖攻下這座地穴，但幫眾盤踞固守，將我們的英雄擊退，贏得了勝利。
 QUEST_BANDIT_3_5_QUESTINFODATA_ACTIONS_0_DEFAULTOUTCOME_OUTCOMETEXT,你直衝進兔窩，但他們一擁而上，把你給團團包圍了！你被打得不省人事，逼著只好落荒而逃了！
 QUEST_BANDIT_3_5_QUESTINFODATA_ACTIONS_0_TESTSUCCESSOUTCOME_JOURNALTEXT,<hero_name>衝進了地穴，將他們一個不留的全部殺光，並順利救出了你的強盜夥伴。兩人結伴踏上了旅程！
@@ -4781,7 +4781,7 @@ QUEST_BANDIT_3_6_QUESTINFODATA_ACTIONS_2_ACTIONTEXT,戴上群英頭盔
 QUEST_BANDIT_3_6_QUESTINFODATA_ACTIONS_2_DEFAULTOUTCOME_JOURNALTEXT,我們的英雄不想犯險讓自己重傷。他戴上了群英頭盔，出戰業餘組。儘管只贏了個小獎回來，但贏得漂亮。
 QUEST_BANDIT_3_6_QUESTINFODATA_ACTIONS_2_DEFAULTOUTCOME_OUTCOMETEXT,這場比武將會是場惡戰，但你又不想身受重傷。於是你戴上頭盔出戰了，結果不但毫髮無傷，而且還贏了個小獎回來。
 QUEST_BANDIT_3_6_QUESTINFODATA_ACTIONS_3_ACTIONTEXT,手持加農砲上膛
-QUEST_BANDIT_3_6_QUESTINFODATA_ACTIONS_3_DEFAULTOUTCOME_JOURNALTEXT,我們的英雄失去參賽資格了。攜帶手持加農砲是嚴令禁止的！不過<hero_name>還是贏了一份參賽獎。\n
+QUEST_BANDIT_3_6_QUESTINFODATA_ACTIONS_3_DEFAULTOUTCOME_JOURNALTEXT,我們的英雄失去參賽資格了。攜帶手銃是嚴令禁止的！不過<hero_name>還是贏了一份參賽獎。\n
 QUEST_BANDIT_3_6_QUESTINFODATA_ACTIONS_3_DEFAULTOUTCOME_OUTCOMETEXT,你的裝備更勝一籌。所有與你交手的人都被射倒了。你被取消了資格，但獲得了一份安慰獎。
 QUEST_BANDIT_3_6_QUESTINFODATA_ACTIONS_4_ACTIONTEXT,我也想參賽…
 QUEST_BANDIT_3_6_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_JOURNALTEXT,我們的英雄注意到侍從也想參賽。出於同情，<hero_name>指導他一路拿下了體面的第三名。
@@ -4941,7 +4941,7 @@ QUEST_BANDIT_4_1_QUESTINFODATA_ACTIONS_4_ACTIONTEXT,QUEST_BANDIT_4_1_QUESTINFODA
 QUEST_BANDIT_4_1_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_JOURNALTEXT,QUEST_BANDIT_4_1_QUESTINFODATA_ACTIONS_2_DEFAULTOUTCOME_JOURNALTEXT
 QUEST_BANDIT_4_1_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_OUTCOMETEXT,QUEST_BANDIT_4_1_QUESTINFODATA_ACTIONS_2_DEFAULTOUTCOME_OUTCOMETEXT
 QUEST_BANDIT_4_1_QUESTINFODATA_ENCOUNTERTEXT,兔穴中迴響著至古以來亡者們的哀號。當中，有不少屍骸是屬於你們強盜氏族的同胞，在前往搜尋心靈石的途中而不幸遇害了。
-QUEST_BANDIT_4_1_QUESTINFODATA_JOURNALENCOUNTERTEXT,我們的英雄沒有因而退縮，<hero_name>急忙動身前去尋找心靈石的下落，且能盡快安葬自己的強盜同胞。
+QUEST_BANDIT_4_1_QUESTINFODATA_JOURNALENCOUNTERTEXT,但我們的英雄沒有因而退縮！<hero_name>急忙動身前去奪取心靈石，讓逝去的同伴得以安息。
 QUEST_BANDIT_4_1_QUESTINFODATA_JOURNALRUMOURTEXT,我們的英雄聽說了有塊心靈石藏在一座古老的鼠族地穴中。已經有很多強盜同胞死在裡面了……
 QUEST_BANDIT_4_1_QUESTINFODATA_RUMOURTEXT,打聽到一座古老的鼠族地穴中藏有一塊心靈石，但由於裡頭隱藏的陷阱，我們已經失去不少盜賊好手了。
 QUEST_BANDIT_4_1_QUESTINFODATA_TITLE,兔窟之石
@@ -4963,7 +4963,7 @@ QUEST_BANDIT_4_2_QUESTINFODATA_ACTIONS_4_ACTIONTEXT,「黃金。以金換自由�
 QUEST_BANDIT_4_2_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_JOURNALTEXT,財務官結結巴巴的與松鼠們交談著。多虧了這些憑空捏造的金幣承諾，我們英雄的腦袋還留在自己的肩膀上，而不是長矛上。
 QUEST_BANDIT_4_2_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_OUTCOMETEXT,你的財務官上前一步，與松鼠們交涉著。對金幣的貪欲和你的人頭在天秤兩邊不斷的較勁著。最後貪欲獲得了勝利，感謝懷爾德。你安全了！
 QUEST_BANDIT_4_2_QUESTINFODATA_ENCOUNTERTEXT,你被長矛頂著帶去了族長的小屋。他認為你的腦袋與其留在肩膀上，還不如掛在長矛上作為警示來得有用！
-QUEST_BANDIT_4_2_QUESTINFODATA_JOURNALENCOUNTERTEXT,<hero_name>任憑自己被長槍頂著帶去老邁的酋長那裡。我們的英雄身陷險境，四周刀劍林立。
+QUEST_BANDIT_4_2_QUESTINFODATA_JOURNALENCOUNTERTEXT,<hero_name>任憑自己被長矛頂著，帶去見那壞脾氣的老酋長。我們的英雄身陷險境，四周刀劍林立。
 QUEST_BANDIT_4_2_QUESTINFODATA_JOURNALRUMOURTEXT,我們的英雄聽說有一群失落的松鼠戰士部落藏匿在叢林中。他們的能力或許能幫助我們奪取王座！
 QUEST_BANDIT_4_2_QUESTINFODATA_RUMOURTEXT,我的朋友，聽我說啊！那座森林是很危險的，但也是著名的古代松鼠戰士們的藏身之地。他們或許能派得上用場！
 QUEST_BANDIT_4_2_QUESTINFODATA_TITLE,森林條約
@@ -5105,7 +5105,7 @@ QUEST_BANDIT_4_9_QUESTINFODATA_ACTIONS_2_ACTIONTEXT,欺騙懷爾德
 QUEST_BANDIT_4_9_QUESTINFODATA_ACTIONS_2_DEFAULTOUTCOME_JOURNALTEXT,陌生人對懷爾德和汙穢都很瞭解，很清楚如何騙過他們。我們的英雄得到了……一些祝福。
 QUEST_BANDIT_4_9_QUESTINFODATA_ACTIONS_2_DEFAULTOUTCOME_OUTCOMETEXT,陌生人握住了你的爪子，和你一同步入了巨石陣。在一起的話，你們就夠格了，於是你們各獲得一半的祝福。
 QUEST_BANDIT_4_9_QUESTINFODATA_ENCOUNTERTEXT,你站在古老的巨石陣前，感覺懷爾德的力量環繞著你。如果你想要得到祝福，這就來對地方了。
-QUEST_BANDIT_4_9_QUESTINFODATA_JOURNALENCOUNTERTEXT,在一股古老的力量驅使下，他們來到了巨石陣，這種力量全愛門羅沒有人能夠真正明白。究竟是何種命運，在前方等待著他們呢？
+QUEST_BANDIT_4_9_QUESTINFODATA_JOURNALENCOUNTERTEXT,在一股古老力量的牽引下，他們來到了巨石陣，這股力量愛門羅沒有任何生靈能真正明白。究竟是何種命運，在前方等待著他們呢？
 QUEST_BANDIT_4_9_QUESTINFODATA_JOURNALRUMOURTEXT,<hero_name>明白，在迎來最終的試煉之前，或許應該尋求懷爾德之力的祝福。
 QUEST_BANDIT_4_9_QUESTINFODATA_RUMOURTEXT,在你奪取王位之前，從德魯伊 ── 或者說懷爾德那裡獲取一些祝福或許是個好主意。當然了，獲取些別的也很好，能幫上忙就行。
 QUEST_BANDIT_4_9_QUESTINFODATA_TITLE,禮從天降
@@ -5699,7 +5699,7 @@ QUEST_BEAR_3_7_QUESTINFODATA_ACTIONS_3_ACTIONTEXT,「它是懷爾德的一個裂
 QUEST_BEAR_3_7_QUESTINFODATA_ACTIONS_3_DEFAULTOUTCOME_JOURNALTEXT,咒術師精通將懷爾德的意志轉化為實體。光芒化作了一個珍貴的東西，一個來自懷爾德的禮物！
 QUEST_BEAR_3_7_QUESTINFODATA_ACTIONS_3_DEFAULTOUTCOME_OUTCOMETEXT,你忠誠的咒術師舉起了他的手，裂縫做出了反應，化作了一個珍貴的東西 ── 它是一個來自懷爾德的禮物！
 QUEST_BEAR_3_7_QUESTINFODATA_ACTIONS_4_ACTIONTEXT,「我要跳進去！」
-QUEST_BEAR_3_7_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_JOURNALTEXT,再一次，這個傻瓜魯莽地撞入最大的危險的行為被證實是有用的。裂縫以魔法融合了他們和我們的英雄。\n
+QUEST_BEAR_3_7_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_JOURNALTEXT,再一次，這個傻瓜魯莽地撞入最大的危險的行為被證實是有用的。那滴淚珠以魔法灌注了他們和我們的英雄。\n
 QUEST_BEAR_3_7_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_OUTCOMETEXT,超級傻瓜向裂縫撲去。你捂上了自己的眼睛。當你再次看去的時候，裂縫消失了，傻瓜睡著了，魔力殘留在空氣中。
 QUEST_BEAR_3_7_QUESTINFODATA_ENCOUNTERTEXT,你接近了巨石陣，發現它的上方有一個奇怪的光芒。感覺它與懷爾德有著某種共鳴。
 QUEST_BEAR_3_7_QUESTINFODATA_JOURNALENCOUNTERTEXT,<hero_name>在接近巨石陣的時候看見了一個發光體 ── 某種懷爾德所生的實體存在，不斷在半空中漂浮著。
@@ -5998,7 +5998,7 @@ QUEST_BEAR_4_9_QUESTINFODATA_ACTIONS_4_ACTIONTEXT,展示皇室旗幟
 QUEST_BEAR_4_9_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_JOURNALTEXT,國王的殺手不會去殺一個忠誠的人。皇室旗幟足以贏得信任。暗殺者提供了解毒劑。
 QUEST_BEAR_4_9_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_OUTCOMETEXT,國王的暗殺者？你舉起了皇室旗幟，讓他明白你的效忠。不久之後，一隻老鼠衝出了灌木叢，爪子裡抓著解毒劑。
 QUEST_BEAR_4_9_QUESTINFODATA_ENCOUNTERTEXT,森林中央，邪惡盤踞於此；那是一具可怖的形體，因死於非命而扭曲，積怨多年，日益潰爛。一座隱蔽之墓。
-QUEST_BEAR_4_9_QUESTINFODATA_JOURNALENCOUNTERTEXT,有一位迷失自我的戰士被埋在森林深處的古墓裡，凶險狂暴且感染汙穢。它的怒火將考驗我們的英雄的決意與本質！
+QUEST_BEAR_4_9_QUESTINFODATA_JOURNALENCOUNTERTEXT,森林深處的古墓裡，埋著一位殞落戰士的遺骨，牠狂暴難抑，滿懷汙穢。這股怒火將考驗我們英雄的靈魂。
 QUEST_BEAR_4_9_QUESTINFODATA_JOURNALRUMOURTEXT,有一股新的邪惡從附近森林的中央蔓延開來，讓大地充斥著汙穢。我們的英雄決定找出它的源頭並終結它。
 QUEST_BEAR_4_9_QUESTINFODATA_RUMOURTEXT,汙穢逐漸滋長蔓延，一切病徵都指向附近的森林。看看你能否找到這場新疫病的根源吧！
 QUEST_BEAR_4_9_QUESTINFODATA_TITLE,戰士骸骨
@@ -6019,7 +6019,7 @@ QUEST_BEAR_PROLOGUE_1_QUESTINFODATA_ACTIONS_1_ACTIONTEXT,在魔鴆成形前將�
 QUEST_BEAR_PROLOGUE_1_QUESTINFODATA_ACTIONS_1_DEFAULTOUTCOME_JOURNALTEXT,薩娜盡了自己的義務。她發動攻擊，在逃離地牢前已盡她所能的擊殺了許多正在成形的魔鴆。
 QUEST_BEAR_PROLOGUE_1_QUESTINFODATA_ACTIONS_1_DEFAULTOUTCOME_OUTCOMETEXT,你不允許這些邪惡的生物橫行於世。你發起了進攻，當牠們還在黑暗中生長之時，你就擊殺了許多這種野獸。
 QUEST_BEAR_PROLOGUE_1_QUESTINFODATA_ENCOUNTERTEXT,你來得太晚了！地牢裡充滿了剛降生魔鴆的尖嘯聲。牠們成群結隊地從一件奇特古物周圍的黑色膿水中鑽了出來。
-QUEST_BEAR_PROLOGUE_1_QUESTINFODATA_JOURNALENCOUNTERTEXT,但是她來的太晚了。魔鴆已經重返愛門羅了！薩娜冒險深入地牢，希望能想方法阻斷感染。
+QUEST_BEAR_PROLOGUE_1_QUESTINFODATA_JOURNALENCOUNTERTEXT,但是她來得太晚了。魔鴆已經重返愛門羅了！薩娜冒險深入地牢，希望能設法阻斷感染。
 QUEST_BEAR_PROLOGUE_1_QUESTINFODATA_JOURNALRUMOURTEXT,薩娜沒有時間了。她能夠感覺到大地之中的黑暗在翻攪。她動身前往了<quest_tile>。也許她能夠阻止這一切！
 QUEST_BEAR_PROLOGUE_1_QUESTINFODATA_RUMOURTEXT,愛門羅的深淵之中，黑暗之力在擾動著。長老們令你前去阻止，防止可怕的魔鴆降臨。
 QUEST_BEAR_PROLOGUE_1_QUESTINFODATA_TITLE,遠古黑暗
@@ -6680,7 +6680,7 @@ QUEST_RABBIT_3_4_QUESTINFODATA_ACTIONS_4_ACTIONTEXT,戴上化裝舞會面具
 QUEST_RABBIT_3_4_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_JOURNALTEXT,戴上化裝面具後，英雄就不需要害怕那些盜賊了。<hero_name>在那個罪惡之地收集了有用的情報。
 QUEST_RABBIT_3_4_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_OUTCOMETEXT,在你戴上化妝面具後，盜賊窺探的目光變得呆滯。於是你得以不受干擾地在城中調查，並且得到了不少情報。
 QUEST_RABBIT_3_4_QUESTINFODATA_ENCOUNTERTEXT,來到村莊時，你發現這裡已經被盜賊控制了。如果不小心點，你就很難活著離開這裡了！
-QUEST_RABBIT_3_4_QUESTINFODATA_JOURNALENCOUNTERTEXT,於是<hero_name>來到了盜賊盤踞的村莊，發現它被一個由罪犯和謀殺犯組成的強大脈絡所控制。
+QUEST_RABBIT_3_4_QUESTINFODATA_JOURNALENCOUNTERTEXT,於是<hero_name>來到了盜賊的家鄉村莊，發現它已被一個由罪犯和殺人犯組成的強大犯罪網絡所控制。
 QUEST_RABBIT_3_4_QUESTINFODATA_JOURNALRUMOURTEXT,鼠族把當地一名兔族領主的心靈石神秘地帶走了！我們的英雄獲得承諾，只要解決了盜賊就能得到這顆石頭。
 QUEST_RABBIT_3_4_QUESTINFODATA_RUMOURTEXT,一名本地的兔族領主的心靈石被鼠族盜賊偷走了。如果你能殺掉盜賊，他承諾會將石頭送給你。
 QUEST_RABBIT_3_4_QUESTINFODATA_TITLE,誰找到歸誰
@@ -6721,7 +6721,7 @@ QUEST_RABBIT_3_6_QUESTINFODATA_ACTIONS_3_ACTIONTEXT,穿上獅心胸甲
 QUEST_RABBIT_3_6_QUESTINFODATA_ACTIONS_3_DEFAULTOUTCOME_JOURNALTEXT,有了堅不可摧的獅心胸甲，我們的英雄趕跑了盜賊們。這片平原終於擺脫他們的暴行了。
 QUEST_RABBIT_3_6_QUESTINFODATA_ACTIONS_3_DEFAULTOUTCOME_OUTCOMETEXT,你穿著獅心胸甲來到了公會的營地。他們不是你的對手，只能帶著大部分的貨物逃跑了。
 QUEST_RABBIT_3_6_QUESTINFODATA_ENCOUNTERTEXT,盜賊公會看來能從這個村莊撈到不少的好處，他們當然不會那麼輕易就停下在那裡的買賣了。
-QUEST_RABBIT_3_6_QUESTINFODATA_JOURNALENCOUNTERTEXT,當然盜賊們可不會那麼輕易就範。我們的英雄會見了他們的頭目，試圖解決這個問題。
+QUEST_RABBIT_3_6_QUESTINFODATA_JOURNALENCOUNTERTEXT,當然，盜賊們可不會那麼輕易就範。我們的英雄與他們的頭目對峙，好讓事情有個了結。
 QUEST_RABBIT_3_6_QUESTINFODATA_JOURNALRUMOURTEXT,一座小村莊被洗劫了太多次，他們忍無可忍，聚在了一起請求我們英雄的幫助。
 QUEST_RABBIT_3_6_QUESTINFODATA_RUMOURTEXT,本地的一座村莊貌似被盜賊公會欺壓得厲害。農民們請求兔族的幫助。
 QUEST_RABBIT_3_6_QUESTINFODATA_TITLE,公會事務
@@ -6929,7 +6929,7 @@ QUEST_RABBIT_4_4_QUESTINFODATA_ACTIONS_4_ACTIONTEXT,「嘿！它在晃啊！真�
 QUEST_RABBIT_4_4_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_JOURNALTEXT,在這個走錯一步都會喪命的地方，英雄隊伍裡的傻瓜歡快地跑了起來。幸而最後誤打誤撞找到了一件值錢的寶貝。他們趁著城堡沉沒前離開了那裡。
 QUEST_RABBIT_4_4_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_OUTCOMETEXT,你隊伍裡的傻瓜在城堡裡跑了起來。就在你追著他想讓他慢點的時候，你發現了一個破損的寶箱。
 QUEST_RABBIT_4_4_QUESTINFODATA_ENCOUNTERTEXT,在深深的地下，你找到了這座由石英和黑曜石建造的雄偉古堡。它早已被廢棄，危懸漂浮在一大片岩漿之海上。
-QUEST_RABBIT_4_4_QUESTINFODATA_JOURNALENCOUNTERTEXT,這座失落的城堡已經廢棄了幾個世紀了，其中的石英過道也都快被岩漿湖吞沒了。
+QUEST_RABBIT_4_4_QUESTINFODATA_JOURNALENCOUNTERTEXT,這座失落已久的地下城堡已荒廢了萬古億萬年，其中的石英通道即將被火與灰燼之湖吞沒。
 QUEST_RABBIT_4_4_QUESTINFODATA_JOURNALRUMOURTEXT,我們的英雄只是在傳言裡聽到過失落的「無底洞」，但裡面的寶物對奪取王座肯定有用。是時候找到它了。
 QUEST_RABBIT_4_4_QUESTINFODATA_RUMOURTEXT,你聽說過「無底洞」嗎？就是古代兔族建造的那座傳奇地下古堡。你覺得裡面會有什麼寶物呢？
 QUEST_RABBIT_4_4_QUESTINFODATA_TITLE,看不見的城堡
@@ -7135,7 +7135,7 @@ QUEST_RAT_1_4_QUESTINFODATA_ACTIONS_1_ACTIONTEXT,砸碎箱子
 QUEST_RAT_1_4_QUESTINFODATA_ACTIONS_1_DEFAULTOUTCOME_JOURNALTEXT,<hero_name>把箱子砸爛了。雖然心靈石也碎了，但裡面的槓桿和零件讓英雄學到了很多有用的知識。
 QUEST_RAT_1_4_QUESTINFODATA_ACTIONS_1_DEFAULTOUTCOME_OUTCOMETEXT,你的回答很明確：你砸碎了箱子。裡面的結構也暴露在你眼前。雖然你學到了一些知識，但心靈石也損壞了。
 QUEST_RAT_1_4_QUESTINFODATA_ENCOUNTERTEXT,<quest_tile>的所有居民都試過打開箱子。他們把箱子遞給了你。箱子上似乎有著扭曲的瘋王形象。
-QUEST_RAT_1_4_QUESTINFODATA_JOURNALENCOUNTERTEXT,<quest_tile>的村民交給了你一個神秘的箱子。它的裝飾很華麗，曾經是愛門羅國王的象徵。
+QUEST_RAT_1_4_QUESTINFODATA_JOURNALENCOUNTERTEXT,<quest_tile>的村民交出了那個謎盒。它是精雕細琢的愛門羅國王形象。
 QUEST_RAT_1_4_QUESTINFODATA_JOURNALRUMOURTEXT,<hero_name>聽說有一塊心靈石被藏在了一個打不破的機關盒裡。當然我們的英雄能打開它。
 QUEST_RAT_1_4_QUESTINFODATA_RUMOURTEXT,一個藏著心靈石的機關謎盒難倒了愛門羅最聰明的頭腦。任何人都可以嘗試解開它。
 QUEST_RAT_1_4_QUESTINFODATA_TITLE,謎題
@@ -8043,7 +8043,7 @@ QUEST_ROT_2_2_QUESTINFODATA_ACTIONS_4_ACTIONTEXT,「讓我來吧。」
 QUEST_ROT_2_2_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_JOURNALTEXT,超級傻瓜自願成為引導者的載體，並在引導中活了下來。可自從那天之後，他就再也不像以前那樣無憂無慮了。
 QUEST_ROT_2_2_QUESTINFODATA_ACTIONS_4_DEFAULTOUTCOME_OUTCOMETEXT,你本想阻止超級傻瓜的，可還是默許了。出乎你的意料，他活了下來。咒術成功了。
 QUEST_ROT_2_2_QUESTINFODATA_ENCOUNTERTEXT,黑暗的教徒們在這片平原上大步走動。咒術快要詠唱完畢了，汙穢眼看就要一湧而出了。他們現在還差一名引導載體。
-QUEST_ROT_2_2_QUESTINFODATA_JOURNALENCOUNTERTEXT,黑暗的道具已經擺放在那裡，有兔子腳，還有盛滿鮮血的高腳杯。咒術就快完成了，但還需要進行引導。
+QUEST_ROT_2_2_QUESTINFODATA_JOURNALENCOUNTERTEXT,黑暗的道具四處散放，有兔子腳，還有盛滿鮮血的高腳杯。咒術就快完成了，但還需要有人來引導。
 QUEST_ROT_2_2_QUESTINFODATA_JOURNALRUMOURTEXT,愛門羅各地的黑暗追隨者們都秘密地聚在了<quest_tile>。一種咒術正要開始施展，我們的英雄也身涉其中。
 QUEST_ROT_2_2_QUESTINFODATA_RUMOURTEXT,汙穢教徒們正在徵求協助，他們的一種能傳播汙穢的咒術即將完成詠唱。那些前去幫助的人們，都可以獲得力量的賜福。
 QUEST_ROT_2_2_QUESTINFODATA_TITLE,黑暗契約
@@ -8177,7 +8177,7 @@ QUEST_ROT_3_4_QUESTINFODATA_RUMOURTEXT,看見那些烏雲了嗎？你聽好囉�
 QUEST_ROT_3_4_QUESTINFODATA_TITLE,誕生的奇蹟
 QUEST_ROT_4_1_QUESTINFODATA_ACTIONS_0_ACTIONTEXT,命野獸臣服。
 QUEST_ROT_4_1_QUESTINFODATA_ACTIONS_0_DEFAULTOUTCOME_JOURNALTEXT,我們英雄控制汙穢的力量還不夠純熟。他們不能讓魔鴆屈服，反而受到了重傷。
-QUEST_ROT_4_1_QUESTINFODATA_ACTIONS_0_DEFAULTOUTCOME_OUTCOMETEXT,逃走了？或許吧……看來魔鴆是不會聽命於<hero_name>的。牠假裝順從，然後發起了攻擊，重創了我們的英雄。
+QUEST_ROT_4_1_QUESTINFODATA_ACTIONS_0_DEFAULTOUTCOME_OUTCOMETEXT,要逃嗎？或許吧……但魔鴆不會向<hero_name>屈膝。牠假裝順從，隨即發動攻擊，重創了我們的英雄。
 QUEST_ROT_4_1_QUESTINFODATA_ACTIONS_0_TESTSUCCESSOUTCOME_JOURNALTEXT,我們的英雄控制了魔鴆，讓牠臣服了。這是一次巨大而又費力的成功。這項技能看來還要多加練習。
 QUEST_ROT_4_1_QUESTINFODATA_ACTIONS_0_TESTSUCCESSOUTCOME_OUTCOMETEXT,魔鴆尖嘯著，一次，兩次，然後終於安靜下來。牠收起了翅膀臣服了。你笑了。你是真正的汙穢大師了。
 QUEST_ROT_4_1_QUESTINFODATA_ACTIONS_1_ACTIONTEXT,命野獸逃走。
@@ -9337,7 +9337,7 @@ STATUSFEED_DRAWINGCARDS,<hero>正在抽取卡牌。
 STATUSFEED_DRAWINGCARDSCOMPLETE,<hero>已完成抽卡。
 STATUSFEED_DUSKINCOME,所有英雄的魔法都被懷爾德平衡了。
 STATUSFEED_DUSKKINGMESSAGE,汙穢令我們的國王陷入了更深的瘋狂中。
-STATUSFEED_ENCOUNTEREDARMS,<hero> 拜訪了西米恩的鍛臂坊。
+STATUSFEED_ENCOUNTEREDARMS,<hero> 拜訪了西米恩的兵器坊。
 STATUSFEED_ENCOUNTEREDBROKER,<hero> 拜訪了畢夫的非法市集。
 STATUSFEED_ENCOUNTEREDDOCTOR,藥劑師前來拯救<hero>！
 STATUSFEED_ENCOUNTEREDDRUIDS,<hero>見到了遠古存在。
@@ -9449,7 +9449,7 @@ STORE_SUBSCRIPTION_MONTH_12_LINE2,預付以獲得一個50%的折扣。
 STORE_SUBSCRIPTION_MONTH_12_LINE4,每 12 個月
 STORE_SUBSCRIPTION_MONTH_12_TITLE,12 個月訂閱
 STORE_SUBSCRIPTION_TERMS,訂閱條款
-STORE_SUBSCRIPTION_TERMS_DESCRIPTION,注意：訂閱功能目前已下架。若您的訂閱過期、或主動停止訂閱，您將無法再次訂閱。\n愛門羅的月度訂閱，讓玩家獲得更多專屬內容，包括所有英雄、所有英雄外觀、強盜部族、季節地圖外觀、所有專屬骰子和所有短篇小說。訂購者也可獲得一枚獨一無二、不斷進化的訂閱者徽章和骰子，以及 10% 的寶箱折扣！請注意，愛門羅的訂閱戶，將在購買後從您的 iTunes 帳戶收費。請至少提前 24 小時取消訂購，否則，您的會員身份或訂閱將自動續訂。您可以管理您的訂閱，在購買後前往您的帳戶設置可以關閉自動續訂。如果您的訂閱過期，曾購買的內容將保留，但是透過訂閱才能獲得的所有內容將無法使用，直到下一次續訂。
+STORE_SUBSCRIPTION_TERMS_DESCRIPTION,注意：訂閱功能目前已下架。若您的訂閱過期、或主動停止訂閱，您將無法再次訂閱。\n愛門羅的月度訂閱，讓玩家獲得更多專屬內容，包括所有英雄、所有英雄外觀、強盜部族、季節棋盤外觀、所有專屬骰子和所有短篇小說。訂購者也可獲得一枚獨一無二、不斷進化的訂閱者徽章和骰子，以及 10% 的寶箱折扣！請注意，愛門羅的訂閱戶，將在購買後從您的 iTunes 帳戶收費。請至少提前 24 小時取消訂購，否則，您的會員身份或訂閱將自動續訂。您可以管理您的訂閱，在購買後前往您的帳戶設置可以關閉自動續訂。如果您的訂閱過期，曾購買的內容將保留，但是透過訂閱才能獲得的所有內容將無法使用，直到下一次續訂。
 STORE_TYPE_BUNDLE,組合包
 STORE_TYPE_DLC,DLC
 STORE_TYPE_GAME,遊戲
@@ -10251,8 +10251,8 @@ UI_CARD_COSTTYPE_CONSUMEALL,花費
 UI_CARD_COSTTYPE_COST,花費
 UI_CARD_COSTTYPE_GAIN,獲得
 UI_CARD_DRAW_DRAWING_CARDS,抽取卡牌
-UI_CARD_DRAW_MANY,選擇{0}張卡牌\n放在手上
-UI_CARD_DRAW_ONE,選擇1張卡牌\n放在手上
+UI_CARD_DRAW_MANY,選擇{0}張卡牌\n補滿手牌
+UI_CARD_DRAW_ONE,選擇1張卡牌\n補足手牌
 UI_CARD_GALLERY_CHANGE_SECTION,循環牌組
 UI_CARD_GALLERY_CHANGE_SKIN,替換外觀
 UI_CARD_GALLERY_NEW,新
@@ -10326,7 +10326,7 @@ UI_CLANGROUNDS_SAVELOADOUT,保存外觀與飾品
 UI_CLANGROUNDS_STORY_HERO_BANDIT_01,崔絲，或者叫小小扒手，後者是她在盜賊公會聲名遠揚時所用的名字。出生於王都貧民窟的她不得不以偷竊為生。沒過多久，她的盜竊天賦便已迅速發展。很快，入室盜竊成為了她的生活方式。\n\n崔絲是一名惡名昭彰的盜賊。她在大膽搶劫後會留下自己的名片：橡果，愛門羅最富有的市民大都害怕收到它。崔絲一直無所畏懼，直到國王第一次變得瘋狂，處於發燒帶來的多疑中，發動了對城市內盜賊的大清洗。崔絲歷經九死一生得以逃脫，不得不在一個新的家庭 ── 強盜部族中尋求避難。\n\n現在崔絲渴望著進行一次更大膽的打劫：搶奪愛門羅的至高權力！一個出生貧民窟無家可歸的幼兒，面臨亂世中遍地的競爭者，以及前所未有的危險，從那些互相爭吵的高高在上的貴族手中奪得王位，這該是一件多麼快樂的事情。她靠著一把木劍面對危險，用一顆橡果應對飢餓，以幽默感來與邪惡劃清界限。崔絲現在開始加入王座之爭。誰能從她手裡偷走它？
 UI_CLANGROUNDS_STORY_HERO_BANDIT_02,賽拉斯已經是具行屍走肉了。當他的屋子陷入火海、他的家人在他眼前被活活燒死時，他內心的歡樂之光也就此灰飛煙滅了。他曾是一名父親、丈夫、漁夫，但在這一刻，過去的他已經死去，留在了房屋廢墟周圍的泥水中，現在的他飄向了黑暗深處。\n\n這一慘無人道的惡行乃受國王守衛所指使，只因他從國王的河流裡偷走了傳奇的彩虹魚，便以家破人亡作為懲罰。\n\n他需要一段時間才能恢復，或還要經過更久的時間，他的事跡才會逐漸傳開，人們才會明白那位傳說中專門獵殺國王忠誠子民的邪惡水獺，原來就是這名漁夫。時至今日，已沒人敢說出賽拉斯的名字，害怕這位傳奇人物會找上門來，因為他已經奪走了許多人的靈魂。\n\n不是每個人都與野心和仇恨共枕，但賽拉斯成功地結合兩者，成為他爭奪王座、羞辱權貴的精神食糧。他是惡毒之王。他願意不顧一切，要對他認為該負責的人施加恐怖的復仇，以此緩解過去自己的錯誤鑄就的痛苦。\n\n他手中握著長矛，胸中燃著怒火，這位冷血殺手在這片土地上潛伏著、伺機而動，讓他人嘗嘗那被奪走心愛事物的滋味。
 UI_CLANGROUNDS_STORY_HERO_BANDIT_03,在國王統治的偉大和平時期，愛門羅歷史上許多野蠻的元素都因為對和平的追求而被抹去，曾經殘忍不知寬恕的騎士，也找到了驅使他們行善事的某種詩意的浪漫主義，他們致力於保護無辜者，而不是追求財富與名譽。鋼鐵詩人霍雷斯，便是這種浪漫時期的典範。\n\n霍雷斯在他的青年時代將他傳奇的力量借給那些需要幫助的人，不惜一切代價保護高貴的國王。儘管他已奮戰多年，眼中光芒卻從未熄滅。最近幾年，國王越來越冷漠，這塊土地越來越野蠻，許多國王守衛胸中的歡樂都已褪去，愛門羅各地也是如此。只有霍雷斯胸中火焰一直燃燒。\n\n某天晚上，一隊國王護衛受命前來逮捕霍雷斯，因為他大膽地說出了對國王的擔憂。他們在他簡陋的軍營房間中一無所獲。霍雷斯早已逃走。他看見了即將到來的災難，他只能將過去的生活拋在身後，獨身離開。現在，霍雷斯被當做強盜，卻在想辦法扭轉帝國搖搖欲墜的局勢，讓其回到充滿愛與和平的過去時光。
-UI_CLANGROUNDS_STORY_HERO_BANDIT_04,絲卡蕾特出身於一個富裕的家庭，可她那酗酒又殘忍的父親卻不愛她。他的荒唐行徑實在太過分，最終竟在一場卡牌遊戲中把她輸掉了。收養她的是一隻名叫斜牙的大麥町狗，是愛門羅七大強盜部落之一「灰燼森林劫掠者」的領袖。\n\n從一名貴族被迫成為混混，絲卡蕾特不得不為了生存而戰鬥。她被斜牙冷嘲熱諷了多年，但卻一直睜大著自己敏銳的眼睛。當她一學會統治強盜部落的技巧，便假死並失蹤了，直到數年之後才回來驅逐了斜牙，並且贏得了其他六大部落的支持。\n\n作為愛門羅被剝奪權利並放逐的代表，絲卡蕾特為那些被王國所辜負的人發聲。她為了一個更真實與友好的未來而戰，在那樣的未來，酗酒的父親、不幸和邪惡的國王無法如此愚蠢地摧毀依賴他們的人們的生活。
+UI_CLANGROUNDS_STORY_HERO_BANDIT_04,絲卡蕾特出身於一個富裕的家庭，可她那酗酒又殘忍的父親卻不愛她。他的荒唐行徑實在太過分，最終竟在一場卡牌遊戲中把她輸掉了。收養她的是一隻名叫斜牙的大麥町犬，是愛門羅七大強盜部落之一「灰燼森林劫掠者」的領袖。\n\n從一名貴族被迫成為混混，絲卡蕾特不得不為了生存而戰鬥。她被斜牙冷嘲熱諷了多年，但卻一直睜大著自己敏銳的眼睛。當她一學會統治強盜部落的技巧，便假死並失蹤了，直到數年之後才回來驅逐了斜牙，並且贏得了其他六大部落的支持。\n\n作為愛門羅被剝奪權利並放逐的代表，絲卡蕾特為那些被王國所辜負的人發聲。她為了一個更真實與友好的未來而戰，在那樣的未來，酗酒的父親、不幸和邪惡的國王無法如此愚蠢地摧毀依賴他們的人們的生活。
 UI_CLANGROUNDS_STORY_HERO_BEAR_01,作為古老熊族的發源地的神聖森林深處，存在一片充滿靈性的樹木，薩娜便出生於它們溫暖的懷抱當中。傳說中她被德魯伊所撫養長大，而且是某個古老預言的重要角色。儘管有著貌似崇高的出生，她的生活其實主要圍繞著平靜與沉思。\n\n在熊族中，與懷爾德最相合的成員承擔著監督部族成長的職責。他們在冥想中找到了解決熊族、甚至整個愛門羅所面臨可怕威脅的方法。薩娜因為自己的身份，必須守護她的部族。\n\n薩娜發現了愛門羅面臨著前所未見的巨大威脅：國王。這位曾聯合所有種族的高貴生物已被腐化，成為了薩娜的噩夢，驅使她加入對王座的競逐，熊族力量在她背後支持著她。\n\n薩娜，森林的姐妹，是和平的愛好者。她對和平與懷爾德的天生親近，使得她很難在爭奪權力的血腥鬥爭中出類拔萃。然而她堅持著，堅定地履行族人與懷爾德讓她承擔的責任。\n\n現在，熊族最強大的守護者已經甦醒，她將用盡一切手段守護懷爾德。
 UI_CLANGROUNDS_STORY_HERO_BEAR_02,多年的戰鬥對靈魂和肉體都會造成傷害。肉體上每增加一道傷疤，靈魂也會留下不可見的傷痕。疤痕施法者布朗是愛門羅最老練的戰士之一。儘管他已年邁，身上傷痕累累，他體內的原始之力驅使他挑戰墮落王座上陷入黑暗的國王。\n\n布朗是熊族的古老組織──疤痕施法者的成員，這些雄偉戰士的力量，源自於他們自己與他人在身上刻劃的儀式紋身。布朗代表著熊族最原始的力量，這股力量拒絕與愛門羅其他族群和平協調共處，而是追求更純粹、更獸性的生活方式。然而現今的熊族大都拒絕這種生活方式，布朗也因為堅持自己的原始道路而被逐出部族。如果坐上王座，他將帶領人們進入一個更加野蠻、但也許最終能獲得自由和純淨生活的時代。\n\n布朗這位年邁的巨人有著一顆熊熊燃燒的年輕靈魂，他一生活在強大高貴的國王的陰影之中。現在，充滿傳奇色彩的國王墮入了黑暗，布朗決定大步向前，向整個愛門羅分享自己的野性智慧。
 UI_CLANGROUNDS_STORY_HERO_BEAR_03,古爾並不太清楚自己為何加入王座的爭奪中。他甚至不太清楚為什麼它如此重要，為什麼有人會歡呼他的名字，又有人會嘲笑他。古爾是隻愛好和平、心思簡單的熊，卻被捲入了遠超他理解能力的紛爭中。但是，古爾仍有可能成為愛門羅的下一任國王。\n\n根據熊族傳說，每隔一個時代，愛門羅便會誕生一位懷爾德的溝通者。許多人都渴望獲得這種力量，但這種盲目的渴望只會讓他們一無所獲。懷爾德會選擇那些無意濫用其力量的人。古爾便是這一代的溝通者。他的力量甚至超過了大部分獻身於魔法者。他對此力量完全不了解，甚至感到深深的畏懼。他被選中，並非因為他的技巧、智慧或決心，而是因為它的單純。\n\n溝通者已被選出。沒人能擋在愛門羅最強大的戰士面前。\n\n大概吧 ……
@@ -10336,13 +10336,13 @@ UI_CLANGROUNDS_STORY_HERO_DRAGON_02,據說在很久以前，當偉大的部族�
 UI_CLANGROUNDS_STORY_HERO_DRAGON_03,平衡必然存在；生與死、開始與結束。一方存在，另一方也必然如此，兩個極端之間的興衰起落使我們變得完整。\n\n這是很容易宣揚的概念，但是當時間不再在田野間播種，而是讓懷爾德旺盛的魔法逐漸消失而裨益於蠕蟲刺鼻的腐臭時，鮮少有人願意站出來做必須做的事。歐克薩娜是少數懂得平衡的人。她終其一生致力於它的平衡，並身體力行成為終極的榜樣；獵殺懷爾德的化身，德魯伊。\n\n歐克薩娜是唯一務實的生物，足以看出懷爾德茁壯得過於強大。和平不代表除掉汙穢，和平代表鼓舞一種雜亂無章的和諧。對多數人來說，這樣的任務或許不可能，可是歐克薩娜是一名哨兵，是垂死黨派的最後成員之一，她努力要維持平衡。訓練精良、技術高超且極其致命，歐克薩娜以最實際的方式履行職責，登上王座，好好監督前任未竟的功業。
 UI_CLANGROUNDS_STORY_HERO_DRAGON_04,隨著數世紀的流逝，龍之部族在愛門羅的記憶中逐漸消失，他們的故事與傳說被棄置路旁，遭神話淹沒。剩餘的少數龍族將他們珍視的旗幟交給博物館，古代的王權禮器就此消聲匿跡。\n\n但是有些人，像納扎爾，無法坐視悲劇發生。\n\n生於愛門羅，納扎爾畢生鑽研龍之部族的古老習俗。這位復興龍族的狂熱者，在暗地裡行動，為頹圮的傳統餘燼點燃火光，並因此從蠕蟲那裡接收到令人發狂的幻象。這種瘋狂徒然加強他的信念。當狡猾、隱身與機智都無法解放遺失的聖物，實現古老的預言時，他保證流血將難以避免，不管是敵人的或是他自己的鮮血；對蠕蟲來說這一點也不重要。\n\n當龍之部族回歸，從愛門羅的黑暗角落竄起並超越時，它就是徵兆。愛門羅的未來深深刻在納扎爾的骨子裡；異教徒必將滅亡。
 UI_CLANGROUNDS_STORY_HERO_RABBIT_01,安柏在內心深處是一名探險家。她出生於高貴的家庭，但很快便家道中落，不得不為了一日三餐奮鬥，她因此發現了自己在搜索有用物品方面的天賦。她輕易掌握了被人們長久忽視的探索地牢的藝術，並靠著變賣從古墓搜刮與盜取的物品維生。最終，她靠著這門技藝扭轉了家族的命運，並懲罰了惡劣的、將她的家族狠狠踩在腳下的傲爪氏族。\n\n安柏天資聰穎，四肢發達，頭腦也不簡單，同時尊重懷爾德的平衡，在冒險中懷爾德也從未對她造成任何阻礙。除了在冒險技巧上面面俱到以外，她還有著絕佳的政治天賦。她能把那些紈绔顯貴耍的團團轉，也願意與那些粗野的強盜分享食物。\n\n安柏振興了家族之後，開始著眼於重振王國。她那敏銳的責任令她坐立難安，她對探險的渴望如影隨形，這些情感驅使她熱烈投入了對王座的競逐中。她已準備好面對任何挑戰，戰勝任何對手。
-UI_CLANGROUNDS_STORY_HERO_RABBIT_02,巴納比的真實年齡讓人們議論紛紛，也是他的對手們冷嘲熱諷的題材之一，直到他們被他特製的鎚子敲爆了頭。\n\n巴納比是一位神童、喜劇家、瘋狂的發明家、王位的競爭者，他特製的甲冑是致勝的關鍵。這隻年輕兔子的挖掘直覺遠超前人，他為自己打造了一套堅不可摧的護甲，憑此安然無恙地穿越愛門羅危機四伏的曠野。\n\n人們對巴納比的過去所知甚少，因為他的過去實在少得可憐。對這隻小兔子來說，最重要的是未來會如何。不僅僅是他自己的未來，還有整個王國的命運。他已積累了可觀的財富和名聲，這樣的聲望已足以讓大部分成年人感到滿足，但他並不打算停下，驅使他向前的動力來自於內心更深處。也許是責任感？或者是對挑戰的渴求？或者，可能僅僅是為了取樂與冒險。\n\n無論如何，愛門羅的惡棍們一旦聽到了那標誌性的、穿越森林緊跟在他們身後的盔甲碰撞聲響，他們必須記得──永遠不要招惹小孩子，除非對方先動手。
+UI_CLANGROUNDS_STORY_HERO_RABBIT_02,巴納比的真實年齡讓人們議論紛紛，也是他的對手們冷嘲熱諷的題材之一，直到他們被他特製的鎚子敲爆了頭。\n\n巴納比是一位神童、喜劇家、瘋狂的發明家、王位的競爭者，他特製的甲冑是致勝的關鍵。這隻年輕兔子的挖掘直覺遠超前人，他為自己打造了一套堅不可摧的護甲，憑此安然無恙地穿越愛門羅危機四伏的曠野。\n\n人們對巴納比的過去所知甚少，因為他的過去實在少得可憐。對這隻小兔子來說，最重要的是未來會如何。不僅僅是他自己的未來，還有整個王國的命運。他已積累了可觀的財富和名聲，這樣的聲望已足以讓大部分成年獸感到滿足，但他並不打算停下，驅使他向前的動力來自於內心更深處。也許是責任感？或者是對挑戰的渴求？或者，可能僅僅是為了取樂與冒險。\n\n無論如何，愛門羅的惡棍們一旦聽到了那標誌性的、穿越森林緊跟在他們身後的盔甲碰撞聲響，他們必須記得──永遠不要招惹小孩子，除非對方先動手。
 UI_CLANGROUNDS_STORY_HERO_RABBIT_03,兔族平原上每一座隱秘的古墓背後，都有著一群技術精湛的手工大師和建築師，他們用自己的知識支撐起了這個偉大的王國。艾莉西亞便是陰影中的大師之一，但和他們不一樣的是，在每一座古墓前也能見到她的身影。\n\n艾莉西亞是兔窩的守望者，這是兔窩最重要的職位之一。她要負責擊退所有入侵的敵人。她是一名工程師和建築家，這個頭銜帶給她巨大的政治影響力，足以讓她橫行無阻。她努力工作，並指導其他人也這樣做。憑藉她謹慎的監督和高超的技巧，兔族實現了許多野心勃勃的項目。那些孤獨的藝術家可能熱衷於在自己小小放屋子裡工坊里製作小飾品。但艾莉西亞有更大的夢想，想成為自己未能成為的人。\n\n在爭奪王位的混戰之中，艾莉西亞作為一名務實的候選人出現。她為兔族所做的一切令人驚訝。她有充滿創意的靈魂，又有無比的職業道德約束著她。無數偉大氏族在她的旗幟之下聯合在一起，愛門羅的未來不可限量。
 UI_CLANGROUNDS_STORY_HERO_RABBIT_04,哈格雷夫·傲足是曾經強盛的傲足部落的一個怪人。他是一名傑出的戰術家、盡職的士兵、狡詐的發明家，他憑藉著個人的勇敢和技巧，讓自己的家族在錯綜複雜的兔族政壇贏得一席之地。隨著他到了毛髮變灰的年齡，打算在爐火邊休憩養老、度過嚴冬之時，卻震驚地發現自己的家族毀於一旦，一切都是由於他的一位年輕侄孫女背叛家族，以及一名自視過高的年輕洞穴挖掘者新貴。\n\n哈格雷夫發現自己失去了一切，變成一個歷史頁邊不起眼的註腳。更糟糕的是，對他家族的額外調查發現了他製作的一批黑火藥手持加農砲，讓他最後的希望也破滅了。哈格雷夫不得不眼睜睜看著兔族在失去了他的家族的領導之下走向可怕的未來，整個王國也陷入混亂。稚兒、蠢人、不知羞恥毫無教養的豬玀都加入了對王座的追逐中，善良而高貴家族的血液四處流淌。\n\n不，他拒絕忍氣吞聲。一名傲足絕不該這樣死去。他從自己灰塵滿滿的工坊深處取回了自己最致命的發明，很久以前曾被國王宣佈為非法的黑火藥加農砲。武器在手，哈格雷夫重新拾起了自己的力量與活力，投入了王座之爭中。也許還有比他更適合、更強大、更幸運的人。但哈格雷夫早已見過更古怪的一切。\n\n去奪下它吧！一位新的挑戰者登場了。
 UI_CLANGROUNDS_STORY_HERO_RAT_01,笑刀墨可利歐是一隻出身於貧民窟的老鼠。他和其他貧民窟老鼠一樣誕生於骯髒之地。他在泥濘之間跋涉，親吻每一個造訪貧民窟的貴族的滿是灰塵的鞋底。但墨可利歐也是一名貴族。他的床上鋪著絲綢做的床單，和鼠族精英稱兄道弟，並且和其他貴族一樣，為了金子撒下鮮血。\n\n墨可利歐是一隻偏激的老鼠。在他的一生中，曾經賺取和失去無數財富。他是鼠族的英雄，也是懸賞最高的罪犯。他漫步整個愛門羅大陸，看見了這個王國所能提供的一切。\n\n現在，墨可利歐的目標只剩一個。\n\n千千萬萬人才能鑄就了一個王國，但只有一人能戴上王冠。有誰比他這個從最低之處和最高之峰看過這世界的人更有資格？\n\n手持刀刃，這名氣勢昂然的盜賊，帶著他圓滑、致命的獨有自信，加入了爭取王座的競逐。小心了，一旦這名老鼠開始行動，混亂、笑容、以及恰到好處的陰謀將會紛至沓來。
 UI_CLANGROUNDS_STORY_HERO_RAT_02,鼠族的刺客是世界上最致命的刺客。在鼠城隱秘的壁龕中，以及愛門羅孤立的角落裡，存在著大量秘密組織。每個組織都伴隨著刺客們無數口角，他們為爭奪目標殺起自己人來不弱於刺殺目標。\n\n佐莎侍奉傳說中的「夜母」，即使是對刺客團夥的首領們來說，夜母都是一個謎。有人為了提高自己的聲望，稱她是自己的手下，卻發現自己消失在夜色之中。\n\n佐莎精通她的技藝。她在陰影之中如液體般游走，利用自己與生俱來的潛行能力，對目標施以毀滅性的打擊。裝備著鼠族歷史上神聖的帶刃雙棍，她是一名小心謹慎、真正不可阻擋的殺手。\n\n佐莎對王位的追逐又給人們帶來了驚訝。那些少數在她探索前便認識她的人，都不敢相信這隻暗影的生物會越入眾目聚焦之處開始自己的旅程。也許是她那神秘的女主人希望用一些奇怪又惡毒的手段來掌控這世界。除了佐莎，沒人能確定這一點。
 UI_CLANGROUNDS_STORY_HERO_RAT_03,迷霧行者薩爾貢是一名被詛咒者。這隻面色鐵青的年邁老鼠將他的一生都獻給了對迷霧的研究，這是一種懸置於隔絕生與死的虛空之中的奇特能量。他的研究持續了數十年，隨著他放棄開闊的原野，投入黑暗的洞穴，他的身體便枯萎了。他對縹緲深淵的持續凝視永遠地改變了他的心靈。現在，薩爾貢能同時看見現實的此世與迷霧的彼世。所有死去的生物和生命，都在鮮活的清醒之夢中向他揭示。\n\n薩爾貢崇拜這種詛咒。他對於奧術技藝的黑暗面的研究，便是故意為了引起這股神祕力量的憤怒，透過刻意讓自己的心靈被腐蝕來更好地理解它們。薩爾貢是唯一一位懂得迷霧的詭異性質的愛門羅居民。數十年來，他一直向愛門羅善變的統治者灌輸著邪惡又矛盾的建議，現在，他決定利用這些黑暗的知識來競逐王位。\n\n薩爾貢借助詭祕又獨特的魔法、裝神弄鬼的天賦、以及恰到好處的恫嚇，讓自己成為了一名遊走於現世與彼世的統治者。又有誰敢冒著生命危險來對抗迷霧行者的異界力量呢。
-UI_CLANGROUNDS_STORY_HERO_RAT_04,格里葉是隻溫文爾雅的老鼠。她享受生活一切的美好事物：美好的食物與親密的朋友，尤其喜歡與友人共同分享著美食與故事。她也是一隻性格狂暴的老鼠。她享受戰鬥帶來的快感、死者的哭嗥，用切肉刀將敵人四分五裂時遍地流淌的鮮血。當然，她在殺戮時總是身穿一件圍裙，以免弄髒自己漂亮的衣服。\n\n格里葉是鼠族貴族的代表。在儒雅的外表下，潛藏著一個浮華、骯髒、暴戾的地下社會，由原始本能所統治著。她憑著純粹的狡詐、對時運的把握、迅速行動與絕對暴力，使自己在這個墮落的階層中不斷向上攀爬。而現在，她成為了整個愛門羅最可怕的貴族之一。儘管有些人將追逐王座視作本分，或自己與生俱來的權利，格里葉卻只將它看作自己那鮮血篇章的下一頁。她所依賴的只有自己的力量，但這力量也可能讓她成為愛門羅的女王。
+UI_CLANGROUNDS_STORY_HERO_RAT_04,格里葉是隻溫文爾雅的老鼠。她享受生活一切的美好事物：美好的食物與親密的朋友，尤其喜歡與友人共同分享著美食與故事。她也是一隻性格狂暴的老鼠。她享受戰鬥帶來的快感、瀕死者的嗥叫，用切肉刀將敵人四分五裂時遍地流淌的鮮血。當然，她在殺戮時總是身穿一件圍裙，以免弄髒自己漂亮的衣服。\n\n格里葉是鼠族貴族的代表。在儒雅的外表下，潛藏著一個浮華、骯髒、暴戾的地下社會，由原始本能所統治著。她憑著純粹的狡詐、對時運的把握、迅速行動與絕對暴力，使自己在這個墮落的階層中不斷向上攀爬。而現在，她成為了整個愛門羅最可怕的貴族之一。儘管有些人將追逐王座視作本分，或自己與生俱來的權利，格里葉卻只將它看作自己那鮮血篇章的下一頁。她所依賴的只有自己的力量，但這力量也可能讓她成為愛門羅的女王。
 UI_CLANGROUNDS_STORY_HERO_WOLF_01,森 · 格雷邁恩是狼族的傳奇、格雷邁恩族的王子，一位備受尊敬的劍術大師，同時也是傳說武器赫肯斯之劍的使用者。這位少狼身具無可辯駁的天賦和血統，即使他的敵人也不得不承認這一點。\n\n森熱愛自己的盛名，並對自己有適度的自信。他願意不惜一切證明自己對於狼族的價值。因此，他會為了這一夢想提起武器站上前去，對抗任何威脅。\n\n在森驃悍的外表背後，藏著一個備受呵護的貴族孩子。他作為皇家的戰士度過了生命中大部分時間，而他的哥哥尖牙以及他的父親則擔起領導氏族的重任。\n\n森的這種美好的生活終究被撕碎了，他的父親被殺，哥哥被狼族放逐。猛然之間，數千個狼族成員的希望與夢想便落在了森的身上，他們希望能由他領導。這份責任對這個年輕人來說也許太過沉重。\n\n現在，森開始進入愛門羅闖蕩。發生在他身上的不幸也讓他承擔起了危險的責任。他握著手上的劍，嗥叫著向所有與他作對的人發起挑戰。劍術大師、戰術家、崇高之人、或是忠誠的狼族成員，不管你怎麼看待這位冬狼，他就在這裡，他對王國的影響力將會是無庸置疑的。
 UI_CLANGROUNDS_STORY_HERO_WOLF_02,遊俠曾是狼族的秘密武器。他們是一種神聖的傳統角色，只有最有天分的求生專家才能擔任，而且要能忍受愛門羅冰封邊緣的寒冬。里弗從始至終都是一名遊俠，她的一生都在荒野中度過，精通狼獵的每一種致命手段。\n\n遊俠一加入狼獵後，便放棄了自己的血統。里弗從來不知道自己的父母姐妹是誰。但在她的生涯中，她注意到了其他遊俠眼中有著某種特別的閃光。儘管她並不確定，但仍然覺得她的家人一直在她周圍。她便是為了這個家庭而戰鬥。在導致尖牙 ‧ 格雷邁恩遭到放逐的悲劇事件中，幾乎所有的遊俠們都慘遭屠殺，只有里弗倖存了下來。\n\n她裝備著一副長弓、一把匕首，以及天生敏銳的頭腦，她在生涯中戰勝了許多致命的對手，而且從未依靠外界的指導。現在的她雖然從身份上來講是一名外人，但卻曾發誓要保衛這片土地，她意識到這片土地需要新的統治者。一個不會受困於各種瑣事和過去的錯誤的國王。一個勇敢戰鬥、運籌帷幄、知道如何在孤獨的王座上生存下去的國王。\n\n愛門羅需要一位遊俠。
 UI_CLANGROUNDS_STORY_HERO_WOLF_03,一些最明智的戰士會說，你從戰敗中學到的比勝利中多。一個人通過失敗，從更深的層面理解了戰鬥的本質，並將這一知識變為未來的巨大優勢。\n\n這一觀點對瑪迦納來說完全不適用。因為她就是未嘗一敗的最強者。\n\n瑪迦納身為狼族的女盾衛之一，將自己的一生都獻給了守衛狼族王室。然而狼族內鬥，叛徒尖牙殺死格雷邁恩首領後，這一崇高使命陷入了混亂之中，雖心懷善意但終究毫無用處的幼狼森成為王子。\n\n這次，瑪迦納決定不再堅守信念。她失去了太多好友，流了太多鮮血，卻看著自己的努力被那些毫不稱職的上位者肆意玷污。然而即使她搜尋了整個狼族，卻發現沒有人值得她效忠，沒有一位英雄有資格受到最偉大的女盾衛來守護。\n\n這時候，瑪迦納看清了自己在愛門羅的角色。\n\n在這新的時代，血統根本無足輕重。唯一能決定王座歸屬的便是力量和意志。高舉手中盾牌的瑪迦納在這兩方面都足夠優異。現在，她為了自己而爭奪王座，並要為愛門羅建造一個新的光榮時代。
@@ -10362,7 +10362,7 @@ UI_CONFIRM_TILE_ENTRY,進入{0}
 UI_CONNECTING,連結中
 UI_CONTINUE,繼續
 UI_CONTINUE_CHARACTER_TURN,回合：{0}
-UI_CONTINUE_DLC_NOT_AVAILABLE,該存檔中的內容無法讀取。\n\n{0}\n請確認是否已安裝相應的 DLC，或者開始一場新遊戲。
+UI_CONTINUE_DLC_NOT_AVAILABLE,該存檔中的內容無法使用。\n\n{0}\n請確認是否已安裝相應的 DLC，或者開始一場新遊戲。
 UI_CONTINUE_GAME,繼續保存進度
 UI_CONTINUE_GAME_DAY,第{0}個白天
 UI_CONTINUE_GAME_LAST_PLAYED,上一次遊玩：{0}
@@ -10389,7 +10389,7 @@ UI_CREDITS_HEADING_LEGAL,法律
 UI_CREDITS_HEADING_QA,品質保證
 UI_CREDITS_HEADING_SPECIAL_THANKS,特別鳴謝
 UI_CREDITS_HEADING_VERY_SPECIAL_THANKS,非常特別鳴謝
-UI_CREDITS_VERY_SPECIAL_THANKS,本遊戲的絕大多數內容是在庫林民族烏倫傑瑞人的土地上完成。\n我們尊敬他們的長老；無論過去還是現在。\n主權統治從未分割。
+UI_CREDITS_VERY_SPECIAL_THANKS,本遊戲的絕大多數內容是在庫林民族烏倫傑瑞人的土地上完成。\n我們向他們的長老致意；無論過去還是現在。\n主權統治從未分割。
 UI_DEVOUR_CARD,吞噬卡牌
 UI_DICE_AVAILABLE,骰子已可使用！
 UI_DICE_UNLOCKED,骰子已解鎖！
@@ -10488,7 +10488,7 @@ UI_INVENTORY_NOT_TRADEABLE,不可交易
 UI_INVENTORY_NOT_TRANSMOGRIFIABLE,不可幻化
 UI_INVENTORY_TAGS,標籤
 UI_INVENTORY_TRADEABLE,可交易
-UI_INVENTORY_TRANSMOGRIFIABLE,可變形
+UI_INVENTORY_TRANSMOGRIFIABLE,可幻化
 UI_JOURNAL_NEXT_QUEST,下一個任務
 UI_JOURNAL_PREVIOUS_QUEST,前一個任務
 UI_JOURNAL_UPDATED,日誌已更新
