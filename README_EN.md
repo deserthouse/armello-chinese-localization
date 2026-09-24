@@ -14,7 +14,7 @@
 
 <img src="docs/slogan.png" width="380" alt="By Armellians, for Armellians"/>
 
-# Armello Chinese Localization
+# Armello Chinese Localization Patch
 
 [![License](https://img.shields.io/badge/License-Fan%20Made-blue.svg)](#-license)
 [![Platform](https://img.shields.io/badge/Platform-PC%20%2F%20Steam-green.svg)](#-installation)
@@ -26,35 +26,32 @@
 
 <br/>
 
-> The retranslation line of **Armello Chinese Localization** — all 10,867 in-game text entries retranslated from English, addressing the official Chinese translation's machine-translation quality issues. Final text is curated by DeepSeek Pro (thinking mode) with three-way comparison of English source, official Chinese, and the new translation — an **AI-refined edition**.
+> The **Armello Chinese Localization Patch** ships two product lines in one package: the **Simplified Chinese line** retranslates all 10,867 in-game text entries from English; the **Traditional Chinese line** refines the official Traditional Chinese translation against the English source — both lines passed multi-round AI audits (word-precision / orthography / terminology unification). Text switches instantly with the in-game language setting.
 >
 > 🧩 Strongly recommended alongside [Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix): without it, some card descriptions can trigger an engine line-wrapping bug that leaks visible `[/url]` garbled text. Independent installation, no dependency.
->
-> 🚧 Traditional Chinese refinement in progress — built on the official Traditional Chinese text, fixing errors only (Taiwan terminology preserved, e.g. Rot = 汙穢); ships with the next release.
 
 ## ✨ Features
 
 ### Text Quality
 
-| Layer | Detail |
+| Line | Detail |
 |---|---|
-| **Full coverage** | 10,867 entries: quests, cards, items, UI, achievements, dialogue, store, tutorials |
-| **Multi-pass AI review** | Flash screening → Pro absolute-quality final review (thinking mode, three-way comparison), ~1,500 revisions |
-| **Terminology authority** | 1,192 proper noun mappings + GLOSSARY v1.2 + STYLE_GUIDE |
-| **Format normalization** | Placeholders, quotes, ellipses, number spacing, line breaks — all programmatically zero-defect |
+| **Simplified Chinese** | 10,867 entries retranslated from English: Flash screening → Pro final review (three-way comparison) |
+| **Traditional Chinese** | Official TC as base, refined against English: word-precision fixes / typos / terminology unification (Taiwan terminology preserved) |
+| **Multi-round AI review** | ~1,500 SC retranslation revisions + ~2,600 TC refinements, dual-engine cross-review + human final adjudication |
+| **Terminology authority** | SC GLOSSARY v1.2.1 + TC GLOSSARY_TC v1.2 + AUDIT_ANCHORS precedent anchors |
+| **Format normalization** | Placeholders, quotes, ellipses, line breaks — all programmatically zero-defect |
 | **Decision audit trail** | Every entry carries full provenance — "why this translation" is fully traceable |
 
 ### Font Engineering
 
-| Version | Body | Headings | Main Menu |
-|---|---|---|---|
-| **font** | LXGW WenKai | Source Han Serif Heavy | LXGW WenKai |
-| **artfont** | Ma Shan Zheng (brush calligraphy) | Source Han Serif Heavy | Ma Shan Zheng |
-| **textonly** | Official font | Official font | Official font |
+| Version | SC Body | SC Headings | TC Body | TC Headings | Main Menu |
+|---|---|---|---|---|---|
+| **textonly** | Official font | Official font | Official font | Official font | Official font |
+| **font** | LXGW WenKai | Source Han Serif SC Heavy | LXGW WenKai | Source Han Serif TC Heavy | SC WenKai / TC official |
+| **artfont** | Ma Shan Zheng (brush) | Source Han Serif Heavy | Official font | Official font | Ma Shan Zheng |
 
-All fonts are licensed under SIL OFL 1.1 — copyright and authors (LXGW WenKai / Source Han Serif SC & TC Heavy / Ma Shan Zheng) listed in [licenses/FONT-LICENSES.txt](licenses/FONT-LICENSES.txt); the full license text ships inside the font and artfont packages.
-
-Main menu font replacement is achieved by re-baking the TMP SDF distance-field atlas (see [HACKING.md](HACKING.md)).
+All fonts are licensed under SIL OFL 1.1 — copyright and authors listed in [licenses/FONT-LICENSES.txt](licenses/FONT-LICENSES.txt); the full license text ships inside the font and artfont packages.
 
 ## 📸 Screenshots
 
@@ -78,24 +75,32 @@ Main menu font replacement is achieved by re-baking the TMP SDF distance-field a
 
 **[📥 Download from Releases](https://github.com/deserthouse/armello-chinese-localization/releases)**
 
-Choose one of three versions (text content is identical, only fonts differ):
+Choose one of three versions (both SC and TC text are always included; only fonts differ):
 
 | Version | Size | Best for |
 |---|---|---|
-| **textonly** | 39.7MB | Text only, keep official fonts |
-| **font** | 293.9MB | Text + LXGW WenKai (clean handwriting style) |
-| **artfont** | 258.5MB | Text + Ma Shan Zheng (bold brush calligraphy) |
+| **textonly** | 39.3MB | Text only, keep official fonts |
+| **font** | 309MB | Text + LXGW WenKai (SC/TC) + Source Han Serif headings (SC/TC variants) |
+| **artfont** | 254.9MB | Text + SC Ma Shan Zheng brush calligraphy (TC falls back to official fonts) |
 
 ### Steps
 
 1. Download the zip
 2. In Steam, right-click Armello → Manage → Browse Local Files → open `Armello\armello_Data\`
 3. Extract **all contents** of the zip into `armello_Data\`, overwriting existing files (the `StreamingAssets` subfolder will be placed automatically)
-4. Launch the game
+4. Launch the game, switch language in settings (简体中文 / 繁體中文)
 
 > Back up original files before overwriting. To restore, rename backups back.
 
+### Recommended: Tooltip Fix
+
+> 🧩 **[Armello Tooltip Fix](https://github.com/deserthouse/armello-tooltip-fix)** — Fixes an engine bug where tooltip link tags in card descriptions leak as visible garbled text. Present in the official version too. Independent installation, fully compatible with this patch.
+
 ## ❓ FAQ
+
+**Can I use both Simplified and Traditional Chinese?**
+
+Yes. Both languages' text are packed in the same resources.assets — switch languages anytime in-game.
 
 **Does this affect achievements or multiplayer?**
 
@@ -103,7 +108,13 @@ No. The patch only replaces display text — no game logic or values are modifie
 
 **What's the difference between font and artfont versions?**
 
-Text content is identical. Font version uses LXGW WenKai (clean, readable). Artfont version uses Ma Shan Zheng (bold brush calligraphy, matching the medieval fantasy aesthetic). Pick your preference; do not mix.
+Text content is identical (both SC and TC lines). Font version uses LXGW WenKai (clean, readable). Artfont version uses Ma Shan Zheng (bold brush calligraphy) for Simplified Chinese body text; Traditional Chinese falls back to official fonts. Pick your preference; do not mix.
+
+**Which version should a Traditional Chinese player choose?**
+
+- Refined text only → **textonly**
+- WenKai body + Taiwan-standard Source Han Serif headings → **font**
+- Sharing artfont with an SC player → TC automatically uses official fonts
 
 **I see `[/url]` garbled text in card descriptions.**
 
@@ -129,8 +140,8 @@ This project contains no human contribution; the vast majority of the work was d
 
 - All rights to Armello, its original text, art, and audio belong to **League of Geeks**. This repository claims **no ownership** of any game content.
 - This repository contains no binary game assets (code, art, audio); it does contain text data extracted from the game (English source and official Simplified/Traditional Chinese) used solely for translation cross-reference and per-entry auditing, plus read/write tooling.
-- This is a non-commercial fan project for personal use by players who have purchased the game. Redistribution of game text separately is prohibited.
 - Screenshots and official promotional logos are used for documentation purposes; all copyrights belong to League of Geeks.
+- This is a non-commercial fan project for personal use by players who have purchased the game. Redistribution of game text separately is prohibited.
 - If the rights holder believes this repository infringes their rights, please contact for removal.
 
 ## ⚠️ Disclaimer
