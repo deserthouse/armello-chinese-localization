@@ -86,3 +86,5 @@
 - **嚎** = 人大声哭喊（哀嚎[人]/嚎啕）——EN 为人的 cries/scream/wail 时保留嚎
 - 判例：Howler→嗥叫者；Moonhowlers→月之嗥兽；Howling Arrow→哀嗥之矢；disciples scream→信眾哀嚎（保留）
 - 通用规则（用户框架）：**常见混淆的不规范用语全库清查——确定错误/非规范→修书面标准形；有意风格化（口音模仿/角色口语）→保留**
+
+**嗥/嚎细则修正（2026-09-24 用户复核）**：嗥限**兽类长鸣**（狼/兽 + EN howl）；**受刑者、将死之人的痛苦哭喊即使 EN 用 howls 也归嚎域**（撕心裂肺的哀嚎/临死惨嚎）；EN 为 cries/screams 的一律不嗥化。判例：被折磨流浪者的 piercing howls→哀嚎；被劈两半强盗的 His howls→嚎叫；被杀生物的 howls of pain→嗥（兽类）。
