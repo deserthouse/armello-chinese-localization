@@ -94,8 +94,12 @@ Choose one of three versions (both SC and TC text are always included; only font
 | Version | Size | Best for |
 |---|---|---|
 | **textonly** | 39.3MB | Text only, keep official fonts |
-| **font** | 309MB | Text + LXGW WenKai (SC/TC) + Source Han Serif headings (SC/TC variants) |
-| **artfont** | 254.7MB | Text + SC Ma Shan Zheng brush + TC Bakudai brush (TC headings in Source Han Serif TC) |
+| **font** | 303.6MB | Text + LXGW WenKai (SC/TC) + Source Han Serif headings (SC/TC variants) |
+| **artfont** | 243.3MB | Text + SC Ma Shan Zheng brush + TC Bakudai brush (TC headings in Source Han Serif TC) |
+
+- **textonly** — the official fonts stay exactly as they are; only the text is replaced. For players who want the new translation without touching the game's original look.
+- **font** — body text in LXGW WenKai (a modern typeface with regular-script charm: rounded, gentle strokes that stay comfortable over long sessions) and headings in Source Han Serif Heavy (a weighty serif with an almost epigraphic presence): warmth in the body, weight in the titles. For players seeking a **balance between artistry and readability**.
+- **artfont** — body text fully in brush calligraphy (Ma Shan Zheng for SC, Bakudai for TC), the richest ink-and-brush flavor and the closest match to Armello's storybook fantasy. The trade-off: handwritten glyphs read slower than print-style fonts, so readability trails the font version. For players who value **artistic impact** above reading speed.
 
 ### Steps
 
