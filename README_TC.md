@@ -45,13 +45,27 @@
 
 ### 字型工程
 
-| 版本 | 簡中正文 | 簡中標題 | 繁中正文 | 繁中標題 | 主選單 |
-|---|---|---|---|---|---|
-| **textonly** | 官方原字型 | 官方原字型 | 官方原字型 | 官方原字型 | 官方原字型 |
-| **font** | 霞鶩文楷 | 思源宋體 SC Heavy | 霞鶩文楷 | 思源宋體 TC Heavy | 簡中文楷 / 繁中官方 |
-| **artfont** | 馬善政毛筆楷書 | 思源宋體 Heavy | 官方原字型 | 官方原字型 | 馬善政毛筆楷書 |
+| 版本 | 語言 | 正文 | 標題 | 主選單 |
+|---|---|---|---|---|
+| **textonly** | 簡中 | 官方原字型 | 官方原字型 | 官方原字型 |
+| | 繁中 | 官方原字型 | 官方原字型 | 官方原字型 |
+| **font** | 簡中 | 霞鶩文楷 | 思源宋體 SC Heavy | 霞鶩文楷 |
+| | 繁中 | 霞鶩文楷 | 思源宋體 TC Heavy | 官方原黑體 |
+| **artfont** | 簡中 | 馬善政毛筆楷書 | 思源宋體 Heavy | 馬善政毛筆楷書 |
+| | 繁中 | 莫大毛筆字體 | 思源宋體 TC Heavy | 官方原黑體 |
 
-全部字型均為 SIL OFL 1.1 開源授權，版權與作者見 [licenses/FONT-LICENSES.txt](licenses/FONT-LICENSES.txt)，授權全文隨 font 與 artfont 安裝包附帶。
+> **繁中主選單與圖示在三個版本下均保持官方黑體**——為維持繁中介面圖示與主選單字型的視覺一致性，繁中選單體系不做替換。
+
+全部字型均為 SIL OFL 1.1 開源授權，版權與作者見 [licenses/FONT-LICENSES.txt](licenses/FONT-LICENSES.txt)，授權全文隨 font 與 artfont 安裝包附帶。包內嵌字型為子集化衍生版，含保留字型名的字型已按 OFL 條款改名（ArmelloBrushTC / ArmelloSerifTC），版權聲明保留。
+
+### 字型致謝
+
+| 字型 | 作者 / 專案 | 授權 | 上游 |
+|---|---|---|---|
+| 霞鶩文楷 | LXGW（基於 Fontworks Klee One） | OFL 1.1 | [lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) |
+| 思源宋體 SC / TC | Adobe + Google | OFL 1.1 | [adobe-fonts/source-han-serif](https://github.com/adobe-fonts/source-han-serif) |
+| 馬善政毛筆楷書 | MaShanZheng Project Authors | OFL 1.1 | [googlefonts/mashanzheng](https://github.com/googlefonts/mashanzheng) |
+| 莫大毛筆字體 | Chun yu Yao（基於青柳衡山「衡山毛筆フォント」） | OFL 1.1 | [max32002/bakudaifont](https://github.com/max32002/bakudaifont) |
 
 ## 📸 效果預覽
 
@@ -64,7 +78,7 @@
   <img src="docs/screenshots/font_gallery.png" width="400" alt="font 版卡牌圖錄"/>
 </p>
 
-### artfont 版（馬善政毛筆楷書）
+### artfont 版（簡中馬善政 / 繁中莫大毛筆字體）
 
 <p float="left">
   <img src="docs/screenshots/artfont_mainmenu.png" width="400" alt="artfont 版主選單"/>
@@ -81,7 +95,7 @@
 |---|---|---|
 | **textonly** | 39.3MB | 只改文字，保持官方字型 |
 | **font** | 309MB | 文字 + 霞鶩文楷（簡繁）+ 思源宋體標題（簡繁各 SC/TC） |
-| **artfont** | 254.9MB | 文字 + 簡中馬善政毛筆楷書（繁中回退官方字型） |
+| **artfont** | 254.7MB | 文字 + 簡中馬善政毛筆楷書 + 繁中莫大毛筆字體（繁中標題思源宋體 TC） |
 
 ### 步驟
 
@@ -104,13 +118,13 @@
 
 **font 版和 artfont 版有什麼區別？**
 
-文字內容完全相同（簡繁雙線），區別僅在於字型風格——font 版正文用霞鶩文楷（清爽易讀），artfont 版簡中正文用馬善政毛筆楷書（視覺衝擊力強）。繁中在 artfont 版下回退官方字型。選你喜歡的即可，不要混裝。
+文字內容完全相同（簡繁雙線），區別僅在於字型風格——font 版正文用霞鶩文楷（清爽易讀），artfont 版簡中正文用馬善政毛筆楷書、繁中正文用莫大毛筆字體（視覺衝擊力強）。選你喜歡的即可，不要混裝。
 
 **繁中玩家該選哪個版本？**
 
 - 只想要精修文字 → **textonly**
 - 想要文楷正文 + 台標思源宋體標題 → **font**
-- 與簡中玩家共用 artfont → 繁中自動回退官方字型
+- 想要毛筆書法風格正文 + 台標思源宋體標題 → **artfont**（繁中正文 = 莫大毛筆字體）
 
 **卡牌描述裡偶爾看到 `[/url]` 之類的亂碼？**
 

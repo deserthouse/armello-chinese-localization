@@ -14,15 +14,22 @@
 上游: https://github.com/adobe-fonts/source-han-serif
 版权声明: (c) 2017-2024 Adobe (http://www.adobe.com/)
 
-## 思源宋体 Source Han Serif TC Heavy SubsetOTF/TC
+## 思源宋体 Source Han Serif TC Heavy SubsetOTF/TC（繁中标题，子集化并改名 ArmelloSerifTC）
 作者/项目: Adobe + Google（思源宋体项目）
 上游: https://github.com/adobe-fonts/source-han-serif
 版权声明: © 2017-2024 Adobe (http://www.adobe.com/), with Reserved Font Name Source.
+（依 OFL 1.1 保留字体名条款，本补丁内子集化衍生版字体名已改为 ArmelloSerifTC，原版权声明保留）
 
 ## 马善政毛笔楷书 Ma Shan Zheng Regular
 作者/项目: MaShanZheng Project Authors（楹联书法风）
 上游: https://github.com/googlefonts/mashanzheng
 版权声明: Copyright 2018 The MaShanZheng Project Authors (https://github.com/googlefonts/mashanzheng)
+
+## 莫大毛笔字體 Bakudai v1.49 Regular（繁中正文，子集化并改名 ArmelloBrushTC）
+作者/项目: Chun yu Yao / max32002（基于日本书法家青柳衡山「衡山毛筆フォント」扩展繁体补字）
+上游: https://github.com/max32002/bakudaifont （上游字体: https://opentype.jp/kouzanmouhitufont.htm）
+版权声明: Copyright (c) 2020, Chun yu Yao, with Reserved Font Name Bakudai.
+（依 OFL 1.1 保留字体名条款，本补丁内子集化衍生版字体名已改为 ArmelloBrushTC，原版权声明保留）
 
 ============================================================
 SIL OPEN FONT LICENSE（通用全文，适用于上述各字体）

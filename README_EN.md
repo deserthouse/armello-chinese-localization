@@ -45,13 +45,27 @@
 
 ### Font Engineering
 
-| Version | SC Body | SC Headings | TC Body | TC Headings | Main Menu |
-|---|---|---|---|---|---|
-| **textonly** | Official font | Official font | Official font | Official font | Official font |
-| **font** | LXGW WenKai | Source Han Serif SC Heavy | LXGW WenKai | Source Han Serif TC Heavy | SC WenKai / TC official |
-| **artfont** | Ma Shan Zheng (brush) | Source Han Serif Heavy | Official font | Official font | Ma Shan Zheng |
+| Version | Language | Body | Headings | Main Menu |
+|---|---|---|---|---|
+| **textonly** | SC | Official font | Official font | Official font |
+| | TC | Official font | Official font | Official font |
+| **font** | SC | LXGW WenKai | Source Han Serif SC Heavy | LXGW WenKai |
+| | TC | LXGW WenKai | Source Han Serif TC Heavy | Official sans |
+| **artfont** | SC | Ma Shan Zheng (brush) | Source Han Serif Heavy | Ma Shan Zheng |
+| | TC | Bakudai brush | Source Han Serif TC Heavy | Official sans |
 
-All fonts are licensed under SIL OFL 1.1 — copyright and authors listed in [licenses/FONT-LICENSES.txt](licenses/FONT-LICENSES.txt); the full license text ships inside the font and artfont packages.
+> **The TC main menu and icons keep the official sans-serif font in all three versions** — the TC menu system is left untouched to preserve visual consistency between TC icons and menu typography.
+
+All fonts are licensed under SIL OFL 1.1 — copyright and authors listed in [licenses/FONT-LICENSES.txt](licenses/FONT-LICENSES.txt); the full license text ships inside the font and artfont packages. Embedded fonts are subset derivatives; fonts carrying a Reserved Font Name have been renamed per the OFL terms (ArmelloBrushTC / ArmelloSerifTC) with copyright notices preserved.
+
+### Font Credits
+
+| Font | Author / Project | License | Upstream |
+|---|---|---|---|
+| LXGW WenKai | LXGW (based on Fontworks Klee One) | OFL 1.1 | [lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) |
+| Source Han Serif SC / TC | Adobe + Google | OFL 1.1 | [adobe-fonts/source-han-serif](https://github.com/adobe-fonts/source-han-serif) |
+| Ma Shan Zheng | MaShanZheng Project Authors | OFL 1.1 | [googlefonts/mashanzheng](https://github.com/googlefonts/mashanzheng) |
+| Bakudai | Chun yu Yao (based on Aoyagi Kouzan brush font) | OFL 1.1 | [max32002/bakudaifont](https://github.com/max32002/bakudaifont) |
 
 ## 📸 Screenshots
 
@@ -64,7 +78,7 @@ All fonts are licensed under SIL OFL 1.1 — copyright and authors listed in [li
   <img src="docs/screenshots/font_gallery.png" width="400" alt="font version card gallery"/>
 </p>
 
-### artfont version (Ma Shan Zheng brush calligraphy)
+### artfont version (SC Ma Shan Zheng / TC Bakudai brush)
 
 <p float="left">
   <img src="docs/screenshots/artfont_mainmenu.png" width="400" alt="artfont version main menu"/>
@@ -81,7 +95,7 @@ Choose one of three versions (both SC and TC text are always included; only font
 |---|---|---|
 | **textonly** | 39.3MB | Text only, keep official fonts |
 | **font** | 309MB | Text + LXGW WenKai (SC/TC) + Source Han Serif headings (SC/TC variants) |
-| **artfont** | 254.9MB | Text + SC Ma Shan Zheng brush calligraphy (TC falls back to official fonts) |
+| **artfont** | 254.7MB | Text + SC Ma Shan Zheng brush + TC Bakudai brush (TC headings in Source Han Serif TC) |
 
 ### Steps
 
@@ -108,13 +122,13 @@ No. The patch only replaces display text — no game logic or values are modifie
 
 **What's the difference between font and artfont versions?**
 
-Text content is identical (both SC and TC lines). Font version uses LXGW WenKai (clean, readable). Artfont version uses Ma Shan Zheng (bold brush calligraphy) for Simplified Chinese body text; Traditional Chinese falls back to official fonts. Pick your preference; do not mix.
+Text content is identical (both SC and TC lines). Font version uses LXGW WenKai (clean, readable). Artfont version uses Ma Shan Zheng (bold brush calligraphy) for Simplified Chinese and Bakudai brush calligraphy for Traditional Chinese. Pick your preference; do not mix.
 
 **Which version should a Traditional Chinese player choose?**
 
 - Refined text only → **textonly**
 - WenKai body + Taiwan-standard Source Han Serif headings → **font**
-- Sharing artfont with an SC player → TC automatically uses official fonts
+- Brush-calligraphy body + Taiwan-standard Source Han Serif headings → **artfont** (TC body = Bakudai brush)
 
 **I see `[/url]` garbled text in card descriptions.**
 
