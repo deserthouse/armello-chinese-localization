@@ -38,9 +38,9 @@
 |---|---|
 | **Simplified Chinese** | 10,867 entries retranslated from English: Flash screening → Pro final review (three-way comparison) |
 | **Traditional Chinese** | Official TC as base, refined against English: word-precision fixes / typos / terminology unification (Taiwan terminology preserved) |
-| **Multi-round AI review** | ~1,500 SC retranslation revisions + ~2,600 TC refinements, dual-engine cross-review + human final adjudication |
+| **Multi-round AI review** | ~1,500 SC retranslation revisions + ~2,600 TC refinements, multi-engine cross-review + sampling re-checks (see [HACKING.md](HACKING.md) for the pipeline) |
 | **Terminology authority** | SC GLOSSARY v1.2.1 + TC GLOSSARY_TC v1.2 + AUDIT_ANCHORS precedent anchors |
-| **Format normalization** | Placeholders, quotes, ellipses, line breaks — all programmatically zero-defect |
+| **Format normalization** | Placeholders, quotes, ellipses, line breaks — programmatically checked (re-check commands in [HACKING.md](HACKING.md)) |
 | **Decision audit trail** | Every entry carries full provenance — "why this translation" is fully traceable |
 
 ### Font Engineering
@@ -152,12 +152,13 @@ See [HACKING.md](HACKING.md) for technical details — text location, UnityPy un
 
 ## 🤖 AI Usage Disclosure
 
-This project contains no human contribution; the vast majority of the work was done by **AI**. AI translation quirks may exist — feedback via Issue is welcome.
+The translations and code in this project were produced with substantial **AI** involvement (no human-authored translation content); translation strategy, terminology adjudication, and release acceptance are the human maintainer's responsibility. Typical AI-translation quirks may remain — feedback via Issue is welcome.
 
 ## 📄 License
 
 - All rights to Armello, its original text, art, and audio belong to **League of Geeks**. This repository claims **no ownership** of any game content.
 - This repository contains no binary game assets (code, art, audio); it does contain text data extracted from the game (English source and official Simplified/Traditional Chinese) used solely for translation cross-reference and per-entry auditing, plus read/write tooling.
+- This repository's own tooling (`tools/`) and documentation: no open-source license declared, all rights reserved — contact the maintainer for reuse. Font assets: SIL OFL 1.1 (see [licenses/FONT-LICENSES.txt](licenses/FONT-LICENSES.txt)). Game text and official translations: © League of Geeks (see above).
 - Screenshots and official promotional logos are used for documentation purposes; all copyrights belong to League of Geeks.
 - This is a non-commercial fan project for personal use by players who have purchased the game. Redistribution of game text separately is prohibited.
 - If the rights holder believes this repository infringes their rights, please contact for removal.
