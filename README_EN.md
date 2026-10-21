@@ -97,9 +97,7 @@ Choose one of three versions (both SC and TC text are always included; only font
 | **font** | 303.6MB | Text + LXGW WenKai (SC/TC) + Source Han Serif headings (SC/TC variants) |
 | **artfont** | 243.3MB | Text + SC Ma Shan Zheng brush + TC Bakudai brush (TC headings in Source Han Serif TC) |
 
-- **textonly** — the official fonts stay exactly as they are; only the text is replaced. For players who want the new translation without touching the game's original look.
-- **font** — body text in LXGW WenKai (a modern typeface with regular-script charm: rounded, gentle strokes that stay comfortable over long sessions) and headings in Source Han Serif Heavy (a weighty serif with an almost epigraphic presence): warmth in the body, weight in the titles. For players seeking a **balance between artistry and readability**.
-- **artfont** — body text fully in brush calligraphy (Ma Shan Zheng for SC, Bakudai for TC), the richest ink-and-brush flavor and the closest match to Armello's storybook fantasy. The trade-off: handwritten glyphs read slower than print-style fonts, so readability trails the font version. For players who value **artistic impact** above reading speed.
+The **text content is identical** across all three versions (SC and TC both built in) — only the fonts differ; see the authoritative matrix in [Font Engineering](#font-engineering). In short: **textonly** keeps the official fonts untouched / **font** swaps body text to LXGW WenKai (artistry balanced with readability) / **artfont** goes full brush calligraphy (strongest style, slower to read). Pick one; do not mix.
 
 ### Steps
 
@@ -124,15 +122,9 @@ Yes. Both languages' text are packed in the same resources.assets — switch lan
 
 No. The patch only replaces display text — no game logic or values are modified.
 
-**What's the difference between font and artfont versions?**
+**Which of the three should I pick?**
 
-Text content is identical (both SC and TC lines). Font version uses LXGW WenKai (clean, readable). Artfont version uses Ma Shan Zheng (bold brush calligraphy) for Simplified Chinese and Bakudai brush calligraphy for Traditional Chinese. Pick your preference; do not mix.
-
-**Which version should a Traditional Chinese player choose?**
-
-- Refined text only → **textonly**
-- WenKai body + Taiwan-standard Source Han Serif headings → **font**
-- Brush-calligraphy body + Taiwan-standard Source Han Serif headings → **artfont** (TC body = Bakudai brush)
+Text content is identical; only the fonts differ (full comparison in [Font Engineering](#font-engineering)): new translation only → **textonly**; readable restyled body → **font**; brush-calligraphy style → **artfont**. Pick your preference; do not mix.
 
 **I see `[/url]` garbled text in card descriptions.**
 
